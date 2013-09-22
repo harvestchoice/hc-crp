@@ -6,7 +6,7 @@
 #####################################################################################
 
 setwd("/home/projects")
-setwd("~/Google Drive")
+#setwd("~/Google Drive")
 
 library(foreign)
 library(data.table)
@@ -79,8 +79,8 @@ g10 <- unionSpatialPolygons(g1, ID=g1$ADM1_CODE)
 g1 <- data.table(g1@data)
 setkey(g1, ADM1_CODE)
 g1 <- unique(g1)
-g1 <- g1[J(as.integer(getSpPPolygonsIDSlots(g10))]
-g0 <- SpatialPolygonsDataFrame(g10, data.frame(g1), match.ID=FALSE)
+g1 <- g1[J(getSpPPolygonsIDSlots(g10))]
+g10 <- SpatialPolygonsDataFrame(g10, data.frame(g1), match.ID=FALSE)
 
 # Make meaningful polygon IDs
 g10 <- spChFIDs(g10, as.character(g1$ADM1_CODE))
