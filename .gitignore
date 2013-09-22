@@ -4,3 +4,5 @@
 !*.zip
 !*.sql
 !.gitignore
+!*README.md
+!*README.org
