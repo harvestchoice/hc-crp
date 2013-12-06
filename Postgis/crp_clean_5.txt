@@ -1,0 +1,155 @@
+## CRP 5 ##
+
+# import CRP 5 shapefile
+** bash:
+cd ...crpdata/data_sources/crp_5
+shp2pgsql -I -s 4326 -W "latin1" WLE_Activities.shp crp5 | psql -d dbname -U user
+## end create crp5 PG table with point data
+
+## intersect crp5 with gaul level 2 to determine activities occurrences in each level2 admin unit
+** pgsql:
+create table crp5_lev2 as select g13122.adm0_name, g13122.adm0_code, g13122.adm1_name, g13122.adm1_code, g13122.adm2_name, g13122.adm2_code, 'CRP.5'::varchar as program, crp5.id as activityid, concat(crp5.activity_n, ' ', crp5.activity_t)::varchar(255) as title, concat('/srp:' || srp, '/center:' || center, '/region:' || region, '/basin:' || basin, '/country:' || country, '/admin:' || admin, '/site:' || site)::varchar(255) as description, (case when crp5.site <> '' then 'site' when crp5.admin <> '' then 'admin' when crp5.country <> '' then 'country' end) as resolution, crp5.gid as featureid, 'WLE_Activities.shp'::varchar as source, ST_Intersection(g13122.geom, crp5.geom ) as geom from crp5 inner join g13122 on ST_Intersects(g13122.geom, crp5.geom );
+
+## end intersect crp5 with gaul level 2
+
+## data exports
+# GeoJSON
+** bash:
+cd ...crpdata/data_in
+sudo -u postgres ogr2ogr -f "GeoJSON" crp5.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp5"
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "GeoJSON" crp5_lev2.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp5_lev2"
+
+# SHP
+** bash:
+cd ...crpdata/data_in
+sudo -u postgres ogr2ogr -f "ESRI Shapefile" crp5 PG:"host=localhost user=user dbname=dbname password=pass" "crp5"
+sudo -u postgres zip -r crp5.zip crp5
+rm -rf crp5
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "ESRI Shapefile" crp5_lev2 PG:"host=localhost user=user dbname=dbname password=pass" "crp5_lev2"
+sudo -u postgres zip -r crp5_lev2.zip crp5_lev2
+rm -rf crp5_lev2
+
+# CSV
+** pgsql (with postgres):
+# returns comma-separated column names (to remove the geom column):
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp5' order by ordinal_position asc) as res; 
+COPY (SELECT gid, objectid, id, id_1, shape_1, srp, cluster, center, activity_n, activity_t, budget_id, total__100, region, basin, country, admin, site from crp5) To '...crpdata/data_in/crp5.csv' With CSV HEADER;
+
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp5_lev2' order by ordinal_position asc) as res;
+COPY (SELECT adm0_name, adm0_code, adm1_name, adm1_code, adm2_name, adm2_code, program, activityid, title, description, resolution, featureid, source from crp5_lev2) To '...crpdata/data_out/crp5_lev2.csv' With CSV HEADER;
+## end data exports
+
+## extras to re-shape data in crp mappr format
+** pgsql:
+create table crp5_mappr2 as select 
+crp5.gid as id,
+crp5.activity_n as activity_internal,
+crp5.activity_t as title,
+NULL::varchar as description,
+NULL::date as activity_startplanned,
+NULL::date as activity_endplanned,
+NULL::date as activity_startactual,
+NULL::date as activity_endactual,
+'1'::varchar as location_type,
+(case when crp5.admin <> '' then 'province' when crp5.country <> '' then 'country' end) as location_precision,
+(case when crp5.admin <> '' then
+(select string_agg(a1,';') from (select g13122.adm2_code::varchar as a1 from g13122 where g13122.adm1_code::varchar = g13121.adm1_code::varchar) as res)
+when crp5.country <> '' then
+(select string_agg(a2,';') from (select g13122.adm2_code::varchar as a2 from g13122 where g13122.adm0_code::varchar = g13120.adm0_code::varchar) as res)
+end) as location,
+'Salman'::varchar as contact_firstname,
+'Siddiqui'::varchar as contact_lastname,
+'IWMI'::varchar as contact_org,
+'S.Siddiqui@cgiar.org'::varchar as contact_email,
+NULL::varchar as contact_phone,
+substring(crp5.center from '^[^_]*\.(.*)$') as reporting_org,
+(case when substring(crp5.center from '^[^_]*\.(.*)$')= 'IFPRI' then '2033 K St NW #400, Washington, D.C., DC 20006' 
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'Bioversity' then 'Via dei Tre Denari, 472/a, 00057 Maccarese (Fiumicino), Italy'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'WorldFish' then 'Jalan Batu Maung, Batu Maung, 11960 Bayan Lepas, Penang, MALAYSIA'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'ICRAF' then 'United Nations Avenue, Gigiri, PO Box 30677, Nairobi, 00100, Kenya'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'CIP' then 'Avenida La Molina 1895, La Molina, Apartado Postal 1558, Lima, Peru'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'ICARDA' then 'Dalia Building 2nd Floor, Bashir El Kassar Street, Verdun, Beirut, Lebanon 1108-2010'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'IITA' then 'PMB 5320, Oyo Road, Ibadan 200001, Oyo State, Nigeria'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'CIAT' then 'Km 17, Recta Cali-Palmira, Apartado Aéreo 6713, Cali, Colombia'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'IWMI' then '127, Sunil Mawatha, Pelawatte, Battaramulla, Sri Lanka'
+ end) as reporting_address,
+NULL::varchar as reporting_name,
+(case when substring(crp5.center from '^[^_]*\.(.*)$')= 'IFPRI' then 'ifpri@cgiar.org' 
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'Bioversity' then 'bioversity@cgiar.org'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'WorldFish' then 'worldfishcenter@cgiar.org'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'ICRAF' then 'worldagroforestry@cgiar.org'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'CIP' then 'cip-cpad@cgiar.org'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'ICARDA' then 'icarda@CGIAR.org'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'IITA' then 'iita@cgiar.org'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'ICRISAT' then 'icrisat@cgiar.org'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'CIAT' then 'ciat@cgiar.org'
+when substring(crp5.center from '^[^_]*\.(.*)$')= 'IWMI' then 'iwmi@cgiar.org'
+ end) as reporting_email,
+NULL::varchar as reporting_type,
+NULL::varchar as participating_name,
+NULL::varchar as participating_role,
+NULL::varchar as activity_status,
+NULL::varchar as slo,
+'CRP 5 - Water Land and Ecosystems'::varchar as program,
+NULL::varchar as theme,
+NULL::varchar as technology,
+NULL::varchar as commodity,
+NULL::varchar as aez,
+NULL::varchar as aes,
+NULL::integer as budget,
+NULL::varchar as currency,
+NULL::varchar as documents,
+NULL::varchar as websites,
+'WLE_Activities.shp'::varchar as source,
+concat('/srp:' || srp, '/region:' || region, '/basin:' || basin, '/country:' || country, '/admin:' || admin, '/site:' || site, '/budget_id:' || substring(budget_id::varchar from '^[^\.]*'), '/total_100:' || substring(total__100::varchar from '^[^\.]*'))::varchar as details,
+'draft'::varchar as status_internal,
+(case when crp5.admin <> '' then g13121.geom when crp5.country <> '' then g13120.geom end) as geom
+from crp5 inner join g13121 on ST_Intersects(g13121.geom, crp5.geom)
+inner join g13120 on ST_Intersects(g13120.geom, crp5.geom);
+
+create table crp5_mappr2 as select 
+crp5.gid as id,
+crp5.activity_n as activity_internal,
+crp5.activity_t as title,
+NULL::varchar as description,
+NULL::date as activity_startplanned,
+NULL::date as activity_endplanned,
+NULL::date as activity_startactual,
+NULL::date as activity_endactual,
+'1'::varchar as location_type,
+(case when crp5.admin <> '' then 'province' when crp5.country <> '' then 'country' end) as location_precision,
+(case when crp5.admin <> '' then
+(select string_agg(a1,';') from (select g13122.adm2_code::varchar as a1 from g13122 where g13122.adm1_code::varchar = g13121.adm1_code::varchar) as res)
+when crp5.country <> '' then
+(select string_agg(a2,';') from (select g13122.adm2_code::varchar as a2 from g13122 where g13122.adm0_code::varchar = g13120.adm0_code::varchar) as res)
+end) as location,
+'Salman'::varchar as contact_firstname,
+NULL::varchar as websites,
+'WLE_Activities.shp'::varchar as source,
+concat('/srp:' || srp, '/region:' || region, '/basin:' || basin, '/country:' || country, '/admin:' || admin, '/site:' || site, '/budget_id:' || substring(budget_id::varchar from '^[^\.]*'), '/total_100:' || substring(total__100::varchar from '^[^\.]*'))::varchar as details,
+'draft'::varchar as status_internal,
+(case when crp5.admin <> '' then g13121.geom when crp5.country <> '' then g13120.geom end) as geom
+from crp5 inner join g13121 on ST_Intersects(g13121.geom, crp5.geom)
+inner join g13120 on ST_Intersects(g13120.geom, crp5.geom);
+
+ALTER TABLE crp5_mappr2 ADD COLUMN gid BIGSERIAL PRIMARY KEY;
+CREATE INDEX crp5_mappr2_geom_gist ON crp5_mappr2 USING GIST (geom);
+
+# export
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp5_mappr2' order by ordinal_position asc) as res; 
+COPY (SELECT id, activity_internal, title, description, activity_startplanned, activity_endplanned, activity_startactual, activity_endactual, location_type, location_precision, location, contact_firstname, contact_lastname, contact_org, contact_email, contact_phone, reporting_org, reporting_address, reporting_name, reporting_email, reporting_type, participating_name, participating_role, activity_status, slo, program, theme, technology, commodity, aez, aes, budget, currency, documents, websites, source, details, status_internal from crp5_mappr2) To '...crpdata/data_for_crpmappr/crp5_mappr.csv' With CSV HEADER;
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "GeoJSON" crp5_mappr.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp5_mappr2"
+sudo -u postgres ogr2ogr -f "GeoJSON" crp5_mappr.geojson PG:"host=localhost user=user dbname=dbname password=pass" -sql "SELECT id, activity_internal, title, description, activity_startplanned, activity_endplanned, activity_startactual, activity_endactual, location_type, location_precision, location, contact_firstname, contact_lastname, contact_org, contact_email, contact_phone, reporting_org, reporting_address, reporting_name, reporting_email, reporting_type, participating_name, participating_role, activity_status, slo, program, theme, technology, commodity, aez, aes, budget, currency, documents, websites, source, details, status_internal from crp5_mappr2"
+
+# end export
+
+## end extras to re-shape data in crp mappr format
+
+## end CRP 5 ##
+

@@ -1,0 +1,225 @@
+## CRP 1.1 ##
+48 activities as action/satellite or benchmark sites
+
+## import shapefiles from current directory
+** bash:
+cd ...crpdata/data_sources/crp_1_1
+rm -rf *.prj
+for i in `ls *shp`; do shp2pgsql -I -s 4326 -W "latin1" $i | psql -d dbname -U user; done;
+## end import shapefiles from current directory
+
+## prereqs - make sure all input files have ~same columns
+** pgsql:
+alter table "action_site_meknes-mor" rename column id_0 to id;
+alter table krb_basin_ir_dd add column id integer;
+update krb_basin_ir_dd set id = gid;
+select distinct(action_sat) from sea_action_sat;
+update sea_action_sat set action_sat = 'Sat' where action_sat='sat';
+alter table "srt2_satellite-site-tz-shinyanga" add column id integer;
+update "srt2_satellite-site-tz-shinyanga" set id = gid;
+alter table satellite_site_egy add column id integer;
+update satellite_site_egy set id = gid;
+## end prereqs
+
+## merge action sites, satellite sites and benchmark areas tables
+** pgsql:
+CREATE TABLE crp11_action AS( 
+SELECT gid as id, 'Action Site'::varchar as name, 'action_site1_srt3_casia_rev'::varchar as source,  geom  FROM action_site1_srt3_casia_rev
+UNION 
+SELECT gid as id, 'Action Site'::varchar as name, 'action_site1_srt2_casia_rev'::varchar as source, geom FROM action_site1_srt2_casia_rev
+UNION 
+SELECT gid as id, 'Action Site'::varchar as name, 'action_site1_srt3_casia'::varchar as source, geom FROM action_site1_srt3_casia
+UNION
+SELECT gid as id, 'Action Site'::varchar as name, 'action_site2_srt2_casia'::varchar as source, geom FROM action_site2_srt2_casia
+UNION
+SELECT gid as id, 'Action Site'::varchar as name, 'action_site_kkm'::varchar as source, geom FROM action_site_kkm
+UNION
+SELECT gid as id, 'Action Site'::varchar as name, 'action_site_meknes-mor'::varchar as source, geom FROM "action_site_meknes-mor"
+UNION
+SELECT gid as id, 'Action Site'::varchar as name, 'action_site_syr-jor'::varchar as source, geom FROM "action_site_syr-jor"
+UNION
+SELECT gid as id, 'Action Site'::varchar as name, 'action_site_wbs'::varchar as source, geom FROM action_site_wbs
+UNION
+SELECT gid as id, 'Action Site'::varchar as name, 'srt3_action-chinyangatriangle'::varchar as source, geom FROM "srt3_action-chinyangatriangle"
+UNION
+SELECT gid as id, 'Action Site'::varchar as name, 'sea_action_sat'::varchar as source, geom FROM sea_action_sat where action_sat = 'Action'
+UNION
+SELECT gid as id, 'Action Site'::varchar as name, 'actionsite_sa'::varchar as source, geom FROM actionsite_sa where action_sat = 'Action'
+);
+
+CREATE TABLE crp11_benchmark AS(
+SELECT gid as id, 'Benchmark Area'::varchar as name, 'benchmark_area_srt2'::varchar as source,  geom  FROM benchmark_area_srt2
+UNION  
+SELECT gid as id, 'Benchmark Area'::varchar as name, 'benchmark_area_srt3_wana'::varchar as source, geom FROM benchmark_area_srt3_wana
+UNION
+SELECT gid as id, 'Benchmark Area'::varchar as name, 'krb_basin_ir_dd'::varchar as source, geom FROM krb_basin_ir_dd
+);
+
+CREATE TABLE crp11_satellite AS(
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site1_srt3_casia'::varchar as source, geom FROM satellite_site1_srt3_casia
+UNION  
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site2_srt3_casia'::varchar as source, geom FROM satellite_site2_srt3_casia
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_bdf'::varchar as source, geom FROM satellite_site_bdf
+UNION  
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_btm'::varchar as source, geom FROM satellite_site_btm
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_cmn'::varchar as source, geom FROM satellite_site_cmn
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_dah'::varchar as source, geom FROM satellite_site_dah
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_dtk'::varchar as source, geom FROM satellite_site_dtk
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_egy'::varchar as source, geom FROM satellite_site_egy
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_fak'::varchar as source, geom FROM satellite_site_fak
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_gyo'::varchar as source, geom FROM satellite_site_gyo
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'satellite_site_tunisia'::varchar as source, geom FROM satellite_site_tunisia
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'srt2_satellite-site-tz-shinyanga'::varchar as source, geom FROM "srt2_satellite-site-tz-shinyanga"
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'sea_action_sat'::varchar as source, geom FROM sea_action_sat where action_sat = 'Sat'
+UNION
+SELECT gid as id, 'Satellite Site'::varchar as name, 'actionsite_sa'::varchar as source, geom FROM actionsite_sa where action_sat = 'Sat'
+);
+## end merge action sites, satellite sites and benchmark areas tables
+
+## create crp11 PG table from action, satellite and benchmark tables
+** pgsql:
+CREATE TABLE crp11 AS (
+SELECT * FROM crp11_action
+UNION
+SELECT * FROM crp11_satellite
+UNION
+SELECT * FROM crp11_benchmark
+);
+
+ALTER TABLE crp11 ADD COLUMN gid BIGSERIAL PRIMARY KEY;
+CREATE INDEX crp11_geom_gist ON crp11 USING GIST (geom);
+## end create crp11 PG table
+
+## intersect crp11 with gaul level 2 to determine activities occurrences in each level2 admin unit
+** pgsql:
+create table crp11_lev2 as select g13122.adm0_name, g13122.adm0_code, g13122.adm1_name, g13122.adm1_code, g13122.adm2_name, g13122.adm2_code, 'CRP.1.1'::varchar as program, crp11.id as activityid, crp11.name as title, 'NA'::varchar as description, 'country'::varchar as resolution, crp11.gid as featureid, crp11.source as source, ST_Intersection(crp11.geom, g13122.geom) as geom from crp11 inner join g13122 on ST_Intersects(crp11.geom, g13122.geom);
+
+select ST_Area(geom) from crp11 order by ST_Area(geom) asc limit 10; -- 0.07093
+select ST_Area(geom) from g13122 order by ST_Area(geom) asc limit 10; -- 0.0000127
+
+# drop features with area smaller than 0.001;
+delete from crp11_lev2 where ST_Area(geom) < 0.001;
+## end intersect crp11 with gaul level 2
+
+## data exports
+# GeoJSON
+** bash:
+cd ...crpdata/data_in
+sudo -u postgres ogr2ogr -f "GeoJSON" crp11.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp11"
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "GeoJSON" crp11_lev2.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp11_lev2"
+
+# SHP
+** bash:
+cd ...crpdata/data_in
+sudo -u postgres ogr2ogr -f "ESRI Shapefile" crp11 PG:"host=localhost user=user dbname=dbname password=pass" "crp11"
+sudo -u postgres zip -r crp11.zip crp11
+rm -rf crp11
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "ESRI Shapefile" crp11_lev2 PG:"host=localhost user=user dbname=dbname password=pass" "crp11_lev2"
+sudo -u postgres zip -r crp11_lev2.zip crp11_lev2
+rm -rf crp11_lev2
+
+# CSV
+** pgsql (with postgres):
+# returns comma-separated column names (to remove the geom column):
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp11' order by ordinal_position asc) as res; 
+COPY (SELECT id, name, source, gid from crp11) To '...crpdata/data_in/crp11.csv' With CSV HEADER;
+
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp11_lev2' order by ordinal_position asc) as res;
+COPY (SELECT adm0_name, adm0_code, adm1_name, adm1_code, adm2_name, adm2_code, program, activityid, title, description, resolution, featureid, source from crp11_lev2) To '...crpdata/data_out/crp11_lev2.csv' With CSV HEADER;
+## end data exports
+
+## drop intermediary tables
+** pgsql:
+drop table action_site1_srt3_casia_rev, action_site1_srt2_casia_rev, action_site1_srt3_casia, action_site2_srt2_casia, action_site_kkm, "action_site_meknes-mor", "action_site_syr-jor", action_site_wbs, "srt3_action-chinyangatriangle", sea_action_sat, actionsite_sa, benchmark_area_srt2, benchmark_area_srt3_wana, krb_basin_ir_dd, satellite_site1_srt3_casia, satellite_site2_srt3_casia, satellite_site_bdf, satellite_site_btm, satellite_site_cmn, satellite_site_dah, satellite_site_dtk, satellite_site_egy, satellite_site_fak, satellite_site_gyo, satellite_site_tunisia, "srt2_satellite-site-tz-shinyanga", crp11_action, crp11_satellite, crp11_benchmark;
+## end drop intermediary tables
+
+## extras to re-shape data in crp mappr format
+** pgsql:
+create table crp11_mappr2 as select 
+crp11.gid as id,
+crp11.id as activity_internal,
+crp11.name as title,
+NULL::varchar as description,
+NULL::date as activity_startplanned,
+NULL::date as activity_endplanned,
+NULL::date as activity_startactual,
+NULL::date as activity_endactual,
+'1'::varchar as location_type,
+'country'::varchar as location_precision,
+g13122.adm2_code as location,
+'Chandra'::varchar as contact_firstname,
+'Biradar'::varchar as contact_lastname,
+'ICARDA'::varchar as contact_org,
+'c.biradar@gmail.com'::varchar as contact_email,
+NULL::varchar as contact_phone,
+NULL::varchar as reporting_org,
+NULL::varchar as reporting_address,
+NULL::varchar as reporting_name,
+NULL::varchar as reporting_email,
+NULL::varchar as reporting_type,
+NULL::varchar as participating_name,
+NULL::varchar as participating_role,
+NULL::varchar as activity_status,
+NULL::varchar as slo,
+'CRP 1.1 - Dryland Systems'::varchar as program,
+NULL::varchar as theme,
+NULL::varchar as technology,
+NULL::varchar as commodity,
+NULL::varchar as aez,
+NULL::varchar as aes,
+NULL::integer as budget,
+NULL::varchar as currency,
+NULL::varchar as documents,
+NULL::varchar as websites,
+crp11.source as source,
+NULL::varchar as details,
+'draft'::varchar as status_internal,
+ST_Intersection(crp11.geom, g13122.geom) as geom
+from crp11 inner join g13122 on ST_Intersects(crp11.geom, g13122.geom);
+
+delete from crp11_mappr2 where ST_Area(geom) < 0.001;
+
+create table crp11_mappr as 
+select id, max(activity_internal) as activity_internal, max(title) as title, max(description) as description,
+max(activity_startplanned) as activity_startplanned, max(activity_endplanned) as activity_endplanned, max(activity_startactual) as activity_startactual, max(activity_endactual) as activity_endactual, 
+max(location_type) as location_type, max(location_precision) as location_precision, string_agg(location::varchar,';') as location,
+max(contact_firstname) as contact_firstname, max(contact_lastname) as contact_lastname, max(contact_org) as contact_org, max(contact_email) as contact_email, max(contact_phone) as contact_phone, 
+max(reporting_org) as reporting_org, max(reporting_address) as reporting_address, max(reporting_name) as reporting_name, max(reporting_email) as reporting_email, 
+max(reporting_type) as reporting_type,
+max(participating_name) as participating_name, max(participating_role) as participating_role,
+max(activity_status) as activity_status, max(slo) as slo, 
+max(program) as program, max(theme) as theme, max(technology) as technology, max(commodity) as commodity, max(aez) as aez, max(aes) as aes, 
+max(budget) as budget, max(currency) as currency, max(documents) as documents, max(websites) as websites, max(source) as source, 
+max(details) as details,  max(status_internal) as status_internal from crp11_mappr2 group by id;
+
+drop table crp11_mappr2;
+
+# export
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp11_mappr' order by ordinal_position asc) as res; 
+COPY (SELECT id, activity_internal, title, description, activity_startplanned, activity_endplanned, activity_startactual, activity_endactual, location_type, location_precision, location, contact_firstname, contact_lastname, contact_org, contact_email, contact_phone, reporting_org, reporting_address, reporting_name, reporting_email, reporting_type, participating_name, participating_role, activity_status, slo, program, theme, technology, commodity, aez, aes, budget, currency, documents, websites, source, details, status_internal from crp11_mappr) To '...crpdata/data_for_crpmappr/crp11_mappr.csv' With CSV HEADER;
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "GeoJSON" crp11_mappr.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp11_mappr"
+# end export
+
+## end extras to re-shape data in crp mappr format
+
+## end CRP 1.1 ##
+
+
+
+

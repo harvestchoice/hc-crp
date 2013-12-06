@@ -1,0 +1,38 @@
+## All CRPs - table containing all the crps intersected with gaul lev 2
+## create crp_all_lev2 table
+** pgsql:
+DROP TABLE crp_all_lev2;
+CREATE TABLE crp_all_lev2 AS ( 
+SELECT * from crp11_lev2 
+UNION SELECT * from crp12_lev2 
+UNION SELECT * from crp5_lev2 );
+
+ALTER TABLE crp_all_lev2 ADD COLUMN gid BIGSERIAL PRIMARY KEY;
+CREATE INDEX crp_all_lev2_geom_gist ON crp_all_lev2 USING GIST (geom);
+## end create crp_all_lev2 table
+
+## export crp_all_lev2 table
+
+** bash:
+cd ...crpdata/data_out
+rm -rf crp_all_lev2.zip crp_all_lev2.geojson crp_all_lev2.csv
+
+#SHP
+sudo -u postgres ogr2ogr -f "ESRI Shapefile" crp_all_lev2 PG:"host=localhost user=user dbname=dbname password=pass" "crp_all_lev2"
+sudo -u postgres zip -r crp_all_lev2.zip crp_all_lev2
+rm -rf crp_all_lev2
+
+#GeoJSON
+** bash:
+sudo -u postgres ogr2ogr -f "GeoJSON" crp_all_lev2.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp_all_lev2"
+
+** pgsql (with postgres):
+#CSV
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp_all_lev2' order by ordinal_position asc) as res; 
+COPY (SELECT adm0_name, adm0_code, adm1_name, adm1_code, adm2_name, adm2_code, program, activityid, title, description, resolution, featureid, source, gid from crp_all_lev2) To '...crpdata/data_out/crp_all_lev2.csv' With CSV HEADER;
+
+## end export crp_all_lev2 table
+## end All CRPs
+
+
+

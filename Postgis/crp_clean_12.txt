@@ -1,0 +1,125 @@
+## CRP 1.2 ##
+
+# import CRP 1.2 shapefile to postgis 
+** bash:
+cd ...data_sources/crp_1_2
+shp2pgsql -I -s 4326 -W "latin1" Crp12_Action_area_world_.shp crp12 | psql -d dbname -U user -W
+
+# shp2pgsql also creates spatial index and pk
+## end create crp12 PG table
+
+## intersect crp12 with gaul level 2 to determine activities occurrences in each level2 admin unit
+** pgsql:
+create table crp12_lev2 as select g13122.adm0_name, g13122.adm0_code, g13122.adm1_name, g13122.adm1_code, g13122.adm2_name, g13122.adm2_code, 'CRP.1.2'::varchar as program, crp12.gid as activityid, crp12.name as title, 'NA'::varchar as description, 'country'::varchar as resolution, crp12.gid as featureid, 'CRP_1_2_Action_areas'::varchar as source, ST_Intersection(crp12.geom, g13122.geom) as geom from crp12 inner join g13122 on ST_Intersects(crp12.geom, g13122.geom);
+
+select ST_Area(geom) from crp12 order by ST_Area(geom) asc limit 10; -- 0.00008
+select ST_Area(geom) from g13122 order by ST_Area(geom) asc limit 10; -- 0.0000127
+
+# drop features with area smaller than 0.001;
+delete from crp12_lev2 where ST_Area(geom) < 0.0000001;
+## end intersect crp12 with gaul level 2
+
+## data exports
+# GeoJSON
+** bash:
+cd ...crpdata/data_in
+sudo -u postgres ogr2ogr -f "GeoJSON" crp12.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp12"
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "GeoJSON" crp12_lev2.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp12_lev2"
+
+# SHP
+** bash:
+cd ...crpdata/data_in
+sudo -u postgres ogr2ogr -f "ESRI Shapefile" crp12 PG:"host=localhost user=user dbname=dbname password=pass" "crp12"
+sudo -u postgres zip -r crp12.zip crp12
+rm -rf crp12
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "ESRI Shapefile" crp12_lev2 PG:"host=localhost user=user dbname=dbname password=pass" "crp12_lev2"
+sudo -u postgres zip -r crp12_lev2.zip crp12_lev2
+rm -rf crp12_lev2
+
+# CSV
+** pgsql (with postgres):
+# returns comma-separated column names (to remove the geom column):
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp12' order by ordinal_position asc) as res; 
+COPY (SELECT  gid, id, gridcode, aa_id, id_aa, name, continent from crp12) To '...crpdata/data_in/crp12.csv' With CSV HEADER;
+
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp12_lev2' order by ordinal_position asc) as res;
+COPY (SELECT adm0_name, adm0_code, adm1_name, adm1_code, adm2_name, adm2_code, program, activityid, title, description, resolution, featureid, source from crp12_lev2) To '...crpdata/data_out/crp12_lev2.csv' With CSV HEADER;
+## end data exports
+
+## extras to re-shape data in crp mappr format
+** pgsql:
+create table crp12_mappr2 as select 
+crp12.gid as id,
+crp12.id as activity_internal,
+crp12.name as title,
+NULL::varchar as description,
+NULL::date as activity_startplanned,
+NULL::date as activity_endplanned,
+NULL::date as activity_startactual,
+NULL::date as activity_endactual,
+'1'::varchar as location_type,
+'country'::varchar as location_precision,
+g13122.adm2_code as location,
+'Tunrayo'::varchar as contact_firstname,
+'Alabi'::varchar as contact_lastname,
+'IITA'::varchar as contact_org,
+'t.alabi@cgiar.org'::varchar as contact_email,
+NULL::varchar as contact_phone,
+NULL::varchar as reporting_org,
+NULL::varchar as reporting_address,
+NULL::varchar as reporting_name,
+NULL::varchar as reporting_email,
+NULL::varchar as reporting_type,
+NULL::varchar as participating_name,
+NULL::varchar as participating_role,
+NULL::varchar as activity_status,
+NULL::varchar as slo,
+'CRP 1.2 - Humid Tropics'::varchar as program,
+NULL::varchar as theme,
+NULL::varchar as technology,
+NULL::varchar as commodity,
+NULL::varchar as aez,
+NULL::varchar as aes,
+NULL::integer as budget,
+NULL::varchar as currency,
+NULL::varchar as documents,
+NULL::varchar as websites,
+'CRP_1_2_Action_areas'::varchar as source,
+NULL::varchar as details,
+'draft'::varchar as status_internal,
+ST_Intersection(crp12.geom, g13122.geom) as geom
+from crp12 inner join g13122 on ST_Intersects(crp12.geom, g13122.geom);
+
+delete from crp12_mappr2 where ST_Area(geom) < 0.0000001;
+
+create table crp12_mappr as 
+select id, max(activity_internal) as activity_internal, max(title) as title, max(description) as description,
+max(activity_startplanned) as activity_startplanned, max(activity_endplanned) as activity_endplanned, max(activity_startactual) as activity_startactual, max(activity_endactual) as activity_endactual, 
+max(location_type) as location_type, max(location_precision) as location_precision, string_agg(location::varchar,';') as location,
+max(contact_firstname) as contact_firstname, max(contact_lastname) as contact_lastname, max(contact_org) as contact_org, max(contact_email) as contact_email, max(contact_phone) as contact_phone, 
+max(reporting_org) as reporting_org, max(reporting_address) as reporting_address, max(reporting_name) as reporting_name, max(reporting_email) as reporting_email, 
+max(reporting_type) as reporting_type,
+max(participating_name) as participating_name, max(participating_role) as participating_role,
+max(activity_status) as activity_status, max(slo) as slo, 
+max(program) as program, max(theme) as theme, max(technology) as technology, max(commodity) as commodity, max(aez) as aez, max(aes) as aes, 
+max(budget) as budget, max(currency) as currency, max(documents) as documents, max(websites) as websites, max(source) as source, 
+max(details) as details,  max(status_internal) as status_internal from crp12_mappr2 group by id;
+
+drop table crp12_mappr2;
+
+# export
+select string_agg(column_name,', ') from (select column_name from information_schema.columns where table_name = 'crp12_mappr' order by ordinal_position asc) as res; 
+
+COPY (SELECT id, activity_internal, title, description, activity_startplanned, activity_endplanned, activity_startactual, activity_endactual, location_type, location_precision, location, contact_firstname, contact_lastname, contact_org, contact_email, contact_phone, reporting_org, reporting_address, reporting_name, reporting_email, reporting_type, participating_name, participating_role, activity_status, slo, program, theme, technology, commodity, aez, aes, budget, currency, documents, websites, source, details, status_internal from crp12_mappr) To '...crpdata/data_for_crpmappr/crp12_mappr.csv' With CSV HEADER;
+
+cd ...crpdata/data_out
+sudo -u postgres ogr2ogr -f "GeoJSON" crp12_mappr.geojson PG:"host=localhost user=user dbname=dbname password=pass" "crp12_mappr"
+# end export
+
+## end extras to re-shape data in crp mappr format
+
+## end CRP 1.2 ##

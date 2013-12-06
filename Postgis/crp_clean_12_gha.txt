@@ -1,0 +1,33 @@
+
+# determine smallest area in gaul level 2:  0.00001
+select ST_Area(geom) from g13122  order by ST_Area(geom) asc limit 5;
+
+# create subset of gaul level 2 - Ghana
+create table g13122_gha as (select * from g13122 where adm0_name = 'Ghana');
+
+## CRP 1.2 Ghana ##
+
+# import CRP 1.2 shapefile to postgis 
+** bash:
+cd ...data_sources/crp_1_2
+shp2pgsql -I -s 4326 -W "latin1" Crp12_Action_area_world_.shp crp12 | psql -d dbname -U user -W
+
+# shp2pgsql also creates spatial index and pk
+## end create crp12 PG table
+
+## intersect crp12_ with gaul level 2 Ghana to determine activities occurrences in each level2 admin unit
+** pgsql:
+create table crp12_lev2_gha as select g13122_.adm0_name, g13122_.adm0_code, g13122_.adm1_name, g13122_.adm1_code, g13122_.adm2_name, g13122_.adm2_code, 'CRP.1.2'::varchar as program, crp12.gid as activityid, crp12.name as title, 'NA'::varchar as description, 'country'::varchar as resolution, crp12.gid as featureid, 'CRP_1_2_Action_areas'::varchar as source, ST_Intersection(crp12.geom, g13122_gha.geom) as geom from crp12 inner join g13122_gha on ST_Intersects(crp12.geom, g13122_gha.geom);
+
+# drop features with area smaller than 0.001;
+delete from crp12_lev2_gha where ST_Area(geom) < 0.0000001;
+## end intersect crp12 with gaul level 2 Ghana
+
+# Ghana - group admin units in single fields separated by comma
+** pgsql:
+CREATE TABLE crp12_compact_gha AS SELECT  string_agg(distinct adm0_name, ',') AS adm0_names, string_agg(distinct adm0_code::varchar, ',') AS adm0_codes, string_agg(distinct adm1_name, ',') AS adm1_names, string_agg(distinct adm1_code::varchar, ',') AS adm1codes, string_agg(distinct adm2_name, ',') AS adm2_names, string_agg(distinct adm2_code::varchar, ',') AS adm2_codes, string_agg(distinct program, ',') AS program, activityid AS activityid, max(title) AS title, max(description) AS description, max(resolution) AS resolution, max(featureid) AS featureid, max(source) AS source FROM crp12_lev2_gha_ GROUP BY activityid; 
+
+## end CRP 1.2 Ghana ##
+# issues:
+# there are activities which take place along the coast line or golf, they are excluded as their intersection with gaul is 0 or very small - example: activity gid = 3 in crp12
+
