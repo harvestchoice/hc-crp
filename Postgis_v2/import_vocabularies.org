@@ -32,6 +32,7 @@ INSERT INTO cg_activity_type VALUES (1, 'Flagship Project'),(2, 'Activity Cluste
 CREATE TABLE cg_internal_status ( id integer, name text);
 INSERT INTO cg_internal_status VALUES (0, 'draft'),(1, 'under review'),(2, 'validated');
 
+
 ** Import IATI vocabularies
 cd ...crpdata/vocabularies
 - ActivityStatus for /activity-status/@code(IATI) and crp_activities.activity_status(PG)

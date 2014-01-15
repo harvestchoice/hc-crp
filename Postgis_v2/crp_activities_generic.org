@@ -41,14 +41,24 @@ completeness integer );
 );
 
 ** Create contacts table
-CREATE TABLE contact_info (
-id integer,
-type integer,
-job_title text,
+# link table between activities and contacts
+CREATE TABLE crp_act_contacts (
+cg_activity_code text,
+cg_contact_code text,
+type integer
+);
+
+CREATE TABLE cg_contacts (
+cg_contact_code text,
+person_name_first text,
+person_name_last text,
 organisation text,
+cg_organisation text,
+job_title text,
 website text,
-person_name text,
+telephone text,
 email text,
+cg_email text,
 mailing_address text );
 
 ** Create crp_locations table
