@@ -1,0 +1,71 @@
+** Import activities data from CSVs:
+cd ...crpdata/data_sources/crp_file_location
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=*** password=***" file.csv -nln tablename
+
+** Create crp_activities table - datastore for all activities:
+CREATE TABLE crp_activities (
+cg_activity_code text,
+iati_code text,
+title text,
+description text,
+activity_status text,
+activity_date_start_planned date,
+activity_date_start_actual date,
+activity_date_end_planned date,
+activity_date_end_actual date,
+contact_id text,
+reporting_org_id text,
+reporting_org_type text,
+activity_website text,
+document_url text,
+document_format text,
+document_category text,
+cg_theme text,
+cg_technology text,
+cg_keywords text,
+cg_program text,
+cg_slo text,
+cg_ido text,
+budget_type integer,
+budget_period_start date,
+budget_period_end date,
+budget_value integer,
+budget_value_currency integer,
+budget_value_date date,
+related_activity_id text,
+related_activity_type text,
+cg_activity_type text,
+cg_source text,
+cg_internal_status text,
+completeness integer );
+);
+
+** Create contacts table
+CREATE TABLE contact_info (
+id integer,
+type integer,
+job_title text,
+organisation text,
+website text,
+person_name text,
+email text,
+mailing_address text );
+
+** Create crp_locations table
+CREATE TABLE crp_locations (
+cg_activity_code text,
+percentage decimal,
+job_title text,
+organisation text,
+website text,
+person_name text,
+email text,
+mailing_address text );
+
+** Create crp_partners table
+CREATE TABLE crp_partners (
+cg_activity_code text,
+participating_org_id text,
+participating_org_type text,
+participating_org_role text);
+

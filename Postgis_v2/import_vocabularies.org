@@ -1,0 +1,91 @@
+# Crate IATI codes tables
+
+** Copy db
+# Create DB backup
+sudo -u postgres pg_dump crpdata > crpdata011414.sql
+
+# Import backup to new DB
+sudo -u postgres psql -d crpdata2 < crpdata011414.sql
+
+** Import theme vocabulary from CSV
+- Theme vocabulary for crp_activities.theme(PG)
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" cg_themes.csv -nln cg_themes
+
+- Program vocabulary for crp_activities.program(PG)
+# CRP numbers, relevant CAADP Pillar, ASARECA Regional Programs, CORAF Research Programs, etc.
+CREATE TABLE cg_slo ( id integer, name text);
+//TODO
+INSERT INTO cg_slo VALUES (1, 'Reducing rural poverty'),(2, 'Improving food security'),(3, 'Improving nutrition and health'), (4, 'Sustainable management of natural resources');
+
+- CGIAR SLO for crp_activities.cg_slo(PG)
+CREATE TABLE cg_slo ( id integer, name text);
+INSERT INTO cg_slo VALUES (1, 'Reducing rural poverty'),(2, 'Improving food security'),(3, 'Improving nutrition and health'), (4, 'Sustainable management of natural resources');
+
+- CGIAR IDO for crp_activities.cg_ido(PG)
+# follows
+
+- CGIAR Activity Type for crp_activities.cg_activity_type(PG)
+CREATE TABLE cg_activity_type ( id integer, name text);
+INSERT INTO cg_activity_type VALUES (1, 'Flagship Project'),(2, 'Activity Cluster'),(3, 'Other');
+
+- CGIAR Internal Status for crp_activities.cg_internal_status(PG)
+CREATE TABLE cg_internal_status ( id integer, name text);
+INSERT INTO cg_internal_status VALUES (0, 'draft'),(1, 'under review'),(2, 'validated');
+
+** Import IATI vocabularies
+cd ...crpdata/vocabularies
+- ActivityStatus for /activity-status/@code(IATI) and crp_activities.activity_status(PG)
+wget http://data.aidinfolabs.org/data/codelist/ActivityStatus.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" ActivityStatus.csv -nln iati_activity_status
+
+- ContactType for /contact-info/@type(IATI) and contact_info.type(PG)
+wget http://data.aidinfolabs.org/data/codelist/ContactType.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" ContactType.csv -nln iati_contact_type
+
+- Organisation Identifier for /reporting-org/@ref(IATI) and crp_activities.reporting_org_id(PG) and /participating-org/@ref(IATI) and crp_activities.participating_org_id(PG)
+# Organization ref codes should be built starting from the registries http://bit.ly/iati-org-reg + code assigned by the registry
+# Most of the CG centers don't have registry assigned codes(?) -> use codes from the list imported below:
+wget "http://data.aidinfolabs.org/data/codelist/OrganisationIdentifier/version/1.0/lang/en.csv" -O OrganisationIdentifier.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" OrganisationIdentifier.csv -nln iati_organisation_identifier
+
+- Organisation Type for /reporting-org/@type(IATI) and crp_activities.reporting_org_type(PG) and /participating-org/@type(IATI) and crp_activities.participating_org_type(PG)
+# for most of the centers Organization Type = 40 - Multilateral
+wget "http://data.aidinfolabs.org/data/codelist/OrganisationType/version/1.0/lang/en.csv" -O OrganisationType.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" OrganisationType.csv -nln iati_organisation_type
+
+- Organisation Role for /participating-org/@role>(IATI) and crp_activities.participating_org_role(PG)
+wget "http://data.aidinfolabs.org/data/codelist/OrganisationRole/version/1.0/lang/en.csv" -O OrganisationRole.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" OrganisationType.csv -nln iati_organisation_role
+
+- FileFormat for /document-link/@format(IATI) and crp_activities.document_format(PG)
+wget "http://data.aidinfolabs.org/data/codelist/FileFormat/version/1.0/lang/en.csv" -O FileFormat.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" FileFormat.csv -nln iati_file_format
+
+- DocumentCategory for /document-link/category/@code(IATI) and crp_activities.document_category(PG)
+wget "http://data.aidinfolabs.org/data/codelist/DocumentCategory/version/1.0/lang/en.csv" -O DocumentCategory.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" DocumentCategory.csv -nln iati_document_category
+
+- BudgetType for /budget/@type(IATI) and crp_activities.budget_type(PG)
+wget "http://data.aidinfolabs.org/data/codelist/BudgetType/version/1.0/lang/en.csv" -O BudgetType.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" BudgetType.csv -nln iati_budget_type
+
+- Currency for /budget/value/@currency(IATI) and crp_activities.budget_value_currency(PG)
+wget "http://data.aidinfolabs.org/data/codelist/Currency/version/1.0/lang/en.csv" -O Currency.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" Currency.csv -nln iati_currency
+
+- RelatedActivityType for /related-activity/@type(IATI) and crp_activities.related_activity_type(PG)
+wget "http://data.aidinfolabs.org/data/codelist/RelatedActivityType/version/1.0/lang/en.csv" -O RelatedActivityType.csv
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=crpuser dbname=crpdata2 password=crppass" Currency.csv -nln iati_currency
+
+
+
+
+
+
+
+
+
+
+
+
+
