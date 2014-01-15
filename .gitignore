@@ -1,4 +1,3 @@
-*
 !*.R
 !*.geojson
 !*.zip
@@ -8,5 +7,7 @@
 !*README.org
 !out/
 !out/*
+!in/
+!in/*
 !R/
 !R/*
