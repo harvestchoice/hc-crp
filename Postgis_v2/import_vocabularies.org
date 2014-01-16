@@ -37,7 +37,7 @@ INSERT INTO cg_internal_status VALUES (0, 'draft'),(1, 'under review'),(2, 'vali
 cd ...crpdata/vocabularies
 - ActivityStatus for /activity-status/@code(IATI) and crp_activities.activity_status(PG)
 wget http://data.aidinfolabs.org/data/codelist/ActivityStatus.csv
-sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" ActivityStatus.csv -nln iati_activity_status
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" ActivityStatus.csv -nln iati_activity_status PGSQL_OGR_FID=code
 
 - ContactType for /contact-info/@type(IATI) and contact_info.type(PG)
 wget http://data.aidinfolabs.org/data/codelist/ContactType.csv
@@ -78,8 +78,6 @@ sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpd
 wget "http://data.aidinfolabs.org/data/codelist/RelatedActivityType/version/1.0/lang/en.csv" -O RelatedActivityType.csv
 sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" Currency.csv -nln iati_currency
 
-- Country for /location
-http://data.aidinfolabs.org/data/codelist/Country/version/1.01/lang/en.csv
 
 
 

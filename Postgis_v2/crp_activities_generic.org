@@ -61,21 +61,35 @@ email text,
 cg_email text,
 mailing_address text );
 
-** Create crp_locations table
-CREATE TABLE crp_locations (
-cg_activity_code text,
-percentage decimal,
-job_title text,
-organisation text,
-website text,
-person_name text,
-email text,
-mailing_address text );
-
 ** Create crp_partners table
 CREATE TABLE crp_partners (
 cg_activity_code text,
 participating_org_id text,
 participating_org_type text,
 participating_org_role text);
+
+** Create crp_locations table
+# Locations link table - store info the CG way: admin units
+CREATE TABLE crp_locations (
+cg_activity_code text,
+adm0_code numeric,
+adm0_name text,
+adm1_code numeric,
+adm1_name text,
+adm2_code numeric,
+adm2_name text)
+
+# Locations link table - store info the IATI way, in case at some point we want to conform to the standard's location structure (to revise)
+CREATE TABLE crp_locations_iati (
+cg_activity_code text,
+precision text,
+feature_class text,
+latitude real,
+longitude real,
+);
+
+
+
+
+
 

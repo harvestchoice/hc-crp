@@ -7,29 +7,6 @@ sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=*** 
 # imported : dg_crp4_activity_analysis, dg_crp4_geocoding
 
 ** pgsql:
-CREATE TABLE crp4_mappr ( id integer CONSTRAINT firstkey PRIMARY KEY,
-activity_code numeric, iati_code numeric,
-title text, description text,
-activity_startplanned date,
-activity_endplanned date, activity_startactual date,
-activity_endactual date, location_type text,
-location_precision text, location text,
-contact_firstname text, contact_lastname text,
-contact_org text, contact_email text,
-contact_phone text, reporting_org text,
-reporting_address text, reporting_name text,
-reporting_email text, reporting_type text,
-participating_name text, activity_status text,
-slo text, program text,
-theme text, technology text,
-commodity text, aez text,
-aes text, budget integer,
-currency text, documents text,
-websites text, source text,
-details text, status_internal text
-);
-
-
 create table crp2_mappr as select * from crp5_mappr2 limit 0;
 alter table crp2_geocoding add column location geometry;
 update crp2_geocoding set location = st_setsrid(st_makepoint(longitude::real, latitude::real), 4326) where latitude != '';
