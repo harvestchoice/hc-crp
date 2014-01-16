@@ -1,0 +1,15 @@
+** Import contacts
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" contacts.CSV -nln contacts
+insert into cg_contacts (person_name_first, person_name_last, cg_organisation, job_title, telephone, cg_email, mailing_address) select "first name", "last name", company, "job title", "business phone", "e_mail display name", "business city" ||', ' || "business country/region" from contacts where "e_mail display name" <> '';
+update cg_contacts set mailing_address = trim(both ',' from mailing_address);
+delete from cg_contacts where person_name_first='' or person_name_last='';
+delete from cg_contacts where position('@' in email) = 0;
+# delete groups
+delete from cg_contacts where person_name_last in (select distinct cg_organisation from cg_contacts) or person_name_first in (select distinct cg_organisation from cg_contacts);
+# use email as key (for now)
+update cg_contacts set email = array_to_string(regexp_matches(cg_email, '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}'),'');
+update cg_contacts set cg_contact_code = email;
+# update organization_id
+update cg_contacts set organisation = (select code from iati_organisation_identifier where iati_organisation_identifier.abbreviation = cg_contacts.cg_organisation limit 1) where cg_organisation<>'';
+
+** Import data
