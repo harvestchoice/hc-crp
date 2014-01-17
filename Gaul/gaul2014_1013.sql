@@ -1,5 +1,5 @@
 #import shp to PG
-shp2pgsql -I -s 4326 -W "latin1" G2014_2013_2.shp | sudo -u postgres psql -d crpdata2
+shp2pgsql -I -s 4326 -W "latin1" G2014_2013_2.shp test | sudo -u postgres psql -d crpdata2
 
 # check for duplicate geometries:
 select adm0_code, adm0_name, adm1_code, adm1_name, adm2_code, adm2_name, ST_Area(geom) from g2014_2013_2 where adm2_code in (select adm2_code from g2014_2013_2 group by adm2_code having count(*) > 1) order by adm0_code, adm1_code, adm2_code;
