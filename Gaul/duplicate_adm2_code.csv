@@ -1,0 +1,34 @@
+adm0_code,adm0_name,adm1_code,adm1_name,adm2_code,adm2_name,st_area
+12,Argentina,429,Buenos Aires,4490,San  Fernando,0.0880439893415118
+12,Argentina,429,Buenos Aires,4490,La Plata,0.0880385501635682
+12,Argentina,446,San Juan,4792,Capital,0.00254124397889916
+12,Argentina,446,San Juan,4792,9 de Julio,0.0142583138035141
+73,Ecuador,22005,Guayas,15426,Gnral. Antonio Elizalde,0.01245755168883
+73,Ecuador,22005,Guayas,15426,Milagro,0.0329696175129526
+115,India,1490,Goa,70123,South Goa,0.170380895000434
+115,India,1490,Goa,70123,South Goa,3.94812404753102e-05
+115,India,1494,Karnataka,70166,Udupi,0.330695301819822
+115,India,1494,Karnataka,70166,Udupi,5.50855903883889e-05
+182,Nigeria,2212,Akwa Ibom,22636,Oron,3.82717749969453e-06
+182,Nigeria,2212,Akwa Ibom,22636,Oron,0.0119587665594786
+182,Nigeria,2223,Jigawa,22802,Birninku,0.165800007974225
+182,Nigeria,2223,Jigawa,22802,Birninku,0.0790499279742636
+182,Nigeria,2227,Kebbi,22895,Sakaba,0.0537999306600091
+182,Nigeria,2227,Kebbi,22895,Sakaba,0.346799908359983
+182,Nigeria,2230,Lagos,22930,Ikeja,0.0199999689349831
+182,Nigeria,2230,Lagos,22930,Ikeja,0.00295001219499437
+182,Nigeria,2240,Yobe,23118,Fika,0.0972088066405573
+182,Nigeria,2240,Yobe,23118,Fika,0.183749914279508
+182,Nigeria,65698,Abia,22602,Ukwaeast,0.0143500013249062
+182,Nigeria,65698,Abia,22602,Ukwaeast,0.0161500049549528
+182,Nigeria,65700,Bayelsa,23074,Southernijaw,5.27320832378169e-05
+182,Nigeria,65700,Bayelsa,23074,Southernijaw,0.214145127188657
+182,Nigeria,65701,Ebonyi,22599,Ohaozara,0.0182000536100698
+182,Nigeria,65701,Ebonyi,22599,Ohaozara,0.0224500047399331
+182,Nigeria,65705,Nassarawa,23049,Nasarawa,0.105999969603324
+182,Nigeria,65705,Nassarawa,23049,Nasarawa,0.670150126009908
+182,Nigeria,65706,Ondo,22989,Ose,0.0459500125049918
+182,Nigeria,65706,Ondo,22989,Ose,0.0771500079799008
+190,Palmyra Atoll,2279,Administrative unit not available,23695,Administrative unit not available,0.0831463573928256
+190,Palmyra Atoll,2279,Administrative unit not available,23695,Administrative unit not available,0.00019193435003351
+(32 rows)
