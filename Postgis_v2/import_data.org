@@ -16,7 +16,7 @@ update cg_contacts set email = array_to_string(regexp_matches(cg_email, '[a-zA-Z
 # update organization_id
 update cg_contacts set organisation = (select code from iati_organisation_identifier where iati_organisation_identifier.abbreviation = cg_contacts.cg_organisation limit 1) where cg_organisation<>'';
 
-** Import data CRP4
+** Import data CRP4 into crp_activities and crp_locations
 delete from crp_activities;
 insert into crp_activities (cg_identifier, act_date_start_planned, act_date_end_planned, contact_tmp, reporting_org, reporting_org_type, participating_org, description, budget_value, cg_program, cg_technology_tmp,
 cg_commodity_tmp, project_website)
