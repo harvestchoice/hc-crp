@@ -64,7 +64,15 @@ select g.act_id, adm0_code, adm0_name, adm1_code, adm1_name, adm2_code,adm2_name
 select replace ('CRP4_3', 'CRP4_', '');
 update crp_activities set cg_identifier = replace(cg_identifier, 'CRP4_', '')
 
-** Import data CRP2
+** Import data CRP2 into crp_activities and crp_locations
+delete from crp_activities;
+insert into crp_activities (cg_identifier, act_date_start_planned, act_date_end_planned, contact_tmp, reporting_org, reporting_org_type, participating_org, description, budget_value, cg_program, cg_technology_tmp,
+cg_commodity_tmp, project_website)
+select "activity code" as cg_identifier, "activity start date"::date as act_date_start_planned, "activity end date"::date as act_date_end_planned,
+"contact name" as contact_tmp, "reporting organization" as reporting_org, "reporting organization type" as reporting_org_type,
+partners as participating_org, description, NULLIF("activity budget",'')::int as budget_value,
+'CRP 4' as cg_program, "target technology(ies)" as cg_technology_tmp, commodity as cg_commodity_tmp,
+website as project_website from dg_crp4_activity_analysis;
 
 
 

@@ -8,7 +8,7 @@ sudo -u postgres pg_dump crpdata > crpdata011414.sql
 sudo -u postgres psql -d crpdata2 < crpdata011414.sql
 
 ** Import theme vocabulary from CSV
-- Theme vocabulary for crp_activities.theme(PG)
+- Theme vocabulary for crp_activities.theme(PG) -> dropped
 sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" cg_themes.csv -nln cg_themes
 
 - Program vocabulary for crp_activities.program(PG)
