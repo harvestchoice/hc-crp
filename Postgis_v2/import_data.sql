@@ -10,7 +10,7 @@ delete from cg_contacts where position('@' in email) = 0;
 # delete groups
 delete from cg_contacts where person_name_last in (select distinct cg_organisation from cg_contacts) or person_name_first in (select distinct cg_organisation from cg_contacts);
 
-# use email as key (for now)
+# grab email
 update cg_contacts set email = array_to_string(regexp_matches(cg_email, '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}'),'');
 
 # update organization_id
@@ -35,7 +35,7 @@ update crp_activities a set contact_id = (select string_agg(c.id::varchar,'|') f
 position(lower(c.person_name_first) in lower(a.contact_tmp)) > 0
 and position(lower(c.person_name_last) in lower(a.contact_tmp)) > 0);
 
-# trim |'es
+# trim pipes ("|")
 update crp_activities set participating_org = trim(both '|' from participating_org);
 
 # update location
