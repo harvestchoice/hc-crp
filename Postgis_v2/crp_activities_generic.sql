@@ -1,8 +1,29 @@
-** Import activities data from CSVs:
-cd ...crpdata/data_sources/crp_file_location
-sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=*** password=***" file.csv -nln tablename
+* DB structure
+** Main tables:
+- crp_activities - list of activities
+- crp_locations - list of locations, linked to crp_activities with crp_locations.act_id
 
-** Create crp_activities table - datastore for all activities:
+** Activities Vocabularies (linked to crp_activities.fields as '|'-separated lists of IDs):
+- iati_activity_status - list of IATI /activity-status, crp_activities.activity_status, imported,
+- cg_activity_hierarchy - list of CG-styled /iati-activity/@hierarchy, crp_activities.activity_hierarchy, imported, default 103
+- cg_contacts - list of cg_contacts, crp_activities.contact_id, imported, id-linked ('|'-separated id for multiple)
+- cg_iati_organizations - not yet in place, crp_activities.reporting_org (1-1) and crp_activities.participating_org (1-many)
+- cg_programs - list of programs, crp_activities.cg_program, imported, id-linked
+- cg_slos - list of SLOs, crp_activities.cg_slo, imported, id-linked
+- cg_idos - list of CG IDOs, crp_activities.cg_ido, imported, not yet id-linked
+- cg_crp_idos - list of CRP IDOs, crp_activities.cg_crp_ido, imported, not yet id-linked
+- cg_technologies - list of technologies, crp_activities.cg_technology, to import rdf, and id-link
+- cg_commodities - list of commodities, crp_activities.cg_commodity, to import and id-link
+- cg_internal_status - list of internal status values, crp_activities.internal_status, default 0
+
+** Location Vocabularies (linked to crp_locations.fields as '|'-separated lists of IDs):
+- cg_location_reach - list of CG-styled /location-reach/, crp_locations.cg_location_reach, imported draft version, id-linked
+- cg_location_class - list of CG-styled /location-class/, crp_locations.cg_location_class, imported draft version, id-linked
+
+*** Dropped vocabularies:
+- cg_themes - list of initial CG themes
+
+# Create crp_activities table - datastore for all activities:
 drop table crp_activities;
 CREATE TABLE crp_activities (
 id serial primary key,
@@ -10,7 +31,7 @@ cg_identifier text,
 title text,
 activity_status text,
 last_updated date default CURRENT_TIMESTAMP,
-hierarchy text,
+activity_hierarchy text default '103',
 iati_identifier text,
 act_date_start_planned date,
 act_date_start_actual date,
@@ -20,9 +41,9 @@ contact_id text,
 contact_tmp text,
 reporting_org text,
 reporting_org_type text,
-participating_org text,
-participating_org_type text,
-participating_org_role text,
+reporting_org_tmp text,
+reporting_org_type_tmp text,
+participating_org_tmp text,
 description text,
 budget_type integer,
 budget_period_start date,
@@ -30,11 +51,15 @@ budget_period_end date,
 budget_value integer,
 budget_value_currency integer,
 budget_value_date date,
-collaboration_type text default '2',
+budget_collaboration_type text default '2',
 cg_program text,
+cg_program_tmp text,
 cg_slo text,
+cg_slo_tmp text,
 cg_ido text,
+cg_ido_tmp text,
 cg_crp_ido text,
+cg_crp_ido_tmp text,
 cg_technology text,
 cg_technology_tmp text,
 cg_commodity text,
@@ -68,6 +93,8 @@ drop table crp_locations;
 CREATE TABLE crp_locations (
 id serial primary key,
 act_id integer,
+cg_location_reach text,
+cg_location_class text,
 adm0_code numeric,
 adm0_name text,
 adm1_code numeric,
@@ -91,6 +118,9 @@ participating_org_id text,
 participating_org_type text,
 participating_org_role text);
 
+** Import activities data from CSVs:
+cd ...crpdata/data_sources/crp_file_location
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=*** password=***" file.csv -nln tablename
 
 
 
