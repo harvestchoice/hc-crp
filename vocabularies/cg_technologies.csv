@@ -1,52 +1,23 @@
 id,parent_id,name,code
 1,,Agroforestry technology,01
+2,,Plant biotechnology,02
+3,2,Biofortification technology,021
+4,3,Biofortified lentil with Iron and Zinc,0211
+5,3,High iron bean,0212
+6,3,High iron pearl millet,0213
+7,3,Orange fleshed sweet potato,0214
+8,3,Provitamin A cassava,0215
+9,3,Provitamin A maize,0216
 10,2,Genetic engineering,022
-100,99,East Coast Fever vaccine,13411
-101,99,Newcastle disease vaccine,13412
-102,99,Porcine cysticercosis vaccine,13413
-103,99,PPR vaccine,13414
-104,82,Livestock identification and traceability,135
-105,82,Livestock insurance,136
-106,82,Rangeland management,137
-107,106,Fighting invasive species in drylands,1371
-108,106,Holistic resource management (HRM),1372
-109,106,Payments for eco-systems services,1373
 11,10,Resistance to bacteria GMO,0221
-110,106,Forage and feed technology,1374
-111,110,Dual purpose food-feed crop,13741
-112,110,Forage and feed distribution networks,13742
-113,110,Forage seed multiplication sites,13743
-114,110,Forage crop,13744
-115,114,Napier grass,137441
-116,106,Manure management,1375
-117,106,Pasture management,1376
-118,,Mechanization technology,14
-119,118,Small scale mechanization,141
 12,10,Transgenic bananas resistant to Xanthomonas wilt disease,0222
-120,119,Manually operated grain processing tools,1411
-121,119,Multi-crop reaper,1412
-122,119,Small-scale planter,1413
-123,119,Small scale tiller,1414
-124,,Nanotechnology,15
-125,,Postharvest technology,16
-126,125,Food safety postharvest technology,161
-127,126,Aflatoxins related postharvest technology,1611
-128,127,Aflasafe,16111
-129,127,Safe grain storage,16112
 13,2,Plant breeding technology,023
-130,126,Insect-resistant storage bag,1612
-131,126,Perishable products for food safety,1613
-132,,Protection technology,17
-133,,Water management technology,18
-134,133,Waste-water treatment,181
-135,,Wood technology,19
 14,2,Seed technology,024
 15,14,Advanced locally adapted seed varieties,0241
 16,15,Disease-resistant bush and climbing beans,02411
 17,15,Disease-resistant early-maturing cowpea varieties,02412
 18,15,Disease-resistant early-maturing peanut varieties,02413
 19,14,Quality and yield improvement varieties,0242
-2,,Plant biotechnology,02
 20,19,High-yielding cereal varieties,02421
 21,20,Hybrid guinea-type sorghum varieties,024211
 22,20,Hybrid maize varieties,024212
@@ -57,7 +28,6 @@ id,parent_id,name,code
 27,19,Highly productive grain legumes,02423
 28,27,Climbing bean varieties,024231
 29,27,High-yielding chickpea varieties,024232
-3,2,Biofortification technology,021
 30,27,High-yielding pigeon pea varieties,024233
 31,27,Low ODAP grass pea varieties,024234
 32,27,Machine harvestable lentil varieties,024235
@@ -68,7 +38,6 @@ id,parent_id,name,code
 37,14,Resistance to insect pests varieties,0245
 38,14,Resistance to virus varieties,0246
 39,38,Rust resistant wheat varieties,02461
-4,3,Biofortified lentil with Iron and Zinc,0211
 40,38,Virus resistant locally adapted cassava,02462
 41,14,Tolerance to herbicides varieties,0247
 42,14,Climate resilient cereal varieties,0248
@@ -79,7 +48,6 @@ id,parent_id,name,code
 47,42,Upland rice varieties,02485
 48,42,Winter chickpea varieties,02486
 49,,Conservation agriculture technology,03
-5,3,High iron bean,0212
 50,49,Mixed cropping climate resilient system,031
 51,50,Intercropping banana and coffee crop,0311
 52,,Economic and policy technology,04
@@ -90,7 +58,6 @@ id,parent_id,name,code
 57,55,Livestock insurance,072
 58,55,Seed system security assessment,073
 59,,Soil management technology,08
-6,3,High iron pearl millet,0213
 60,59,Fertilizer technology,081
 61,60,Fertilizer management,0811
 62,60,Fertilizer tree,0812
@@ -101,7 +68,6 @@ id,parent_id,name,code
 67,66,Food preservation,101
 68,66,Food processing,102
 69,,Information and communication technology,11
-7,3,Orange fleshed sweet potato,0214
 70,69,Climate information and advisory service,111
 71,69,Mobile based technology,112
 72,69,Agribusiness service ICT,113
@@ -112,7 +78,6 @@ id,parent_id,name,code
 77,75,Mobile financial service ICT,1152
 78,69,Nutrient Manager for rice and maize,116
 79,,Irrigation technology,12
-8,3,Provitamin A cassava,0215
 80,79,Rainwater harvesting technology,121
 81,79,Smallholder irrigation technology,122
 82,,Livestock technology,13
@@ -123,7 +88,6 @@ id,parent_id,name,code
 87,82,Animal health and disease control,132
 88,87,Automated disease reporting,1321
 89,88,Identification of camel diseases,13211
-9,3,Provitamin A maize,0216
 90,87,Cost-effective vaccine production,1322
 91,87,Private sector animal health delivery systems,1323
 92,82,Breeding technology,133
@@ -134,3 +98,39 @@ id,parent_id,name,code
 97,92,Optimized breed selection of local dryland livestock,1335
 98,82,Disease control technology,134
 99,98,Vaccine technology,1341
+100,99,East Coast Fever vaccine,13411
+101,99,Newcastle disease vaccine,13412
+102,99,Porcine cysticercosis vaccine,13413
+103,99,PPR vaccine,13414
+104,82,Livestock identification and traceability,135
+105,82,Livestock insurance,136
+106,82,Rangeland management,137
+107,106,Fighting invasive species in drylands,1371
+108,106,Holistic resource management (HRM),1372
+109,106,Payments for eco-systems services,1373
+110,106,Forage and feed technology,1374
+111,110,Dual purpose food-feed crop,13741
+112,110,Forage and feed distribution networks,13742
+113,110,Forage seed multiplication sites,13743
+114,110,Forage crop,13744
+115,114,Napier grass,137441
+116,106,Manure management,1375
+117,106,Pasture management,1376
+118,,Mechanization technology,14
+119,118,Small scale mechanization,141
+120,119,Manually operated grain processing tools,1411
+121,119,Multi-crop reaper,1412
+122,119,Small-scale planter,1413
+123,119,Small scale tiller,1414
+124,,Nanotechnology,15
+125,,Postharvest technology,16
+126,125,Food safety postharvest technology,161
+127,126,Aflatoxins related postharvest technology,1611
+128,127,Aflasafe,16111
+129,127,Safe grain storage,16112
+130,126,Insect-resistant storage bag,1612
+131,126,Perishable products for food safety,1613
+132,,Protection technology,17
+133,,Water management technology,18
+134,133,Waste-water treatment,181
+135,,Wood technology,19
