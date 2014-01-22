@@ -12,7 +12,7 @@
 - cg_slos - list of SLOs, crp_activities.cg_slo, imported, id-linked
 - cg_idos - list of CG IDOs, crp_activities.cg_ido, imported, id-linked
 - cg_crp_idos - list of CRP IDOs, crp_activities.cg_crp_ido, imported, id-linked
-- cg_technologies - list of technologies(ontology Soonho), crp_activities.cg_technology, to import rdf, and id-link
+- cg_technologies - list of technologies(ontology Soonho), crp_activities.cg_technology, imported csv (rdf alternative), id-link
 - cg_commodities - list of commodities(Agrovoc), crp_activities.cg_commodity, to import(?) and id-link
 - cg_internal_status - list of internal status values, crp_activities.internal_status, default 0
 

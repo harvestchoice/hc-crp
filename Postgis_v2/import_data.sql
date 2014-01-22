@@ -46,13 +46,6 @@ lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',1)) or
 lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',2)) or
 lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',3))) where cg_program_tmp = 'CRP 4';
 
-# input data updates (coming from technology vocabulary changes)
-
-select cg_technology, cg_technology_tmp from crp_activities;
-select distinct cg_technology_tmp from crp_activities a where not exists ( select 1 from cg_technologies t where lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',1)) or
-lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',2)) or
-lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',3)))
-
 # update contacts ids - from cg_contacts table
 update crp_activities a set contact_id = (select string_agg(c.id::varchar,'|') from cg_contacts c where
 position(lower(c.person_name_first) in lower(a.contact_tmp)) > 0
