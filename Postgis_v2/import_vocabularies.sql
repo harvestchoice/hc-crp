@@ -27,11 +27,18 @@ sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpd
 - CGIAR IDO (cg_idos) for crp_activities.cg_ido(PG)
 sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" cg_idos.csv -nln cg_idos
 
-- CGIAR CRP IDO (cg_crp_idos) for crp_activities.cg_crp_ido(PG)
-sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" cg_crp_idos.csv -nln cg_crp_ido
+- CGIAR CRP IDO (cg_crp_idos) for crp_activities.cg_crp_ido(PG) - includes cg_ido_id field to link to the corresponding cg_ido
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" cg_crp_idos.csv -nln cg_crp_idos
 
 - CGIAR TECHNOLOGIES (cg_technologies) for crp_activities.technologies(PG)
-- CGIAR COMMODITIES (cg_commodities) for crp_activities.commodities(PG)
+# web-protege use deprecated - to review in case we come back
+python technologies_rdf2csv.py
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" cg_technologies_owl.csv
+psql technologies_rdf2csv.sql
+# actual:
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" cg_technologies.csv
+
+- CGIAR COMMODITIES (cg_commodities) for crp_activities.commodities(PG) TODO?
 
 - CGIAR Internal Status for crp_activities.cg_internal_status(PG)
 CREATE TABLE cg_internal_status ( id integer, name text);

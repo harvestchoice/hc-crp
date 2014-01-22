@@ -1,0 +1,265 @@
+http://webprotege.stanford.edu/classes/8ragS2YsI33zq486FibMYu,http://purl.org/dc/elements/1.1/description,"Increase rice yields by allowing rice plants to tolerate flooding. Farmers maintain rice yields even in years with persistent flooding (South Asia and SSA). w/BMGF via IRRI Submergence-tolerant varieties reached 1.2 M farmers by 2011. 120 M small rice farmers stand to benefit worldwide, but primarily South Asia (Bangladesh,\nIndia, Burma, and Pakistan).\n\nIRRI, in the relevant section of the Promising CGIAR Technologies Report notes: Submergence tolerance. The QTL SUB1 has been identified on chromosome 9 and introgressed into various mega-varieties through MAS. This QTL is able to confer tolerance of submergence for 2 weeks. Work is being done at IRRI to extend the tolerance to more than 2 weeks.\nDifferent levels of characterization are useful for different purposes, and it would be helpful to develop a common vocabulary appropriate for the purpose. ""Submergence tolerant rice"" is too broad for meaningful consideration of potential scaling, and ""QTL SUB1"" is probably too narrow for most audiences.\nsource:REACTION FROM CGIAR SCIENCE LEADERS TO USAID REQUEST FOR FEEDBACK ON\nSCALABLE AGRICULTURAL TECHNOLOGIES\nJANUARY 7, 2013"
+http://webprotege.stanford.edu/classes/8ragS2YsI33zq486FibMYu,http://www.w3.org/2000/01/rdf-schema#label,Submergence-tolerant rice varieties
+http://webprotege.stanford.edu/classes/8ragS2YsI33zq486FibMYu,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8ragS2YsI33zq486FibMYu,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/CndjKJuqf4zA3Ib52AMnZy
+http://webprotege.stanford.edu/classes/8hPjP5V8fdbeHxX6lmYhRY,http://www.w3.org/2000/01/rdf-schema#label,Fighting invasive species in drylands
+http://webprotege.stanford.edu/classes/8hPjP5V8fdbeHxX6lmYhRY,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8hPjP5V8fdbeHxX6lmYhRY,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/9jOFFy6BZ2t1rpjbkslpYR
+http://webprotege.stanford.edu/classes/CMU5Mvwjh8KZ7m3JDPOLmr,http://purl.org/dc/elements/1.1/description,"A farmer field school is a school without walls. A group of farmers gets together in one of their own fields to learn about their crops and things that affect them. They learn how to farm better by observing, analysing and trying out new ideas on their own fields. \n\nFAO and other development organizations have been promoting farmer field schools \u2013 an innovative approach to adult education first developed in Southeast Asia for pest management \u2013 to improve land and water management in Africa. Unlike traditional approaches to agricultural extension, which rely on extension workers providing advice to farmers, farmer field schools enable groups of farmers to find out the answers for themselves. That means the farmers can develop solutions to their own problems."
+http://webprotege.stanford.edu/classes/CMU5Mvwjh8KZ7m3JDPOLmr,http://www.w3.org/2000/01/rdf-schema#label,Farmer fields schools (FFS)
+http://webprotege.stanford.edu/classes/CMU5Mvwjh8KZ7m3JDPOLmr,http://purl.org/dc/elements/1.1/identifier,http://www.farmerfieldschool.info/
+http://webprotege.stanford.edu/classes/CMU5Mvwjh8KZ7m3JDPOLmr,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/CMU5Mvwjh8KZ7m3JDPOLmr,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/CDlInBHfUiFLoXICVTDjee
+http://webprotege.stanford.edu/classes/ojun9UXwTOhogOBugTQ9l,http://www.w3.org/2000/01/rdf-schema#label,Food Processing
+http://webprotege.stanford.edu/classes/ojun9UXwTOhogOBugTQ9l,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/ojun9UXwTOhogOBugTQ9l,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/71tZ99147KkXFFftjqRocY
+http://webprotege.stanford.edu/classes/8iUQ77fP8avCq8gioYK6bT,http://www.w3.org/2000/01/rdf-schema#label,Highly productive grain legumes
+http://webprotege.stanford.edu/classes/8iUQ77fP8avCq8gioYK6bT,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8iUQ77fP8avCq8gioYK6bT,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/7ittoJFekf1e7SgpQr9Kdr
+http://webprotege.stanford.edu/classes/0zlmoRqWEwa0craJWkCFc,http://purl.org/dc/elements/1.1/description,Holistic management iin agriculture is a systems thinking approach to managing resources that was originally developed by Allan Savory for reversing desertification.
+http://webprotege.stanford.edu/classes/0zlmoRqWEwa0craJWkCFc,http://www.w3.org/2000/01/rdf-schema#label,Holistic resource management (HRM)
+http://webprotege.stanford.edu/classes/0zlmoRqWEwa0craJWkCFc,http://purl.org/dc/elements/1.1/source,"Allan Savory, Jody Butterfield (1998) Holistic Management: A New Framework for Decision Making, Island Press, 1998"
+http://webprotege.stanford.edu/classes/0zlmoRqWEwa0craJWkCFc,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/0zlmoRqWEwa0craJWkCFc,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/9jOFFy6BZ2t1rpjbkslpYR
+http://webprotege.stanford.edu/classes/DYgn67vmlg4y37C8dMkFar,http://www.w3.org/2000/01/rdf-schema#label,Automated disease reporting
+http://webprotege.stanford.edu/classes/DYgn67vmlg4y37C8dMkFar,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/DYgn67vmlg4y37C8dMkFar,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/lXnOOTdzUVfwtYAaWN9v4
+http://purl.org/dc/elements/1.1/creator,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I,http://www.w3.org/2000/01/rdf-schema#label,Livestock technology
+http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/7eGccJC6CNY3Imcn6IGRsv,http://www.w3.org/2000/01/rdf-schema#label,Livestock identification and traceability
+http://webprotege.stanford.edu/classes/7eGccJC6CNY3Imcn6IGRsv,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/7eGccJC6CNY3Imcn6IGRsv,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I
+http://webprotege.stanford.edu/classes/BHE2Br7Of6HVXSSckm0tc7,http://www.w3.org/2000/01/rdf-schema#label,Upland rice varieties
+http://webprotege.stanford.edu/classes/BHE2Br7Of6HVXSSckm0tc7,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/BHE2Br7Of6HVXSSckm0tc7,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/COVx9Ooufy77XjcLOFnCH0,http://www.w3.org/2000/01/rdf-schema#label,Biotechnology
+http://webprotege.stanford.edu/classes/COVx9Ooufy77XjcLOFnCH0,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/COVx9Ooufy77XjcLOFnCH0,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/yluvvaeYMExZBohrF6Y98,http://www.w3.org/2000/01/rdf-schema#label,Disease-resistant early-maturing cowpea varieties
+http://webprotege.stanford.edu/classes/yluvvaeYMExZBohrF6Y98,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/yluvvaeYMExZBohrF6Y98,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/BhppG77PlWOUQ8cTw0PHjL,http://www.w3.org/2000/01/rdf-schema#label,Information and communication technology
+http://webprotege.stanford.edu/classes/BhppG77PlWOUQ8cTw0PHjL,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/BhppG77PlWOUQ8cTw0PHjL,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/CDlInBHfUiFLoXICVTDjee,http://www.w3.org/2000/01/rdf-schema#label,Agro-Pastoral Field Schools
+http://webprotege.stanford.edu/classes/CDlInBHfUiFLoXICVTDjee,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/CDlInBHfUiFLoXICVTDjee,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/OCpetIYO3pn3SSfD0xS5t
+http://webprotege.stanford.edu/classes/GrTxmsEky2oKRj902dbAO,http://purl.org/dc/elements/1.1/description,water contamination from waste-water for vegetables and fruits (IWMI is working on business plans for better management of grey water \u2013 Pay Drechsel is leading this and could be linked to value chain work)
+http://webprotege.stanford.edu/classes/GrTxmsEky2oKRj902dbAO,http://www.w3.org/2000/01/rdf-schema#label,Waste-water treatment
+http://webprotege.stanford.edu/classes/GrTxmsEky2oKRj902dbAO,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/GrTxmsEky2oKRj902dbAO,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8
+http://webprotege.stanford.edu/named_individuals/7LwZXLSfTCj6iz3ZGoCKjd,http://www.w3.org/2000/01/rdf-schema#label,orange-fleshed sweet potatoes
+http://webprotege.stanford.edu/named_individuals/7LwZXLSfTCj6iz3ZGoCKjd,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://webprotege.stanford.edu/classes/C8kCgHFpYTRRr8RLt5EMxY
+http://webprotege.stanford.edu/named_individuals/7LwZXLSfTCj6iz3ZGoCKjd,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual
+http://webprotege.stanford.edu/classes/Djok8Xt0AZ8sBPh931zEDS,http://www.w3.org/2000/01/rdf-schema#label,Energy technology
+http://webprotege.stanford.edu/classes/Djok8Xt0AZ8sBPh931zEDS,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/Djok8Xt0AZ8sBPh931zEDS,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/9AkrPrtwj4YANgRshfmyq2,http://www.w3.org/2000/01/rdf-schema#label,Livestock insurance
+http://webprotege.stanford.edu/classes/9AkrPrtwj4YANgRshfmyq2,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/9AkrPrtwj4YANgRshfmyq2,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://www.w3.org/2000/01/rdf-schema#comment,This ontology was generated from an ontology revision in WebProt\xe9g\xe9 http://webprotege.stanford.edu
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://www.w3.org/2000/01/rdf-schema#comment,Agricultural Technology ontology
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://purl.org/dc/elements/1.1/date,"Jul 28, 2013 6:56:15 AM"
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://protege.stanford.edu/webprotege/revision,264
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Ontology
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://purl.org/dc/elements/1.1/creator,soonho
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://purl.org/dc/elements/1.1/creator,mcomanescu
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://purl.org/dc/elements/1.1/creator,guest
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://purl.org/dc/elements/1.1/creator,mbacou
+http://webprotege.stanford.edu/project/7IvuIqEsjdqbK6aiMZ7mQF,http://purl.org/dc/elements/1.1/creator,system
+http://webprotege.stanford.edu/classes/7zXbdktBU3FE5tqXaD1P7F,http://www.w3.org/2000/01/rdf-schema#label,Payments for eco-systems services
+http://webprotege.stanford.edu/classes/7zXbdktBU3FE5tqXaD1P7F,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/7zXbdktBU3FE5tqXaD1P7F,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/9jOFFy6BZ2t1rpjbkslpYR
+http://webprotege.stanford.edu/classes/7uERLhXffkj8J8Xx0NWNfZ,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/7uERLhXffkj8J8Xx0NWNfZ,http://www.w3.org/2000/01/rdf-schema#label,Perishable products for food safety
+http://webprotege.stanford.edu/classes/7uERLhXffkj8J8Xx0NWNfZ,http://purl.org/dc/elements/1.1/source,https://asset1.basecamp.com/1766833/projects/528208-caadp-cgiar-mapping/attachments/34150405/44900a604d8b84945ada1d2b996031b09be8abe7/original/Response%20from%20CGIAR%20to%20USAID%20Request%20for%20comments%20on%20Scalable%20Agricultural%20Technologies%20-01-07-2013.pdf
+http://webprotege.stanford.edu/classes/7uERLhXffkj8J8Xx0NWNfZ,http://purl.org/dc/elements/1.1/creator,John McDermott
+http://webprotege.stanford.edu/classes/7uERLhXffkj8J8Xx0NWNfZ,http://purl.org/dc/elements/1.1/description,"packages of food safety improvements for milk in South Asia and East Africa linked to capacity building of informal market agents by NGOs (Delia Grace and colleagues at ILRI could provide numbers on potential scale in South Asia and East Africa and on efforts currently under way)\n\nsource:"""""
+http://webprotege.stanford.edu/classes/7uERLhXffkj8J8Xx0NWNfZ,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8
+http://purl.org/dc/elements/1.1/identifier,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://webprotege.stanford.edu/named_individuals/DktGpocIdwkmVuDP3JVObQ,http://www.w3.org/2000/01/rdf-schema#label,cassava with soybean and cowpea
+http://webprotege.stanford.edu/named_individuals/DktGpocIdwkmVuDP3JVObQ,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://webprotege.stanford.edu/classes/C8kCgHFpYTRRr8RLt5EMxY
+http://webprotege.stanford.edu/named_individuals/DktGpocIdwkmVuDP3JVObQ,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual
+http://webprotege.stanford.edu/classes/8uqVtvF68F8fLJT2hWmKF1,http://www.w3.org/2000/01/rdf-schema#label,Drought-tolerant maize varieties
+http://webprotege.stanford.edu/classes/8uqVtvF68F8fLJT2hWmKF1,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8uqVtvF68F8fLJT2hWmKF1,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/CndjKJuqf4zA3Ib52AMnZy
+http://webprotege.stanford.edu/classes/9NtGuECCjPlYmF2lbUoiPP,http://www.w3.org/2000/01/rdf-schema#label,Wood technology
+http://webprotege.stanford.edu/classes/9NtGuECCjPlYmF2lbUoiPP,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/9NtGuECCjPlYmF2lbUoiPP,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/7QmsbY3yEAmehyxiD0xYel,http://www.w3.org/2000/01/rdf-schema#label,Fertilizer technology
+http://webprotege.stanford.edu/classes/7QmsbY3yEAmehyxiD0xYel,http://purl.org/dc/elements/1.1/source,http://aims.fao.org/aos/agrovoc/c_27895
+http://webprotege.stanford.edu/classes/7QmsbY3yEAmehyxiD0xYel,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/7QmsbY3yEAmehyxiD0xYel,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/lXnOOTdzUVfwtYAaWN9v4,http://www.w3.org/2000/01/rdf-schema#label,Animal health and disease control
+http://webprotege.stanford.edu/classes/lXnOOTdzUVfwtYAaWN9v4,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/lXnOOTdzUVfwtYAaWN9v4,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I
+http://webprotege.stanford.edu/classes/B159mrNIxrw3lLsM3lwyXB,http://www.w3.org/2000/01/rdf-schema#label,Integrated soil fertility management (ISFM)
+http://webprotege.stanford.edu/classes/B159mrNIxrw3lLsM3lwyXB,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/B159mrNIxrw3lLsM3lwyXB,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/BhppG77PlWOUQ8cTw0PHjL
+http://webprotege.stanford.edu/classes/yCwYMvVyHu4clGvGtHA67,http://www.w3.org/2000/01/rdf-schema#label,Agroforestry technology
+http://webprotege.stanford.edu/classes/yCwYMvVyHu4clGvGtHA67,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/yCwYMvVyHu4clGvGtHA67,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/9SKSnYdqJCK6EuASo4CGW5,http://www.w3.org/2000/01/rdf-schema#label,Disease-resistant early-maturing soybean varieties
+http://webprotege.stanford.edu/classes/9SKSnYdqJCK6EuASo4CGW5,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/9SKSnYdqJCK6EuASo4CGW5,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/BbyGr0ktm6y8VIWfPGKyQZ,http://www.w3.org/2000/01/rdf-schema#label,Animal biotechnology
+http://webprotege.stanford.edu/classes/BbyGr0ktm6y8VIWfPGKyQZ,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/BbyGr0ktm6y8VIWfPGKyQZ,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/COVx9Ooufy77XjcLOFnCH0
+http://webprotege.stanford.edu/classes/8JYUWbSNhE9UCrQku1hcXd,http://www.w3.org/2000/01/rdf-schema#label,Space biotechnology
+http://webprotege.stanford.edu/classes/8JYUWbSNhE9UCrQku1hcXd,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8JYUWbSNhE9UCrQku1hcXd,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/COVx9Ooufy77XjcLOFnCH0
+http://webprotege.stanford.edu/classes/R5eFV15RDvw9fWTmM5PKD,http://www.w3.org/2000/01/rdf-schema#label,Protection technology
+http://webprotege.stanford.edu/classes/R5eFV15RDvw9fWTmM5PKD,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/R5eFV15RDvw9fWTmM5PKD,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/named_individuals/BizlA7SdW7UT7kQjXUOP7Q,http://www.w3.org/2000/01/rdf-schema#label,(bio-control (Aflasafe)
+http://webprotege.stanford.edu/named_individuals/BizlA7SdW7UT7kQjXUOP7Q,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://webprotege.stanford.edu/classes/Dp8N2deSE6Un3LOlB0lspW
+http://webprotege.stanford.edu/named_individuals/BizlA7SdW7UT7kQjXUOP7Q,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual
+http://webprotege.stanford.edu/classes/CndjKJuqf4zA3Ib52AMnZy,http://www.w3.org/2000/01/rdf-schema#label,Climate resilient cereals
+http://webprotege.stanford.edu/classes/CndjKJuqf4zA3Ib52AMnZy,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/CndjKJuqf4zA3Ib52AMnZy,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/7ittoJFekf1e7SgpQr9Kdr
+http://webprotege.stanford.edu/classes/8Uznn5OWlYw6H69VCOVC62,http://www.w3.org/2000/01/rdf-schema#label,Forage and feed technology
+http://webprotege.stanford.edu/classes/8Uznn5OWlYw6H69VCOVC62,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8Uznn5OWlYw6H69VCOVC62,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I
+http://webprotege.stanford.edu/classes/RBhTOO287qEJriGVs4pNv,http://www.w3.org/2000/01/rdf-schema#label,Plant biotechnology
+http://webprotege.stanford.edu/classes/RBhTOO287qEJriGVs4pNv,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/RBhTOO287qEJriGVs4pNv,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/COVx9Ooufy77XjcLOFnCH0
+http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb,http://www.w3.org/2000/01/rdf-schema#label,Advanced locally adapted seed varieties
+http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/CndjKJuqf4zA3Ib52AMnZy
+http://webprotege.stanford.edu/named_individuals/DphqU1BRJVRsYn5mjLG5xf,http://www.w3.org/2000/01/rdf-schema#label,Milk product in South Aisa
+http://webprotege.stanford.edu/named_individuals/DphqU1BRJVRsYn5mjLG5xf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual
+http://webprotege.stanford.edu/classes/Dncm1tebrSpzUZm56DXBy,http://www.w3.org/2000/01/rdf-schema#label,Food Preservation
+http://webprotege.stanford.edu/classes/Dncm1tebrSpzUZm56DXBy,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/Dncm1tebrSpzUZm56DXBy,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/71tZ99147KkXFFftjqRocY
+http://webprotege.stanford.edu/classes/9jOFFy6BZ2t1rpjbkslpYR,http://www.w3.org/2000/01/rdf-schema#label,Rangeland management
+http://webprotege.stanford.edu/classes/9jOFFy6BZ2t1rpjbkslpYR,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/9jOFFy6BZ2t1rpjbkslpYR,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I
+http://webprotege.stanford.edu/classes/84dzQKxWkAGBdIAQbqGUrS,http://www.w3.org/2000/01/rdf-schema#label,Forage and feed distribution networks
+http://webprotege.stanford.edu/classes/84dzQKxWkAGBdIAQbqGUrS,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/84dzQKxWkAGBdIAQbqGUrS,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8Uznn5OWlYw6H69VCOVC62
+http://webprotege.stanford.edu/classes/ICj7MlvmVZNoQ1qr6Kh1D,http://www.w3.org/2000/01/rdf-schema#label,Enzyme technology
+http://webprotege.stanford.edu/classes/ICj7MlvmVZNoQ1qr6Kh1D,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/ICj7MlvmVZNoQ1qr6Kh1D,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/object_properties/8Ynrn8zBd1bKvr1VJaUocl,http://www.w3.org/2000/01/rdf-schema#label,owl:sameAs
+http://webprotege.stanford.edu/object_properties/8Ynrn8zBd1bKvr1VJaUocl,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://webprotege.stanford.edu/classes/8TFBxGbEduc8vtG0oTkq08,http://purl.org/dc/elements/1.1/description,some initial work by IRRI and CIP several years ago). Private sector working with small scale producers in different contexts. Somebody would need to check with the private sector if of interest
+http://webprotege.stanford.edu/classes/8TFBxGbEduc8vtG0oTkq08,http://purl.org/dc/elements/1.1/description,some initial work by IRRI and CIP several years ago). Private sector working with small scale producers in different contexts. Somebody would need to check with the private sector if of interest\n\nsource:
+http://webprotege.stanford.edu/classes/8TFBxGbEduc8vtG0oTkq08,http://www.w3.org/2000/01/rdf-schema#label,Safe-use of pesticides
+http://webprotege.stanford.edu/classes/8TFBxGbEduc8vtG0oTkq08,http://purl.org/dc/elements/1.1/source,https://asset1.basecamp.com/1766833/projects/528208-caadp-cgiar-mapping/attachments/34150405/44900a604d8b84945ada1d2b996031b09be8abe7/original/Response%20from%20CGIAR%20to%20USAID%20Request%20for%20comments%20on%20Scalable%20Agricultural%20Technologies%20-01-07-2013.pdf
+http://webprotege.stanford.edu/classes/8TFBxGbEduc8vtG0oTkq08,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8TFBxGbEduc8vtG0oTkq08,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8
+http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8,http://purl.org/dc/elements/1.1/description,water contamination from waste-water for vegetables and fruits\n\nsource:f
+http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8,http://purl.org/dc/elements/1.1/description,water contamination from waste-water for vegetables and fruits
+http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8,http://www.w3.org/2000/01/rdf-schema#label,Food safety postharvest technology
+http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8,http://purl.org/dc/elements/1.1/source,https://asset1.basecamp.com/1766833/projects/528208-caadp-cgiar-mapping/attachments/34150405/44900a604d8b84945ada1d2b996031b09be8abe7/original/Response%20from%20CGIAR%20to%20USAID%20Request%20for%20comments%20on%20Scalable%20Agricultural%20Technologies%20-01-07-2013.pd
+http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/mz1MQTXWg56Ubhza0K5jx
+http://webprotege.stanford.edu/classes/CwIZe520rubmtdea9tV7oI,http://purl.org/dc/elements/1.1/description,Combined CMD and CBSD varieties.
+http://webprotege.stanford.edu/classes/CwIZe520rubmtdea9tV7oI,http://www.w3.org/2000/01/rdf-schema#label,Virus resistant locally adapted cassava
+http://webprotege.stanford.edu/classes/CwIZe520rubmtdea9tV7oI,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/CwIZe520rubmtdea9tV7oI,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/75EDe3hT0v3SWCfmDwkFTT,http://www.w3.org/2000/01/rdf-schema#label,Gene preservation of local dryland livestock
+http://webprotege.stanford.edu/classes/75EDe3hT0v3SWCfmDwkFTT,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/75EDe3hT0v3SWCfmDwkFTT,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/daoiKHuXafcPVsTzEiEx0
+http://webprotege.stanford.edu/classes/DGNOD8SUEK5VhaEw5r044R,http://www.w3.org/2000/01/rdf-schema#label,Fishery technology
+http://webprotege.stanford.edu/classes/DGNOD8SUEK5VhaEw5r044R,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/DGNOD8SUEK5VhaEw5r044R,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/9lD9Ec9FkQfxxRh8lUOAs9,http://purl.org/dc/elements/1.1/description,"Large seeded, high yielding pigeon pea. Yields from 1.5 to 3.5 tons/ha. New varieties would yield $185-325/ha in East and Southern Africa, and $130-$255/ha in India and Myanmar."
+http://webprotege.stanford.edu/classes/9lD9Ec9FkQfxxRh8lUOAs9,http://www.w3.org/2000/01/rdf-schema#label,High-yielding pigeon pea varieties
+http://webprotege.stanford.edu/classes/9lD9Ec9FkQfxxRh8lUOAs9,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/9lD9Ec9FkQfxxRh8lUOAs9,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8iUQ77fP8avCq8gioYK6bT
+http://webprotege.stanford.edu/classes/v6zKwVnYvYDVovjT5m53H,http://www.w3.org/2000/01/rdf-schema#label,Cost-effective vaccine production
+http://webprotege.stanford.edu/classes/v6zKwVnYvYDVovjT5m53H,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/v6zKwVnYvYDVovjT5m53H,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/lXnOOTdzUVfwtYAaWN9v4
+http://webprotege.stanford.edu/classes/9qFq9IciWaUJ759JWqunv5,http://www.w3.org/2000/01/rdf-schema#label,Hybrid pearl millet varieties
+http://webprotege.stanford.edu/classes/9qFq9IciWaUJ759JWqunv5,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/9qFq9IciWaUJ759JWqunv5,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/BEeQSah46LZxubueHD8Y8Q,http://www.w3.org/2000/01/rdf-schema#label,Hybrid maize varieties
+http://webprotege.stanford.edu/classes/BEeQSah46LZxubueHD8Y8Q,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/BEeQSah46LZxubueHD8Y8Q,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/9JF1dp6CdEoSQW6XbRsK2s,http://www.w3.org/2000/01/rdf-schema#label,Disease-resistant early-maturing peanut varieties
+http://webprotege.stanford.edu/classes/9JF1dp6CdEoSQW6XbRsK2s,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/9JF1dp6CdEoSQW6XbRsK2s,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/85JJBaowapR4XlUr6s0zly,http://www.w3.org/2000/01/rdf-schema#label,Hybrid white and yellow maize varieties
+http://webprotege.stanford.edu/classes/85JJBaowapR4XlUr6s0zly,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/85JJBaowapR4XlUr6s0zly,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/C9audUT9TwW1Tn9X37j0Cu,http://www.w3.org/2000/01/rdf-schema#label,Mobile technology
+http://webprotege.stanford.edu/classes/C9audUT9TwW1Tn9X37j0Cu,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/C9audUT9TwW1Tn9X37j0Cu,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/BhppG77PlWOUQ8cTw0PHjL
+http://webprotege.stanford.edu/classes/9EfahiBfsq9c56ADVtK40e,http://www.w3.org/2000/01/rdf-schema#label,Hybrid guinea-type sorghum varieties
+http://webprotege.stanford.edu/classes/9EfahiBfsq9c56ADVtK40e,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/9EfahiBfsq9c56ADVtK40e,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/daoiKHuXafcPVsTzEiEx0,http://www.w3.org/2000/01/rdf-schema#label,Breeding technology
+http://webprotege.stanford.edu/classes/daoiKHuXafcPVsTzEiEx0,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/daoiKHuXafcPVsTzEiEx0,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I
+http://webprotege.stanford.edu/classes/C8kCgHFpYTRRr8RLt5EMxY,http://purl.org/dc/elements/1.1/description,some work on orange-fleshed sweet potatoes by CIP and putting together cereals with pulses \u2013 cassava with soybean and cowpea by IITA and probably other examples)\n\nsource:f
+http://webprotege.stanford.edu/classes/C8kCgHFpYTRRr8RLt5EMxY,http://www.w3.org/2000/01/rdf-schema#label,Nutritional quality
+http://webprotege.stanford.edu/classes/C8kCgHFpYTRRr8RLt5EMxY,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/C8kCgHFpYTRRr8RLt5EMxY,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/mz1MQTXWg56Ubhza0K5jx
+http://webprotege.stanford.edu/classes/71tZ99147KkXFFftjqRocY,http://www.w3.org/2000/01/rdf-schema#label,Food technology
+http://webprotege.stanford.edu/classes/71tZ99147KkXFFftjqRocY,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/71tZ99147KkXFFftjqRocY,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/CZNp425nkwRtXTBG34EJkn,http://www.w3.org/2000/01/rdf-schema#label,Mobile Market Information Systems
+http://webprotege.stanford.edu/classes/CZNp425nkwRtXTBG34EJkn,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/CZNp425nkwRtXTBG34EJkn,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/C9audUT9TwW1Tn9X37j0Cu
+http://webprotege.stanford.edu/classes/8LdQZnwppCclGiyN6SEIXs,http://www.w3.org/2000/01/rdf-schema#label,Identification of camel diseases
+http://webprotege.stanford.edu/classes/8LdQZnwppCclGiyN6SEIXs,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8LdQZnwppCclGiyN6SEIXs,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/DYgn67vmlg4y37C8dMkFar
+http://webprotege.stanford.edu/classes/7ht2DGhyfn7xAnDzpngtwC,http://www.w3.org/2000/01/rdf-schema#label,Optimized breed selection of local dryland livestock
+http://webprotege.stanford.edu/classes/7ht2DGhyfn7xAnDzpngtwC,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/7ht2DGhyfn7xAnDzpngtwC,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/daoiKHuXafcPVsTzEiEx0
+http://webprotege.stanford.edu/classes/86dMdwmtkRlsaGCdg5l4Cj,http://www.w3.org/2000/01/rdf-schema#label,Pastoral field schools (PFS)
+http://webprotege.stanford.edu/classes/86dMdwmtkRlsaGCdg5l4Cj,http://purl.org/dc/elements/1.1/source,"FAO and VSF Belgium. 2009. Pastoralist Field School - Guidelines for Facilitation. ECHO funded Regional Drought Preparedness Project, Food and Agriculture Organization of the United Nations, Rome, Italy and V\xe9t\xe9rinaires Sans Fronti\xe8res Belgium, Nairobi, Kenya."
+http://webprotege.stanford.edu/classes/86dMdwmtkRlsaGCdg5l4Cj,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/86dMdwmtkRlsaGCdg5l4Cj,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/CDlInBHfUiFLoXICVTDjee
+http://webprotege.stanford.edu/classes/DWS3IPm3of4ubLUUHkz7Q5,http://www.w3.org/2000/01/rdf-schema#label,Local participation in breed enhancement
+http://webprotege.stanford.edu/classes/DWS3IPm3of4ubLUUHkz7Q5,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/DWS3IPm3of4ubLUUHkz7Q5,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/daoiKHuXafcPVsTzEiEx0
+http://webprotege.stanford.edu/classes/Dp8N2deSE6Un3LOlB0lspW,http://www.w3.org/2000/01/rdf-schema#label,Aflatoxins related postharvest technology
+http://webprotege.stanford.edu/classes/Dp8N2deSE6Un3LOlB0lspW,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/Dp8N2deSE6Un3LOlB0lspW,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/BBI0VKyqZlm1jHjPkSytX8
+http://purl.org/dc/elements/1.1/source,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq,http://www.w3.org/2000/01/rdf-schema#comment,the application of the knowledge and usage of tools (such as machines or utensils) and techniques to control one's environment)
+http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq,http://purl.org/dc/elements/1.1/source,http://aims.fao.org/aos/agrovoc/c_7644
+http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq,http://www.w3.org/2000/01/rdf-schema#label,Technology
+http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq,http://purl.org/dc/elements/1.1/description,the application of the knowledge and usage of tools and techniques to resolve practical problems
+http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.w3.org/2002/07/owl#Thing
+http://webprotege.stanford.edu/classes/8i3HZhkC8tWSTsxy85Oqur,http://www.w3.org/2000/01/rdf-schema#label,Disease-resistant bush and climbing beans
+http://webprotege.stanford.edu/classes/8i3HZhkC8tWSTsxy85Oqur,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/8i3HZhkC8tWSTsxy85Oqur,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/JLSGOW0e3DyeGXAKhpshb
+http://webprotege.stanford.edu/classes/rI6F8p61T4mqxS29iKJrm,http://www.w3.org/2000/01/rdf-schema#label,Economic and policy technology
+http://webprotege.stanford.edu/classes/rI6F8p61T4mqxS29iKJrm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/rI6F8p61T4mqxS29iKJrm,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/Cfh51NJDDtBMEKuhZsJqnG,http://www.w3.org/2000/01/rdf-schema#label,Educational technology
+http://webprotege.stanford.edu/classes/Cfh51NJDDtBMEKuhZsJqnG,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/Cfh51NJDDtBMEKuhZsJqnG,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://purl.org/dc/elements/1.1/description,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://webprotege.stanford.edu/classes/VFn1d8T7HhTYr1artgOU3,http://www.w3.org/2000/01/rdf-schema#label,Private sector animal health delivery systems
+http://webprotege.stanford.edu/classes/VFn1d8T7HhTYr1artgOU3,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/VFn1d8T7HhTYr1artgOU3,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/lXnOOTdzUVfwtYAaWN9v4
+http://webprotege.stanford.edu/classes/mz1MQTXWg56Ubhza0K5jx,http://www.w3.org/2000/01/rdf-schema#label,Postharvest technology
+http://webprotege.stanford.edu/classes/mz1MQTXWg56Ubhza0K5jx,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/mz1MQTXWg56Ubhza0K5jx,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/yuh8Y111CjAVwRiRSNkb6,http://purl.org/dc/elements/1.1/description,"25% yield gains for almost 4.5 million farm families each farming an average of roughly 1 ha; New varieties would yield $370-$540/ha in East Africa and $375-$450/ha in South \nAsia (India, Bangladesh, Burma)"
+http://webprotege.stanford.edu/classes/yuh8Y111CjAVwRiRSNkb6,http://www.w3.org/2000/01/rdf-schema#label,High-yielding chickpea varieties
+http://webprotege.stanford.edu/classes/yuh8Y111CjAVwRiRSNkb6,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/yuh8Y111CjAVwRiRSNkb6,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8iUQ77fP8avCq8gioYK6bT
+http://webprotege.stanford.edu/classes/OCpetIYO3pn3SSfD0xS5t,http://www.w3.org/2000/01/rdf-schema#label,Alternative basic education for nomadic communities
+http://webprotege.stanford.edu/classes/OCpetIYO3pn3SSfD0xS5t,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/OCpetIYO3pn3SSfD0xS5t,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/Bl4ZFTOzAQWtu50MWtnk7I
+http://webprotege.stanford.edu/classes/7nbz18N4JeCv8vvunir7AJ,http://purl.org/dc/elements/1.1/description,the manipulation of matter on an atomic and molecular scale
+http://webprotege.stanford.edu/classes/7nbz18N4JeCv8vvunir7AJ,http://www.w3.org/2000/01/rdf-schema#label,Nanotechnology
+http://webprotege.stanford.edu/classes/7nbz18N4JeCv8vvunir7AJ,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/7nbz18N4JeCv8vvunir7AJ,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8dxcAtiikgfZteVqRi1MTq
+http://webprotege.stanford.edu/classes/7ittoJFekf1e7SgpQr9Kdr,http://www.w3.org/2000/01/rdf-schema#label,Seed technology
+http://webprotege.stanford.edu/classes/7ittoJFekf1e7SgpQr9Kdr,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/7ittoJFekf1e7SgpQr9Kdr,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/RBhTOO287qEJriGVs4pNv
+http://webprotege.stanford.edu/classes/Dp32lasumTmdDEcU85BMRl,http://www.w3.org/2000/01/rdf-schema#label,Rust-resistant wheat varieties
+http://webprotege.stanford.edu/classes/Dp32lasumTmdDEcU85BMRl,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/Dp32lasumTmdDEcU85BMRl,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/CndjKJuqf4zA3Ib52AMnZy
+http://webprotege.stanford.edu/classes/pFSSogk3jvDXf7Sgamt57,http://www.w3.org/2000/01/rdf-schema#label,Forage Seed Multiplication Sites
+http://webprotege.stanford.edu/classes/pFSSogk3jvDXf7Sgamt57,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://webprotege.stanford.edu/classes/pFSSogk3jvDXf7Sgamt57,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://webprotege.stanford.edu/classes/8Uznn5OWlYw6H69VCOVC62

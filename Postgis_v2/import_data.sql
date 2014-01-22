@@ -34,11 +34,29 @@ update crp_activities set cg_program = 15 where cg_program_tmp = 'CRP 4';
 update crp_activities set cg_slo = 'CG-SLO-3' where cg_program_tmp = 'CRP 4';
 
 # update CG IDOs, CRP IDOs
+update crp_activities set cg_ido = 'CRP4-IDO-02' where remarks = 'Agriculture Associated Diseases(theme)' and cg_program_tmp = 'CRP 4';
+update crp_activities set cg_ido = 'CRP4-IDO-01', cg_crp_ido = 'CG-IDO-03' where remarks = 'Biofortification(theme)'  and cg_program_tmp = 'CRP 4';
+update crp_activities set cg_ido = 'CRP4-IDO-04', cg_crp_ido = 'CG-IDO-08' where remarks = 'Integrated Programs and Policies(theme)' and cg_program_tmp = 'CRP 4';
+update crp_activities set cg_ido = 'CRP4-IDO-01', cg_crp_ido = 'CG-IDO-03' where remarks = 'Nutrition Sensitive Value Chains(theme)' and cg_program_tmp = 'CRP 4';
+update crp_activities set cg_ido = 'CRP4-IDO-03', cg_crp_ido = 'CG-IDO-05' where lower(title) like '%gender%' and cg_program_tmp = 'CRP 4';
+
+# update technologies, commodities
+update crp_activities a set cg_technology = (select string_agg(t.id::varchar,'|') from cg_technologies t where
+lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',1)) or
+lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',2)) or
+lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',3))) where cg_program_tmp = 'CRP 4';
+
+# input data updates (coming from technology vocabulary changes)
+
+select cg_technology, cg_technology_tmp from crp_activities;
+select distinct cg_technology_tmp from crp_activities a where not exists ( select 1 from cg_technologies t where lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',1)) or
+lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',2)) or
+lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',3)))
 
 # update contacts ids - from cg_contacts table
 update crp_activities a set contact_id = (select string_agg(c.id::varchar,'|') from cg_contacts c where
 position(lower(c.person_name_first) in lower(a.contact_tmp)) > 0
-and position(lower(c.person_name_last) in lower(a.contact_tmp)) > 0);
+and position(lower(c.person_name_last) in lower(a.contact_tmp)) > 0) where cg_program_tmp = 'CRP 4';
 
 # update Partners - trim pipes ("|")
 update crp_activities set participating_org_tmp = trim(both '|' from participating_org_tmp);
@@ -51,7 +69,7 @@ create index dg_crp4_geocoding_geom_gist ON dg_crp4_geocoding USING GIST (geom);
 
 # add temp act_id
 alter table dg_crp4_geocoding add column act_id integer;
-update dg_crp4_geocoding g set g.act_id = (select id from crp_activities a where a.cg_identifier = g.source_project_id);
+update dg_crp4_geocoding g set act_id = (select id from crp_activities a where a.cg_identifier = g.source_project_id);
 
 # insert into crp_location table
 delete from crp_locations;
@@ -66,12 +84,12 @@ select g.act_id, adm0_code, adm0_name, adm1_code, adm1_name, adm2_code,adm2_name
     select adm2_code::numeric from g13122 where  ST_Intersects(g.geom, g13122.geom) and (g.precision = '3' or g.precision = '1'));
 
 # update location_reach and cg_location_class
-update crp_locations set cg_location_class = '1' where exists (select 1 from crp_activities where crp_activities.id = crp_locations.act_id and crp_activities.cg_program = 'CRP 4');
+update crp_locations set cg_location_class = '1' where exists (select 1 from crp_activities where crp_activities.id = crp_locations.act_id and crp_activities.cg_program_tmp = 'CRP 4');
 
-update crp_locations set cg_location_reach = '101' where exists (select 1 from crp_activities where crp_activities.id = crp_locations.act_id and crp_activities.cg_program = 'CRP 4');
-select * from crp_locations l where exists (select 1 from crp_activities a where a.id = l.act_id);
+update crp_locations set cg_location_reach = '101' where exists (select 1 from crp_activities where crp_activities.id = crp_locations.act_id and crp_activities.cg_program_tmp = 'CRP 4');
 
-# update cg_identifier later
+
+# update cg_identifier - later
 # select replace ('CRP4_3', 'CRP4_', '');
 # update crp_activities set cg_identifier = replace(cg_identifier, 'CRP4_', '')
 
