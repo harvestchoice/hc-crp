@@ -1,0 +1,117 @@
+id,name,parent_id
+1852,Economics & Policy ,0
+2658,Governance and Institution,1852
+2298,Public sector support,1852
+2254,Private sector Support,1852
+2187,Market access,1852
+1853,Agroindustry,1852
+1854,Economic development,1852
+2659,Public investment,1854
+1856,Trade,1852
+1857,Marketing & Commodities,1852
+2281,Infrastructure,1852
+2210,Monitoring and Evaluation,1852
+2260,Policy,1852
+1858,Education and Extension ,0
+1860,Education,1858
+1861,Extension,1858
+2221,Capacity building,1858
+1862,Training,2221
+1863,Energy,0
+1864,Biofuels,1863
+1865,"Engineering,  Technology & Research ",0
+2675,Mechanization,1865
+5266,Agricultural engineering,1865
+1866,Biotechnology,1865
+1867,Geographical information systems,1865
+1868,Postharvest technology,1865
+1869,Research,1865
+1870,Statistics,1865
+1871,Farming practices & Systems ,0
+2660,Storage & Processing,1871
+2189,Sustainable land management,1871
+1872,Farm management,0
+2636,Nutrient management,1872
+1873,Farming systems,1871
+2328,Land use,1871
+2661,Urban and peri-urban agriculture,1871
+1875,Fisheries & Aquaculture ,0
+3250,Fish health,1875
+3245,Fish genetic resources and Breeding,1875
+3240,Fish production,1875
+1876,Aquaculture,1875
+1878,Ecosystems,1875
+3248,Fish diseases and Control,1875
+1893,Forestry ,0
+1894,Assessment and Monitoring,1893
+1896,Forest management,1893
+1897,Forest products & Services,1893
+1898,Forest resources,1893
+1887,Food safety,0
+1889,Food additives,1887
+1890,Food composition,1887
+1881,Food security,0
+5961,Social safety net,1881
+1882,Agricultural situation and Early warning,1881
+1883,Emergency relief & Food aid,1881
+5523,Drought emergency management,1883
+1884,Ethics,1881
+1885,Food supply,1881
+1886,International cooperation,1881
+2650,Human nutrition and health,0
+1888,Diet and Nutrition,2650
+1891,Nutrition education,1888
+2649,Biofortification,1888
+5963,Human health care,2650
+5962,Sanitation,2650
+2651,Human disease,2650
+2652,Agriculture associated disease,2651
+1911,Information management ,0
+1912,Databases & Information systems,1911
+1913,Documentation,1911
+1914,Early warning systems,1911
+1915,Geographical information systems,1911
+1916,Information science,1911
+1905,Government  administration and Legislation administration,0
+1906,Administration,1905
+5401,Conflict management,1905
+1907,Agricultural and rural legislation,1905
+1908,Environmental legislation,1905
+1909,Fisheries legislation,1905
+1910,Food legislation,1905
+1917,Natural resources & Environment ,0
+2335,Natural resource management,1917
+2333,Conservation agriculture,1917
+2188,Water management,1917
+2601,Wastewater management,2188
+1918,Biodiversity,1917
+1919,Climate change,1917
+1920,Desertification,1917
+1921,Drainage & Irrigation,1917
+1922,Ecology & Ecosystems,1917
+1923,Plant production & Protection ,0
+1924,Crops & Crop management,1923
+2331,Crop pests and Diseases,1923
+1926,Integrated pest management,2331
+1928,Pest control & Pesticides,1926
+2627,Post harvest management,1923
+1925,Fertilizers,1923
+1927,Irrigation,1923
+2248,Productivity improvement,1923
+2623,Precision agriculture,2248
+2634,Conservation agriculture,2248
+2626,Plant genetic resources & Breeding,1923
+1929,Rural & Social Development ,0
+2213,Rural dvelopment,1929
+2285,Rural financial system,1929
+1930,Gender,1929
+1931,HIV/AIDS,1929
+1932,Households,1929
+1933,Participation,1929
+1934,Poverty,1929
+1846,Animal Production & Health ,0
+1847,Animal Health,1846
+1848,Animal diseases and Control,1846
+1849,Animal genetic resources and Breeding,1846
+1850,Animal nutrition & Feeds,1846
+1851,Animal production,1846

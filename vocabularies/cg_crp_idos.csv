@@ -1,0 +1,93 @@
+id	cg_ido_id	name
+CRP1.1-IDO-01	CG-IDO-07	Adaptive Capacity: More resilient livelihoods for vulnerable households in marginal areas
+CRP1.1-IDO-02	CG-IDO-04	Income: More stable and higher per capita income for intensifiable households
+CRP1.1-IDO-03	CG-IDO-03	Nutrition & Health: Women and children in vulnerable households have year round access to greater quantity and diversity of food sources
+CRP1.1-IDO-04		More sustainable and equitable management of land and water resources in pastoral and agropastoral systems
+CRP1.1-IDO-05		Better functioning markets underpinning intensification of rural livelihoods
+CRP1.1-IDO-06		More integrated, effective and connected service delivery institutions underpinning resilience and system intensification.
+CRP1.1-IDO-07	CG-IDO-08	Policy/Institutions: Policy reform removing constraints and creating incentives for rural households to engage in more sustainable practices that improve resilience and intensify production
+CRP1.2-IDO-01	CG-IDO-04	Income: Increased and more equitable Income from agriculture for rural poor farm families, with special focus on rural women
+CRP1.2-IDO-02	CG-IDO-03	Nutrition & Health: Increased consumption of safe, nutritious foods by the poor, especially among nutritionally vulnerable women and children
+CRP1.2-IDO-03	CG-IDO-01	Productivity / Yield: Increased total factor productivity of integrated systems
+CRP1.2-IDO-04	CG-IDO-09	Environment: Reduced adverse environmental effects of integrated systems intensification and diversification
+CRP1.2-IDO-05	CG-IDO-05	Gender: Increased control by women and other marginalized groups over integrated systems assets, inputs, decision-making and benefits
+CRP1.2-IDO-06	CG-IDO-06	Capacity to Innovate: Increased capacity for integrated systems to innovate and bring social and technical solutions to scale
+CRP1.3-IDO-01	CG-IDO-04	Income: Increased and more equitable income from agricultural and natural resource management and environmental services earned by low income value chain actors in aquatic agricultural systems
+CRP1.3-IDO-02	CG-IDO-03	Nutrition & Health: Increased consumption of nutritious, safe foods by low income households in aquatic agricultural systems, especially by nutritionally vulnerable women and children
+CRP1.3-IDO-03	CG-IDO-01	Productivity: Improved productivity in aquatic agricultural systems (water and total factor productivity)
+CRP1.3-IDO-04	CG-IDO-05	Gender: Increased control of assets, inputs, decision-making and benefits by women and other marginalized groups in aquatic agricultural systems
+CRP1.3-IDO-05	CG-IDO-06	Capacity to Innovate: Increased capacity to innovate within low income and vulnerable rural communities in aquatic agricultural systems allowing them to seize new opportunities to improve livelihoods and increase household income
+CRP1.3-IDO-06	CG-IDO-07	Adaptive Capacity: Increased capacity to adapt to environmental and economic variability, shocks and longer term changes in low income communities in aquatic agricultural systems
+CRP1.3-IDO-07	CG-IDO-10	Future Options: Greater resilience of aquatic agricultural systems through enhanced ecosystem services
+CRP2-IDO-01	CG-IDO-08	Improved prioritization of global agricultural research effort for developing countries.
+CRP2-IDO-02	CG-IDO-08	In selected countries of focus, attainment of target levels of investment in agricultural research and rates of return to research that at least meet global averages
+CRP2-IDO-03	CG-IDO-08	Increased adoption of superior technologies and management practices in relevant domains of application
+CRP2-IDO-04	CG-IDO-08	Improved sectoral policy and better public spending for agriculture in agriculturally-dependent developing countries
+CRP2-IDO-05	CG-IDO-08	Strengthened value chains that link producers and consumers with lower transactions costs, increased inclusion of smallholders, and provision of benefits to both women and men
+CRP2-IDO-06	CG-IDO-08	Improved design and coverage of social protection programs with particular emphasis on vulnerable rural populations
+CRP2-IDO-07	CG-IDO-08	Improved use of scientific evidence in decision processes related to sustainability of natural resources important for rural livelihoods
+CRP3.1-IDO-01		Accelerated varieties release scaled out
+CRP3.1-IDO-02	CG-IDO-09	Environment: Farmers minimize unsustainable effects on soil, environment and improve their household income and livelihoods
+CRP3.1-IDO-03		Farmers have more and better access to quality seed and use them
+CRP3.1-IDO-04	CG-IDO-01	Productivity: Smallholders' modern wheat varieties translates into higher, more stable yields in WHEAT target regions
+CRP3.1-IDO-05	CG-IDO-01	Productivity: Faster and more significant genetic gains in better breeding programs worldwide, using more effective approaches for complex traits
+CRP3.2-IDO-01	CG-IDO-01	Productivity: Increased productivity and stability of farming systems
+CRP3.2-IDO-02	CG-IDO-04	Income: Increased and more equitable income for men and women smallholder farmers from adopting improved maize varieties
+CRP3.2-IDO-03	CG-IDO-01	Productivity: Increased yields of maize for smallholder farmers
+CRP3.2-IDO-04	CG-IDO-03	Nutrition & Health: Increased nutritional diet
+CRP3.2-IDO-05	CG-IDO-01	Productivity: Reduced post-harvest losses
+CRP3.2-IDO-06		Reduced aflatoxin in maize value chain
+CRP3.3-IDO-01	CG-IDO-01	Productivity: Increased rice yield
+CRP3.3-IDO-02	CG-IDO-01	Productivity: Increased rice productivity (or resource-use efficiency) (also Environment)
+CRP3.3-IDO-03	CG-IDO-04	Income: Decreased poverty of net rice consumers (urban and rural) and rice producers
+CRP3.3-IDO-04	CG-IDO-09	Environment: Increased sustainability and environmental quality of rice-based cropping systems
+CRP3.3-IDO-05		Improved efficiency and increased value in rice value chain
+CRP3.3-IDO-06	CG-IDO-03	Nutrition & Health: Improved nutrition status derived from rice consumption
+CRP3.3-IDO-07	CG-IDO-10	Future Options: Increased rice genetic diversity for current and future generations
+CRP3.3-IDO-08		Increased pro-poor and gender-equitable delivery systems for improved rice technologies
+CRP3.3-IDO-09	CG-IDO-05	Gender: Increased gender equity in the rice value chain
+CRP3.4-IDO-01	CG-IDO-01	Productivity: Improved productivity in smallholder RTB cropping systems
+CRP3.4-IDO-02	CG-IDO-02	Food Security: Increased and stable access to food commodities by rural & urban poor
+CRP3.4-IDO-03	CG-IDO-04	Income: Increased and more gender-equitable income for poor participants in RTB value chains
+CRP3.4-IDO-04	CG-IDO-03	Nutrition & Health: Increased consumption of safe and nutritious food by the poor especially among the nutritionally vulnerable women and children
+CRP3.4-IDO-05	CG-IDO-09	Environment: Minimized adverse environmental effects of increased RTB production, processing and intensification
+CRP3.4-IDO-06	CG-IDO-10	Future Options: Improved ecosystem services for enhanced food system stability & sustaining novel genetic diversity for future use
+CRP3.4-IDO-07	CG-IDO-08	Policy/Institutions: Enabling policy environment supporting development and use of  pro-poor and gender inclusive RTB technologies
+CRP3.5-IDO-01	CG-IDO-02	Food Security: Improved and stable access to grain legumes by urban and rural poor
+CRP3.5-IDO-02	CG-IDO-04	Income: Increased and more equitable income from grain legumes by low income value chain actors, especially women
+CRP3.5-IDO-03	CG-IDO-03	Nutrition & Health: Increased consumption of healthy grain legumes and products by the poor for a more balanced  and nutritious diet, especially among nutritionally vulnerable women and children
+CRP3.5-IDO-04	CG-IDO-01	Productivity: Improved productivity of farming systems, especially among smallholder farmers
+CRP3.5-IDO-05	CG-IDO-09	Environment: Minimized adverse environmental effects of increased production and intensification of grain legumes
+CRP3.6-IDO-01	CG-IDO-01	Productivity: Improved productivity of dryland cereals in smallholder farming systems in Africa and Asia
+CRP3.6-IDO-02	CG-IDO-02	Food Security: Increased and stable access to dryland cereal food, feed and fodder  by  the  poor,  especially  nutritionally vulnerable rural  women and children
+CRP3.6-IDO-03	CG-IDO-03	Nutrition & Health: Increased consumption of nutritious dryland cereals by the poor, especially rural women and children
+CRP3.6-IDO-04	CG-IDO-04	Income: Increased and more equitable income from marketing dryland cereal grain, fodder and products by low income value chain actors, especially smallholder women farmers
+CRP3.6-IDO-05	CG-IDO-07	Adaptive Capacity: Increased capacity to adapt to environmental variability and longer term changes in low income communities in Africa and Asia
+CRP3.7-IDO-01	CG-IDO-01	Productivity: Increased livestock and fish productivity in small-scale production systems for the target commodities (SLO2)
+CRP3.7-IDO-02	CG-IDO-02	Food Security: Increased quantity and improved quality of the target commodity supplied from the target small-scale production and marketing systems (SLO2)
+CRP3.7-IDO-03	CG-IDO-04	Income: Increased employment and income for low- income actors in the target value chains, with an increased share of employment for and income controlled by low-income women (SLO1)
+CRP3.7-IDO-04	CG-IDO-03	Nutrition & Health: Increased consumption of the target commodity responsible for filling a larger share of the nutrient gap for the poor, particularly for nutritionally vulnerable populations (women of reproductive age and young children) (SLO3)
+CRP3.7-IDO-05	CG-IDO-11	Climate: Lower environment impacts produced in the target value chains (SLO4)
+CRP3.7-IDO-06	CG-IDO-08	Policies/Institutions: Policies (including investments) support the development of small-scale production and marketing systems, and seek to increase the participation of women within these value chains (SLO2)
+CRP4-IDO-01	CG-IDO-03	Nutrition & Health: Better diet quality
+CRP4-IDO-02		Reduced exposure to agriculture related diseases
+CRP4-IDO-03	CG-IDO-05	Gender: Empowerment
+CRP4-IDO-04	CG-IDO-08	Policies/Institutions: Better policies, programs and investments
+CRP5-IDO-01	CG-IDO-01	Productivity: Sustainable increases in land, water and energy productivity in rainfed and irrigated agroecosystems
+CRP5-IDO-02	CG-IDO-04	Income: Increased and more equitable income from agricultural and natural resources management and ecosystem services in rural and peri-urban areas
+CRP5-IDO-03	CG-IDO-05	Gender: Women and marginalized groups have improved decision making power over and increased benefits derived from agriculture and natural resources
+CRP5-IDO-04	CG-IDO-07	Adaptive Capacity: Increased ability of low income communities to adapt to environmental and economic variability, demographic shifts, shocks and long-term changes
+CRP5-IDO-05	CG-IDO-10	Future Options: Increased resilience of communities through enhanced ecosystem services in agricultural landscapes
+CRP6-IDO-01	CG-IDO-08	Policy/Institutions: Policies and practices supporting sustainable and equitable management of forests and trees developed and adopted by conservation and development organizations, national governments and international bodies. (ALL SLOs)
+CRP6-IDO-02	CG-IDO-08	Policy/Institutions: Local institutions strengthened and collective action enhanced for improved forest and tree management in landscapes. (All SLOs)
+CRP6-IDO-03	CG-IDO-05	Gender: Greater gender equity in decision-making and control over forest and tree use, management and benefits are improved through women's empowerment. (ALL SLOs)
+CRP6-IDO-04	CG-IDO-04	Income: Income from products and environmental services derived from forests, trees and agroforestry systems enhanced. (SLO1)
+CRP6-IDO-05	CG-IDO-02	Food Security: production and availability of foods and fuel and other products from FTA systems increased for poor dependent people. (SLO2, SLO3)
+CRP6-IDO-06	CG-IDO-07	Adaptive Capacity: Resilience to environmental and economic variability, shocks and longer term changes of rural communities enhanced through greater adaptive capacity to manage FTA systems. (SLO4)
+CRP6-IDO-07	CG-IDO-10	Future Options: Biodiversity and ecosystem services (including carbon sequestration) from forests and trees conserved or improved in key target countries. (SLO 4)
+CRP7-IDO-01	CG-IDO-05	Gender: Empowerment of women and marginalised groups through (a) increased access to and control over productive assets, inputs, information, food and markets and (b) strengthened participation in decision-making processes
+CRP7-IDO-02	CG-IDO-07	Adaptive capacity: Increased capacity in low-income communities (and supporting organisations) to adapt to climate variability, shocks and longer-term changes leading to more climate-resilient livelihoods
+CRP7-IDO-03	CG-IDO-08	Policies/Institutions: Policies supporting sustainable, resilient and equitable agricultural and natural resource management developed, adopted and implemented by agricultural, natural resource management, conservation and development organizations, civil society and advocacy organisations and networks, national governments and international bodies
+CRP7-IDO-04	CG-IDO-02	Food security: Increased and stable access to food commodities by rural and urban poor
+CRP7-IDO-05	CG-IDO-11	Climate: Agricultural and natural resources development in key target countries reduce the emissions intensity of greenhouse gases and increase carbon sequestration
+
