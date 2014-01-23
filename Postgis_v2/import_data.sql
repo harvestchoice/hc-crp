@@ -93,29 +93,31 @@ update crp_locations set cg_location_reach = '101' where exists (select 1 from c
 
 ** Import data CRP2 into crp_activities and crp_locations; data from Pascale Sabbagh, deogoded by DG
 # use tmp table not to overflow serial key because of delete operations
-
+delete from crp_activities_tmp;
 insert into crp_activities_tmp (cg_identifier, act_date_start_planned, act_date_end_planned, contact_tmp, reporting_org_tmp, reporting_org_type_tmp, participating_org_tmp, description, budget_value, cg_program_tmp, cg_technology_tmp,
-cg_commodity_tmp, project_website, remarks)
+cg_commodity_tmp, project_website, cg_remarks)
 select "activity code" as cg_identifier, "activity start date"::date as act_date_start_planned, "activity end date"::date as act_date_end_planned,
 "contact name" as contact_tmp, "reporting organization" as reporting_org_tmp, "reporting organization type" as reporting_org_type_tmp,
 partners as participating_org_tmp, description, NULLIF("activity budget",'')::int as budget_value,
-'CRP 4' as cg_program_tmp, "target technology(ies)" as cg_technology_tmp, commodity as cg_commodity_tmp,
-website as project_website, theme || '(theme)' as remarks from dg_crp4_activity_analysis;
+'CRP 2' as cg_program_tmp, "target technology(ies)" as cg_technology_tmp, commodity as cg_commodity_tmp,
+website as project_website, theme || '(theme)' as cg_remarks from dg_crp2_activity_analysis;
 
 # update title, source, cg_program
 update crp_activities set title = (select title from dg_crp4_geocoding where dg_crp4_geocoding.source_project_id = crp_activities.cg_identifier limit 1) where cg_program_tmp = 'CRP 4';
-update crp_activities set source = (select "source detail" || 'Pascale Sabbagh (IFPRI)' from dg_crp4_geocoding where dg_crp4_geocoding.source_project_id = crp_activities.cg_identifier limit 1) where cg_program_tmp = 'CRP 4';
-update crp_activities set cg_program = 15 where cg_program_tmp = 'CRP 4';
+update crp_activities set cg_source = (select "source detail" || 'Amanda Wyatt (IFPRI)' from dg_crp4_geocoding where dg_crp4_geocoding.source_project_id = crp_activities.cg_identifier limit 1) where cg_program_tmp = 'CRP 4';
+update crp_activities set cg_program = 'CRP-4' where cg_program_tmp = 'CRP 4';
 update crp_activities set cg_slo = 'CG-SLO-3' where cg_program_tmp = 'CRP 4';
 
 # update CG IDOs, CRP IDOs
 update crp_activities set cg_ido = 'CRP4-IDO-02' where remarks = 'Agriculture Associated Diseases(theme)' and cg_program_tmp = 'CRP 4';
-update crp_activities set cg_ido = 'CRP4-IDO-01', cg_crp_ido = 'CG-IDO-03' where remarks = 'Biofortification(theme)'  and cg_program_tmp = 'CRP 4';
-update crp_activities set cg_ido = 'CRP4-IDO-04', cg_crp_ido = 'CG-IDO-08' where remarks = 'Integrated Programs and Policies(theme)' and cg_program_tmp = 'CRP 4';
-update crp_activities set cg_ido = 'CRP4-IDO-01', cg_crp_ido = 'CG-IDO-03' where remarks = 'Nutrition Sensitive Value Chains(theme)' and cg_program_tmp = 'CRP 4';
+update crp_activities set cg_ido = 'CRP4-IDO-01', cg_crp_ido = 'CG-IDO-03' where cg_remarks = 'Biofortification(theme)'  and cg_program_tmp = 'CRP 4';
+update crp_activities set cg_ido = 'CRP4-IDO-04', cg_crp_ido = 'CG-IDO-08' where cg_remarks = 'Integrated Programs and Policies(theme)' and cg_program_tmp = 'CRP 4';
+update crp_activities set cg_ido = 'CRP4-IDO-01', cg_crp_ido = 'CG-IDO-03' where cg_remarks = 'Nutrition Sensitive Value Chains(theme)' and cg_program_tmp = 'CRP 4';
 update crp_activities set cg_ido = 'CRP4-IDO-03', cg_crp_ido = 'CG-IDO-05' where lower(title) like '%gender%' and cg_program_tmp = 'CRP 4';
 
 # update technologies, commodities
+update crp_activities set cg_technology_tmp = replace(cg_technology_tmp, 'Education', 'Educational');
+update crp_activities set cg_technology_tmp = replace(cg_technology_tmp, 'Educational policy', 'Educational technology');
 update crp_activities a set cg_technology = (select string_agg(t.id::varchar,'|') from cg_technologies t where
 lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',1)) or
 lower(t.name) = lower(split_part(a.cg_technology_tmp,'|',2)) or
@@ -126,8 +128,11 @@ update crp_activities a set contact_id = (select string_agg(c.id::varchar,'|') f
 position(lower(c.person_name_first) in lower(a.contact_tmp)) > 0
 and position(lower(c.person_name_last) in lower(a.contact_tmp)) > 0) where cg_program_tmp = 'CRP 4';
 
-# update Partners - trim pipes ("|")
+# other updates: Partners - trim pipes ("|"), Source
 update crp_activities set participating_org_tmp = trim(both '|' from participating_org_tmp);
+update crp_activities set reporting_org_type = '70' where reporting_org_type_tmp = 'Private Sector (70)';
+update crp_activities set reporting_org_type = '21' where reporting_org_type_tmp = 'International NGO (21)';
+update crp_activities set cg_source = 'A4NH_where we work (updated 2013) - Amanda Wyatt (IFPRI), geocoded by DG - DG_CRP4_activity analysis.xlsx and DG_CRP4 geocoding.xlsx';
 
 # update location
 # add point geometry to dg_crp4_geocoding
@@ -155,19 +160,3 @@ select g.act_id, adm0_code, adm0_name, adm1_code, adm1_name, adm2_code,adm2_name
 update crp_locations set cg_location_class = '1' where exists (select 1 from crp_activities where crp_activities.id = crp_locations.act_id and crp_activities.cg_program_tmp = 'CRP 4');
 
 update crp_locations set cg_location_reach = '101' where exists (select 1 from crp_activities where crp_activities.id = crp_locations.act_id and crp_activities.cg_program_tmp = 'CRP 4');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
