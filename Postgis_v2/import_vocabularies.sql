@@ -78,7 +78,7 @@ sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpd
 
 - Organisation Role for /participating-org/@role>(IATI) and crp_activities.participating_org_role(PG) - not yet used
 wget "http://data.aidinfolabs.org/data/codelist/OrganisationRole/version/1.0/lang/en.csv" -O OrganisationRole.csv
-sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" OrganisationType.csv -nln iati_organisation_role
+sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" OrganisationRole.csv -nln iati_organisation_role
 
 - FileFormat for /document-link/@format(IATI) and crp_activities.document_format(PG) - dropped
 wget "http://data.aidinfolabs.org/data/codelist/FileFormat/version/1.0/lang/en.csv" -O FileFormat.csv
