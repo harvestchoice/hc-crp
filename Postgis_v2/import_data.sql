@@ -53,10 +53,11 @@ update crp_activities a set contact_id = (select string_agg(c.id::varchar,'|') f
 position(lower(c.person_name_first) in lower(a.contact_tmp)) > 0
 and position(lower(c.person_name_last) in lower(a.contact_tmp)) > 0) where cg_program_tmp = 'CRP 4';
 
-# update Partners - trim pipes ("|")
+# other updates: Partners - trim pipes ("|"), Source
 update crp_activities set participating_org_tmp = trim(both '|' from participating_org_tmp);
 update crp_activities set reporting_org_type = '70' where reporting_org_type_tmp = 'Private Sector (70)';
 update crp_activities set reporting_org_type = '21' where reporting_org_type_tmp = 'International NGO (21)';
+update crp_activities set cg_source = 'A4NH_where we work (updated 2013) - Amanda Wyatt (IFPRI), geocoded by DG - DG_CRP4_activity analysis.xlsx and DG_CRP4 geocoding.xlsx';
 
 # update location
 # add point geometry to dg_crp4_geocoding
@@ -84,7 +85,6 @@ select g.act_id, adm0_code, adm0_name, adm1_code, adm1_name, adm2_code,adm2_name
 update crp_locations set cg_location_class = '1' where exists (select 1 from crp_activities where crp_activities.id = crp_locations.act_id and crp_activities.cg_program_tmp = 'CRP 4');
 
 update crp_locations set cg_location_reach = '101' where exists (select 1 from crp_activities where crp_activities.id = crp_locations.act_id and crp_activities.cg_program_tmp = 'CRP 4');
-
 
 # update cg_identifier - later
 # select replace ('CRP4_3', 'CRP4_', '');
