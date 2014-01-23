@@ -31,7 +31,7 @@ cg_identifier text,
 title text,
 activity_status text default 2,
 last_updated date default CURRENT_TIMESTAMP,
-activity_hierarchy text default '103',
+cg_activity_hierarchy text default '103',
 iati_identifier text,
 act_date_start_planned date,
 act_date_start_actual date,
@@ -43,7 +43,12 @@ reporting_org text,
 reporting_org_type text,
 reporting_org_tmp text,
 reporting_org_type_tmp text,
+participating_org text,
+participating_org_type text,
+participating_org_role text,
 participating_org_tmp text,
+participating_org_type_tmp text,
+participating_org_role_tmp text,
 description text,
 budget_period_start date,
 budget_period_end date,
@@ -64,13 +69,11 @@ cg_technology_tmp text,
 cg_commodity text,
 cg_commodity_tmp text,
 document_url text,
-document_format text,
-document_category text,
 project_website text,
-source text,
-remarks text,
-internal_status text default 0,
-completeness integer );
+cg_source text,
+cg_remarks text,
+cg_internal_status text default 0,
+cg_completeness integer );
 
 ** Create contacts table
 CREATE TABLE cg_contacts (
@@ -124,8 +127,70 @@ participating_org_role text);
 cd ...crpdata/data_sources/crp_file_location
 sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=*** password=***" file.csv -nln tablename
 
+# Create tmp tables for temporary import of activities
+drop table crp_activities_tmp cascade;
+CREATE TABLE crp_activities_tmp (
+id serial primary key,
+cg_identifier text,
+title text,
+activity_status text default 2,
+last_updated date default CURRENT_TIMESTAMP,
+cg_activity_hierarchy text default '103',
+iati_identifier text,
+act_date_start_planned date,
+act_date_start_actual date,
+act_date_end_planned date,
+act_date_end_actual date,
+contact_id text,
+contact_tmp text,
+reporting_org text,
+reporting_org_type text,
+reporting_org_tmp text,
+reporting_org_type_tmp text,
+participating_org text,
+participating_org_type text,
+participating_org_role text,
+participating_org_tmp text,
+participating_org_type_tmp text,
+participating_org_role_tmp text,
+description text,
+budget_period_start date,
+budget_period_end date,
+budget_value integer,
+budget_value_currency integer,
+budget_value_date date,
+budget_collaboration_type text default '2',
+cg_program text,
+cg_program_tmp text,
+cg_slo text,
+cg_slo_tmp text,
+cg_ido text,
+cg_ido_tmp text,
+cg_crp_ido text,
+cg_crp_ido_tmp text,
+cg_technology text,
+cg_technology_tmp text,
+cg_commodity text,
+cg_commodity_tmp text,
+document_url text,
+project_website text,
+cg_source text,
+cg_remarks text,
+cg_internal_status text default 0,
+cg_completeness integer );
 
+drop table crp_locations_tmp cascade;
+CREATE TABLE crp_locations_tmp (
+id serial primary key,
+act_id integer,
+cg_location_reach text,
+cg_location_class text,
+adm0_code numeric,
+adm0_name text,
+adm1_code numeric,
+adm1_name text,
+adm2_code numeric,
+adm2_name text);
 
-
-
-
+alter table crp_activities_tmp owner to crpuser;
+alter table crp_locations_tmp owner to crpuser;
