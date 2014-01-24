@@ -74,6 +74,7 @@ cg_source text,
 cg_remarks text,
 cg_internal_status text default 0,
 cg_completeness integer );
+alter table crp_activities owner to crpuser;
 
 ** Create contacts table
 CREATE TABLE cg_contacts (
@@ -103,8 +104,6 @@ adm1_code numeric,
 adm1_name text,
 adm2_code numeric,
 adm2_name text);
-
-alter table crp_activities owner to crpuser;
 alter table crp_locations owner to crpuser;
 
 # Locations link table - store info the IATI way, in case at some point we want to conform to the standard's location structure (to revise)
@@ -178,6 +177,8 @@ cg_source text,
 cg_remarks text,
 cg_internal_status text default 0,
 cg_completeness integer );
+alter table crp_activities_tmp owner to crpuser;
+SELECT setval(pg_get_serial_sequence('crp_activities_tmp', 'id'), (SELECT MAX(id) FROM crp_activities));
 
 drop table crp_locations_tmp cascade;
 CREATE TABLE crp_locations_tmp (
@@ -191,6 +192,5 @@ adm1_code numeric,
 adm1_name text,
 adm2_code numeric,
 adm2_name text);
-
-alter table crp_activities_tmp owner to crpuser;
 alter table crp_locations_tmp owner to crpuser;
+SELECT setval(pg_get_serial_sequence('crp_locations_tmp', 'id'), (SELECT MAX(id) FROM crp_locations));
