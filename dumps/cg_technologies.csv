@@ -1,0 +1,136 @@
+code_prev,name,code,parent_code
+05,Educational technology,53,
+06,Energy technology,54,
+07,Enhanced risk management technology,55,
+071,Climate information and advisory service,56,55
+072,Livestock insurance,57,55
+073,Seed system security assessment,58,55
+08,Soil management technology,59,
+081,Fertilizer technology,60,59
+0811,Fertilizer management,61,60
+0812,Fertilizer tree,62,60
+0813,Soil testing kit,63,60
+082,Integrated soil fertility management (ISFM),64,59
+09,Fishery technology,65,
+10,Food technology,66,
+101,Food preservation,67,66
+102,Food processing,68,66
+11,Information and communication technology,69,
+111,Climate information and advisory service,70,69
+112,Mobile based technology,71,69
+113,Agribusiness service ICT,72,69
+1131,Linkage between agribusiness and smallholder producer ICT,73,72
+114,Extension service ICT,74,69
+115,Mobile technology,75,69
+1151,Mobile market information systems,76,75
+1152,Mobile financial service ICT,77,75
+116,Nutrient Manager for rice and maize,78,69
+12,Irrigation technology,79,
+121,Rainwater harvesting technology,80,79
+122,Smallholder irrigation technology,81,79
+13,Livestock technology,82,
+1331,Artificial insemination,93,92
+01,Agroforestry technology,1,
+02,Plant biotechnology,2,
+021,Biofortification technology,3,2
+0211,Biofortified lentil with Iron and Zinc,4,3
+0212,High iron bean,5,3
+0213,High iron pearl millet,6,3
+0214,Orange fleshed sweet potato,7,3
+0215,Provitamin A cassava,8,3
+0216,Provitamin A maize,9,3
+022,Genetic engineering,10,2
+0221,Resistance to bacteria GMO,11,10
+0222,Transgenic bananas resistant to Xanthomonas wilt disease,12,10
+023,Plant breeding technology,13,2
+024,Seed technology,14,2
+0241,Advanced locally adapted seed varieties,15,14
+02411,Disease-resistant bush and climbing beans,16,15
+02412,Disease-resistant early-maturing cowpea varieties,17,15
+02413,Disease-resistant early-maturing peanut varieties,18,15
+0242,Quality and yield improvement varieties,19,14
+02421,High-yielding cereal varieties,20,19
+024211,Hybrid guinea-type sorghum varieties,21,20
+024212,Hybrid maize varieties,22,20
+024213,Hybrid pearl millet varieties,23,20
+024214,Hybrid white and yellow maize varieties,24,20
+02422,High-yielding nut varieties,25,19
+024221,High-yielding groundnut varieties,26,25
+02423,Highly productive grain legumes,27,19
+024231,Climbing bean varieties,28,27
+024232,High-yielding chickpea varieties,29,27
+024233,High-yielding pigeon pea varieties,30,27
+024234,Low ODAP grass pea varieties,31,27
+024235,Machine harvestable lentil varieties,32,27
+0243,Resistance to bacteria varieties,33,14
+0244,Resistance to fungi varieties,34,14
+02441,Extra early lentil varieties,35,34
+02442,Orobanche tolerant fava bean varieties,36,34
+0245,Resistance to insect pests varieties,37,14
+0246,Resistance to virus varieties,38,14
+02461,Rust resistant wheat varieties,39,38
+02462,Virus resistant locally adapted cassava,40,38
+0247,Tolerance to herbicides varieties,41,14
+0248,Climate resilient cereal varieties,42,14
+02481,Drought-tolerant maize varieties,43,42
+02482,Submergence-tolerant rice varieties,44,42
+02483,Drought tolerant bush bean varieties,45,42
+02484,High yielding drought kabuli chickpea varieties,46,42
+02485,Upland rice varieties,47,42
+02486,Winter chickpea varieties,48,42
+03,Conservation agriculture technology,49,
+031,Mixed cropping climate resilient system,50,49
+0311,Intercropping banana and coffee crop,51,50
+04,Economic and policy technology,52,
+131,Alternative basic education for nomadic communities,83,82
+1311,Agro-Pastoral Field Schools,84,83
+13111,Farmer fields schools (FFS),85,84
+13112,Pastoral field schools (PFS),86,84
+132,Animal health and disease control,87,82
+1321,Automated disease reporting,88,87
+13211,Identification of camel diseases,89,88
+1322,Cost-effective vaccine production,90,87
+1323,Private sector animal health delivery systems,91,87
+133,Breeding technology,92,82
+16111,Aflasafe,128,127
+1332,Community-based breeding,94,92
+1333,Gene preservation of local dryland livestock,95,92
+1334,Local participation in breed enhancement,96,92
+1335,Optimized breed selection of local dryland livestock,97,92
+134,Disease control technology,98,82
+1341,Vaccine technology,99,98
+13411,East Coast Fever vaccine,100,99
+13412,Newcastle disease vaccine,101,99
+13413,Porcine cysticercosis vaccine,102,99
+13414,PPR vaccine,103,99
+135,Livestock identification and traceability,104,82
+136,Livestock insurance,105,82
+137,Rangeland management,106,82
+1371,Fighting invasive species in drylands,107,106
+1372,Holistic resource management (HRM),108,106
+1373,Payments for eco-systems services,109,106
+1374,Forage and feed technology,110,106
+13741,Dual purpose food-feed crop,111,110
+13742,Forage and feed distribution networks,112,110
+13743,Forage seed multiplication sites,113,110
+13744,Forage crop,114,110
+137441,Napier grass,115,114
+1375,Manure management,116,106
+1376,Pasture management,117,106
+14,Mechanization technology,118,
+141,Small scale mechanization,119,118
+1411,Manually operated grain processing tools,120,119
+1412,Multi-crop reaper,121,119
+1413,Small-scale planter,122,119
+1414,Small scale tiller,123,119
+15,Nanotechnology,124,
+16,Postharvest technology,125,
+161,Food safety postharvest technology,126,125
+1611,Aflatoxins related postharvest technology,127,126
+16112,Safe grain storage,129,127
+1612,Insect-resistant storage bag,130,126
+1613,Perishable products for food safety,131,126
+17,Protection technology,132,
+18,Water management technology,133,
+181,Waste-water treatment,134,133
+19,Wood technology,135,
