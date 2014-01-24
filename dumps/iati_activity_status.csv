@@ -1,6 +1,6 @@
-ogc_fid,code,name,language
-1,1,Pipeline/identification,en
-2,2,Implementation,en
-3,3,Completion,en
-4,4,Post-completion,en
-5,5,Cancelled,en
+code,name
+1,Pipeline/identification
+2,Implementation
+3,Completion
+4,Post-completion
+5,Cancelled
