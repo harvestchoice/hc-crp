@@ -100,9 +100,30 @@ sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpd
 wget "http://data.aidinfolabs.org/data/codelist/RelatedActivityType/version/1.0/lang/en.csv" -O RelatedActivityType.csv
 sudo -u postgres ogr2ogr -f "PostgreSQL" PG:"host=localhost user=*** dbname=crpdata2 password=***" RelatedActivityType.csv -nln iati_related_activity_type
 
+# clean-up vocab column names
+alter table cg_programs drop column ogc_fid;
+alter table cg_programs rename column id to code;
+alter table cg_slos drop column ogc_fid;
+alter table cg_slos rename column id to code;
+alter table cg_idos drop column ogc_fid;
+alter table cg_idos rename column id to code;
+alter table cg_crp_idos drop column ogc_fid;
+alter table cg_crp_idos rename column id to code;
+alter table cg_crp_idos rename column cg_ido_id to cg_ido_code;
+alter table cg_technologies drop column ogc_fid;
+alter table cg_technologies rename column code to code_prev;
+alter table cg_technologies rename column id to code;
+alter table cg_technologies rename column parent_id to parent_code;
+alter table cg_internal_status rename column id to code;
 
+alter table iati_activity_status drop column ogc_fid;
+alter table iati_activity_status drop column language;
 
-
+alter table cg_location_reach drop column ogc_fid;
+alter table cg_location_class drop column ogc_fid;
+alter table cg_location_reach rename column id to code;
+alter table cg_location_class rename column code to name;
+alter table cg_location_class rename column id to code;
 
 
 

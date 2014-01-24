@@ -23,6 +23,19 @@
 *** Dropped vocabularies:
 - cg_themes - list of initial CG themes
 
+# Dump tables
+COPY crp_activities to '/tmp/crp_activities.csv' with csv header;
+COPY crp_locations to '/tmp/crp_locations.csv' with csv header;
+COPY iati_activity_status to '/tmp/iati_activity_status.csv' with csv header;
+COPY cg_programs to '/tmp/cg_programs.csv' with csv header;
+COPY cg_contacts to '/tmp/cg_contacts.csv' with csv header;
+COPY cg_slos to '/tmp/cg_slos.csv' with csv header;
+COPY cg_idos to '/tmp/cg_idos.csv' with csv header;
+COPY cg_technologies to '/tmp/cg_technologies.csv' with csv header;
+COPY cg_internal_status to '/tmp/cg_internal_status.csv' with csv header;
+COPY cg_location_reach to '/tmp/cg_location_reach.csv' with csv header;
+COPY cg_location_class to '/tmp/cg_location_class.csv' with csv header;
+
 # Create crp_activities table - datastore for all activities:
 drop table crp_activities cascade;
 CREATE TABLE crp_activities (
@@ -106,7 +119,7 @@ adm2_code numeric,
 adm2_name text);
 alter table crp_locations owner to crpuser;
 
-# Locations link table - store info the IATI way, in case at some point we want to conform to the standard's location structure (to revise)
+# Locations link table - store info the IATI way, in case at some point we want to conform to the IATI location structure (to revise)
 CREATE TABLE crp_locations_iati (
 cg_identifier text,
 precision text,
