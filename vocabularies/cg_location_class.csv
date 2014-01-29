@@ -1,10 +1,10 @@
-id	code
-1	Administrative Region
-2	Populated Place
-3	Structure
-4	Other Topographical Feature
-401 River basin
-402 Wheat mega-environment
-403 Maize mega-environment
-404 Drylands SRT
+"id","code"
+1,"Administrative Region"
+2,"Populated Place"
+3,"Structure"
+4,"Other Topographical Feature"
+401,"River basin"
+402,"Wheat mega-environment"
+403,"Maize mega-environment"
+404,"Drylands SRT"
 
