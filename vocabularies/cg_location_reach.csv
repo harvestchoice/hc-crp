@@ -1,5 +1,5 @@
-"id","name"
-1,"Action/intervention"
-2,"Potential beneficiaries"
-3,"Partner organization"
-4,"Experimental farm or nursery"
+Code,Literal,IATI Code,IATI Literal
+1,Activity,1,Activity
+2,Intended Beneficiaries,2,Intended Beneficiaries
+3,Partners,1,Activity
+4,Experimental farms and nurseries,1,Activity
