@@ -1,14 +1,14 @@
-"id","code"
-1,"Administrative Region"
-2,"Populated Place"
-3,"Structure"
-4,"Other Topographical Feature"
-101,"Region"
-102,"Country"
-103,"Province"
-104,"District"
-401,"River Basin"
-402,"Wheat Mega-environment"
-403,"Maize Mega-environment"
-404,"Drylands SRT"
+Code,Literal,IATI Code,IATI Literal
+1,Administrative Region,1,Administrative Region
+101,Region,1,Administrative Region
+102,Country,1,Administrative Region
+103,Province,1,Administrative Region
+104,District,1,Administrative Region
+2,Populated Place,2,Populated Place
+3,Structure,3,Structure
+4,Other Topographical Feature,4,Other Topographical Feature
+401,River Basin,4,Other Topographical Feature
+402,Wheat mega-environment,4,Other Topographical Feature
+403,Maize mega-environment,4,Other Topographical Feature
+404,Drylands SRT,4,Other Topographical Feature
 
