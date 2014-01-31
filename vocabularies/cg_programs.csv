@@ -1,37 +1,36 @@
-id	name
-CRP-3.6	CGIAR - Dryland Cereals
-CRP-3.5	CGIAR - Grain Legumes
-CRP-3.7	CGIAR - Livestock and Fish
-CRP-3.2	CGIAR - Maize
-CRP-3.3	CGIAR - Rice
-CRP-3.4	CGIAR - Roots, Tubers and Bananas
-CRP-3.1	CGIAR - Wheat
-CRP-7	CGIAR - Climate Change, Agriculture and Food Security
-CRP-6	CGIAR - Forests, Trees and Agroforestry
-CRP-5	CGIAR - Water, Land and Ecosystems
-CRP-1.2	CGIAR - Integrated Systems for the Humid Tropics
-CRP-1.3	CGIAR - Aquatic Agricultural Systems
-CRP-1.1	CGIAR - Dryland Systems
-CRP-2	CGIAR - Policies, Institutions, and Markets
-CRP-4	CGIAR - Agriculture for Nutrition and Health
-CRP-Genebanks	CGIAR - Managing and Sustaining Crop Collections
-CAADP-1	CAADP - Pillar 1: Land & water management
-CAADP-2	CAADP - Pillar 2: Market access
-CAADP-3	CAADP - Pillar 3: Food supply and hunger
-CAADP-4	CAADP - Pillar 4: Agricultural research
-ASARECA-1	ASARECA - Staple Crops
-ASARECA-2	ASARECA - High Value Non Staple Crops
-ASARECA-3	ASARECA - Livestock and Fisheries
-ASARECA-4	ASARECA - Agrobiodiversity and Biotechnology
-ASARECA-5	ASARECA - Natural Resources Management and Biodiversity
-ASARECA-6	ASARECA - Policy Analysis and Advocacy
-ASARECA-7	ASARECA - Knowledge Management and Upscaling
-CORAF-1	CORAF - Livestock, Fisheries and Aquaculture
-CORAF-2	CORAF - Staple Crops
-CORAF-3	CORAF - Non-Staple Crops
-CORAF-4	CORAF - Natural Resource Management
-CORAF-5	CORAF - Biotechnology and Bio-safety
-CORAF-6	CORAF - Policy, Markets, Trade
-CORAF-7	CORAF - Capacity strengthening and co-ordination
-CORAF-7	CORAF - Knowledge management
-
+Code,Literal
+CRP-3.6,CGIAR - Dryland Cereals
+CRP-3.5,CGIAR - Grain Legumes
+CRP-3.7,CGIAR - Livestock and Fish
+CRP-3.2,CGIAR - Maize
+CRP-3.3,CGIAR - Rice
+CRP-3.4,"CGIAR - Roots, Tubers and Bananas"
+CRP-3.1,CGIAR - Wheat
+CRP-7,"CGIAR - Climate Change, Agriculture and Food Security"
+CRP-6,"CGIAR - Forests, Trees and Agroforestry"
+CRP-5,"CGIAR - Water, Land and Ecosystems"
+CRP-1.2,CGIAR - Integrated Systems for the Humid Tropics
+CRP-1.3,CGIAR - Aquatic Agricultural Systems
+CRP-1.1,CGIAR - Dryland Systems
+CRP-2,"CGIAR - Policies, Institutions, and Markets"
+CRP-4,CGIAR - Agriculture for Nutrition and Health
+CRP-Genebanks,CGIAR - Managing and Sustaining Crop Collections
+CAADP-1,CAADP - Pillar 1: Land & water management
+CAADP-2,CAADP - Pillar 2: Market access
+CAADP-3,CAADP - Pillar 3: Food supply and hunger
+CAADP-4,CAADP - Pillar 4: Agricultural research
+ASARECA-1,ASARECA - Staple Crops
+ASARECA-2,ASARECA - High Value Non Staple Crops
+ASARECA-3,ASARECA - Livestock and Fisheries
+ASARECA-4,ASARECA - Agrobiodiversity and Biotechnology
+ASARECA-5,ASARECA - Natural Resources Management and Biodiversity
+ASARECA-6,ASARECA - Policy Analysis and Advocacy
+ASARECA-7,ASARECA - Knowledge Management and Upscaling
+CORAF-1,"CORAF - Livestock, Fisheries and Aquaculture"
+CORAF-2,CORAF - Staple Crops
+CORAF-3,CORAF - Non-Staple Crops
+CORAF-4,CORAF - Natural Resource Management
+CORAF-5,CORAF - Biotechnology and Bio-safety
+CORAF-6,"CORAF - Policy, Markets, Trade"
+CORAF-7,CORAF - Capacity strengthening and co-ordination
+CORAF-7,CORAF - Knowledge management
