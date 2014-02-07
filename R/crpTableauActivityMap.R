@@ -1,5 +1,5 @@
 #####################################################################################
-# Title: Prepare activity locations for Latin America
+# Title: Prepare CRP Activity Locations for Tableau
 # Date: December 2013
 # Project:  HarvestChoice, CRP Mapping
 # Author: Bacou, Melanie <mel@mbacou.com>
@@ -101,7 +101,7 @@ ggsave("./maps/CRP 2/crp2_pietech.png", width=6.5, height=8, units="in")
 
 
 
-# Unpack countries from the list of adm-2 codes provided by Maria
+# Unpack countries from the list of adm-2 codes
 loc <- strsplit(as.character(tmp$location), ";", fixed=T)
 names(loc) <- tmp$id
 loc <- data.table(id=rep(names(loc), sapply(loc, length)), adm2=unlist(loc))
