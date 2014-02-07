@@ -1,0 +1,58 @@
+#+CAPTION: CGIAR/CRP Data Schema Table and Concordance with IATI
+| CGIAR/CRP Attribute    | Details                                  | IATI                                     | Codes                                    |
+|                        | <40>                                     | <40>                                     | <40>                                     |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| CRP Activity           | Code (internal CRP code)                 | <other-identifier>                       |                                          |
+|                        | Title                                    | <title>                                  |                                          |
+|                        | Status (1 of 5 IATI codes)               | <activity-status>                        | http://iatistandard.org/codelists/activity_status/ |
+|                        | Last updated                             | <iati-activity @last-updated-datetime>   |                                          |
+|                        | Type (1 of 4 codes)                      | <iati-activity @hierarchy>               | Our levels are somewhat different but same concept as in IATI. https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_activity_hierarchy.csv |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| IATI Activity          | Global unique id (automated)             | <iati-identifier>                        |                                          |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Start Date             | Planned                                  | <activity-date type="start-planned">     |                                          |
+|                        | Actual                                   | <activity-date type="start-actual">      |                                          |
+| End Date               | Planned                                  | <activity-date type="end-planned">       |                                          |
+|                        | Actual                                   | <activity-date type="end-actual">        |                                          |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Primary Contact(s)     | E-mail (required, linked to CGIAR LDAP)  | <contact-info>                           | [not public]                             |
+|                        | Last name                                | <person-name>                            |                                          |
+|                        | First name                               | <person-name>                            |                                          |
+|                        | Job Title                                | <job-title>                              |                                          |
+|                        | Organization                             | <organisation>                           | This list is under development. https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_organizations.csv |
+|                        | Country                                  | n/a                                      |                                          |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Reporting Organization | Organization name                        | <reporting-org>                          | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_organizations.csv |
+|                        | Organization code (10 IATI codes)        | <reporting-org type="">                  | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_organization_type.csv |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Partner(s)             | Organization name(s)                     | <participating-org>                      | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_organizations.csv |
+|                        | Organization code (10 IATI codes)        | <reporting-org type="">                  | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_organization_type.csv |
+|                        | Organization role(s) (4 IATI codes)      | <participating-org role="">              | http://iatistandard.org/codelists/organisation_role/ |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Description            | Description (background, objectives, etc.) | <description>                            |                                          |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Location(s)            | Geocodes (GAUL 2012 eds. 2013 adm-2 codes) | <location><administrative @level="2" @vocabulary="A1" @code> | https://docs.google.com/spreadsheet/ccc?key=0AnWngmdQt3stdFNxVS1NdmpzSnR3aTBmUG1OWS1uZXc&usp=drive_web#gid=5 |
+|                        | Location Reach (1 of 4 codes: 1-Action/intervention, 2-Potential beneficiaries, 101-Partner organization, 102-Experimental farm or nursery) | <location><location-reach @code>         | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_location_reach.csv |
+|                        | Location Precision                       | <location><location-class>               | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_location_class.csv |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Budget                 | Value                                    | <budget><value>                          |                                          |
+|                        | Period                                   | <budget><period-start><period-end>       |                                          |
+|                        | Currency code                            | <budget><value currency="">              |                                          |
+|                        | Collaboration type                       | <CollaborationType>                      | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_collaboration_type.csv |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Program                | CRP or other (from list)                 | n/a                                      | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_programs.csv |
+| Strategic Theme        | CGIAR SLO (from list)                    | n/a, but related to <sector>             | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_slos.csv |
+| Development Outcome(s) | CGIAR IDOs (from list)                   | n/a, but related to <sector>             | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_ido.csv |
+|                        | CRP IDOs (from list)                     | n/a, but related to <sector>             | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/crp_ido.csv |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Target Technologi(es)  | (Eventually avail. in AGROVOC ontology branch) | n/a                                      | https://github.com/harvestchoice/hc-crp/blob/master/vocabularies/cg_technologies.csv |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Commoditi(es)          | (AGROVOC ontology branch)                | n/a                                      | http://aims.fao.org/node/2328?mytermcode=8171&mylang_interface=&myLanguage=EN |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Document(s)            | (start with http://)                     | <document-link>                          |                                          |
+| Project Website(s)     | (start with http://)                     | <activity-website>                       |                                          |
+|------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
+| Source                 | Source of information and geocodes       | n/a                                      | Typically link to source document, or contact e-mails, or date |
+| Remarks                | Any additional notes                     | n/a                                      |                                          |
+| Internal Status        | 1 of 4 status codes: 0-draft, 1-under review, 2-validated, 3-retired | n/a, but related to <VerificationStatus> | http://iatistandard.org/codelists/verification_status/ |
+| Completeness           | Sum of: 20%-has Location, 10%-has Title and Description, 10%-has Contact, 10%-has Partners, 10%-has SLOs and IDOs, 20%-has Technology, 10%-has Budget, 10%-is validated | n/a                                      |                                          |
