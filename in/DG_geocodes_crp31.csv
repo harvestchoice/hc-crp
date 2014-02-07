@@ -1,0 +1,315 @@
+source_project_id,CRP,CRP Activities,Source Detail,geo_name,geo_name_id,location_type,adm1,adm1name,adm2,adm2name,latitude,longitude,precision
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zambia,895949,independent political entity,,,,,-14.33333,28.5,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ethiopia,337996,independent political entity,,,,,9,39.5,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Angola,3351879,independent political entity,,,,,-12.5,18.5,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,India,1269750,independent political entity,,,,,22,79,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,China,1814991,independent political entity,,,,,35,105,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,South Africa,953987,independent political entity,,,,,-29,24,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zimbabwe,878675,independent political entity,,,,,-19,29.75,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Haiti,3723988,independent political entity,,,,,19,-72.41667,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Guatemala,3595528,independent political entity,,,,,15.5,-90.25,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,El Salvador,3585968,independent political entity,,,,,13.83333,-88.91667,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Honduras,3608932,independent political entity,,,,,15,-86.5,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nicaragua,3617476,independent political entity,,,,,13,-85,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mali,2453866,independent political entity,,,,,18,-2,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Benin,2395170,independent political entity,,,,,9.5,2.25,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_6.8,3.2,6.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zambia,895949,independent political entity,,,,,-14.33333,28.5,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ethiopia,337996,independent political entity,,,,,9,39.5,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Angola,3351879,independent political entity,,,,,-12.5,18.5,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,India,1269750,independent political entity,,,,,22,79,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,China,1814991,independent political entity,,,,,35,105,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,South Africa,953987,independent political entity,,,,,-29,24,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zimbabwe,878675,independent political entity,,,,,-19,29.75,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Haiti,3723988,independent political entity,,,,,19,-72.41667,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Guatemala,3595528,independent political entity,,,,,15.5,-90.25,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,El Salvador,3585968,independent political entity,,,,,13.83333,-88.91667,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Honduras,3608932,independent political entity,,,,,15,-86.5,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nicaragua,3617476,independent political entity,,,,,13,-85,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mali,2453866,independent political entity,,,,,18,-2,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Benin,2395170,independent political entity,,,,,9.5,2.25,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_7.1,3.2,7.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zambia,895949,independent political entity,,,,,-14.33333,28.5,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ethiopia,337996,independent political entity,,,,,9,39.5,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Angola,3351879,independent political entity,,,,,-12.5,18.5,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,India,1269750,independent political entity,,,,,22,79,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,China,1814991,independent political entity,,,,,35,105,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,South Africa,953987,independent political entity,,,,,-29,24,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zimbabwe,878675,independent political entity,,,,,-19,29.75,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Haiti,3723988,independent political entity,,,,,19,-72.41667,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Guatemala,3595528,independent political entity,,,,,15.5,-90.25,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,El Salvador,3585968,independent political entity,,,,,13.83333,-88.91667,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Honduras,3608932,independent political entity,,,,,15,-86.5,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nicaragua,3617476,independent political entity,,,,,13,-85,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mali,2453866,independent political entity,,,,,18,-2,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Benin,2395170,independent political entity,,,,,9.5,2.25,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_7.2,3.2,7.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zambia,895949,independent political entity,,,,,-14.33333,28.5,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ethiopia,337996,independent political entity,,,,,9,39.5,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Angola,3351879,independent political entity,,,,,-12.5,18.5,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,India,1269750,independent political entity,,,,,22,79,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,China,1814991,independent political entity,,,,,35,105,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,South Africa,953987,independent political entity,,,,,-29,24,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zimbabwe,878675,independent political entity,,,,,-19,29.75,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Haiti,3723988,independent political entity,,,,,19,-72.41667,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Guatemala,3595528,independent political entity,,,,,15.5,-90.25,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,El Salvador,3585968,independent political entity,,,,,13.83333,-88.91667,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Honduras,3608932,independent political entity,,,,,15,-86.5,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nicaragua,3617476,independent political entity,,,,,13,-85,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mali,2453866,independent political entity,,,,,18,-2,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Benin,2395170,independent political entity,,,,,9.5,2.25,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_7.3,3.2,7.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zambia,895949,independent political entity,,,,,-14.33333,28.5,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ethiopia,337996,independent political entity,,,,,9,39.5,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Angola,3351879,independent political entity,,,,,-12.5,18.5,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,India,1269750,independent political entity,,,,,22,79,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,China,1814991,independent political entity,,,,,35,105,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,South Africa,953987,independent political entity,,,,,-29,24,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zimbabwe,878675,independent political entity,,,,,-19,29.75,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Haiti,3723988,independent political entity,,,,,19,-72.41667,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Guatemala,3595528,independent political entity,,,,,15.5,-90.25,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,El Salvador,3585968,independent political entity,,,,,13.83333,-88.91667,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Honduras,3608932,independent political entity,,,,,15,-86.5,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nicaragua,3617476,independent political entity,,,,,13,-85,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mali,2453866,independent political entity,,,,,18,-2,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Benin,2395170,independent political entity,,,,,9.5,2.25,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_7.4,3.2,7.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zambia,895949,independent political entity,,,,,-14.33333,28.5,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ethiopia,337996,independent political entity,,,,,9,39.5,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Angola,3351879,independent political entity,,,,,-12.5,18.5,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,India,1269750,independent political entity,,,,,22,79,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,China,1814991,independent political entity,,,,,35,105,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,South Africa,953987,independent political entity,,,,,-29,24,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zimbabwe,878675,independent political entity,,,,,-19,29.75,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Haiti,3723988,independent political entity,,,,,19,-72.41667,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Guatemala,3595528,independent political entity,,,,,15.5,-90.25,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,El Salvador,3585968,independent political entity,,,,,13.83333,-88.91667,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Honduras,3608932,independent political entity,,,,,15,-86.5,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nicaragua,3617476,independent political entity,,,,,13,-85,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mali,2453866,independent political entity,,,,,18,-2,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Benin,2395170,independent political entity,,,,,9.5,2.25,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_7.5,3.2,7.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zambia,895949,independent political entity,,,,,-14.33333,28.5,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ethiopia,337996,independent political entity,,,,,9,39.5,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Angola,3351879,independent political entity,,,,,-12.5,18.5,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,India,1269750,independent political entity,,,,,22,79,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,China,1814991,independent political entity,,,,,35,105,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,South Africa,953987,independent political entity,,,,,-29,24,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zimbabwe,878675,independent political entity,,,,,-19,29.75,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Haiti,3723988,independent political entity,,,,,19,-72.41667,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Guatemala,3595528,independent political entity,,,,,15.5,-90.25,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,El Salvador,3585968,independent political entity,,,,,13.83333,-88.91667,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Honduras,3608932,independent political entity,,,,,15,-86.5,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nicaragua,3617476,independent political entity,,,,,13,-85,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mali,2453866,independent political entity,,,,,18,-2,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Benin,2395170,independent political entity,,,,,9.5,2.25,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_7.6,3.2,7.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zambia,895949,independent political entity,,,,,-14.33333,28.5,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ethiopia,337996,independent political entity,,,,,9,39.5,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Angola,3351879,independent political entity,,,,,-12.5,18.5,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,India,1269750,independent political entity,,,,,22,79,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,China,1814991,independent political entity,,,,,35,105,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,South Africa,953987,independent political entity,,,,,-29,24,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Zimbabwe,878675,independent political entity,,,,,-19,29.75,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Haiti,3723988,independent political entity,,,,,19,-72.41667,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Guatemala,3595528,independent political entity,,,,,15.5,-90.25,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,El Salvador,3585968,independent political entity,,,,,13.83333,-88.91667,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Honduras,3608932,independent political entity,,,,,15,-86.5,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nicaragua,3617476,independent political entity,,,,,13,-85,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mali,2453866,independent political entity,,,,,18,-2,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Benin,2395170,independent political entity,,,,,9.5,2.25,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_7.7,3.2,7.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_6.1,3.2,6.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_6.2,3.2,6.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_6.3,3.2,6.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_6.4,3.2,6.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_6.5,3.2,6.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_6.6,3.2,6.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_6.7,3.2,6.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_6.8,3.2,6.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_6.2,3.2,6.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_6.2,3.2,6.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_6.2,3.2,6.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_6.2,3.2,6.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_6.2,3.2,6.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_6.2,3.2,6.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_6.2,3.2,6.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_6.2,3.2,6.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_6.3,3.2,6.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_6.3,3.2,6.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_6.3,3.2,6.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_6.3,3.2,6.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_6.3,3.2,6.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_6.3,3.2,6.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_6.3,3.2,6.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_6.3,3.2,6.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_6.4,3.2,6.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_6.4,3.2,6.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_6.4,3.2,6.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_6.4,3.2,6.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_6.4,3.2,6.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_6.4,3.2,6.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_6.4,3.2,6.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_6.4,3.2,6.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_6.5,3.2,6.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_6.5,3.2,6.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_6.5,3.2,6.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_6.5,3.2,6.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_6.5,3.2,6.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_6.5,3.2,6.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_6.5,3.2,6.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_6.5,3.2,6.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_6.7,3.2,6.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Kenya,192950,independent political entity,,,,,1,38,6
+CRP3.2_6.7,3.2,6.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Malawi,927384,independent political entity,,,,,-13.5,34,6
+CRP3.2_6.7,3.2,6.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nigeria,2328926,independent political entity,,,,,10,8,6
+CRP3.2_6.7,3.2,6.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Uganda,226074,independent political entity,,,,,1.25,32.5,6
+CRP3.2_6.7,3.2,6.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Ghana,2300660,independent political entity,,,,,8.1,-1.2,6
+CRP3.2_6.7,3.2,6.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Indonesia,1643084,independent political entity,,,,,-5,120,6
+CRP3.2_6.7,3.2,6.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Nepal,1282988,independent political entity,,,,,28,84,6
+CRP3.2_6.7,3.2,6.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,Mexico,3996063,independent political entity,,,,,23,-102,6
+CRP3.2_4.3,3.2,4.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_4.4,3.2,4.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_4.5,3.2,4.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_4.6,3.2,4.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_4.7,3.2,4.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_4.8,3.2,4.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_4.9,3.2,4.9,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5,3.2,5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5.1,3.2,5.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5.2,3.2,5.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5.3,3.2,5.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5.4,3.2,5.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5.5,3.2,5.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5.6,3.2,5.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5.7,3.2,5.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_5.8,3.2,5.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_8.1,3.2,8.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_8.2,3.2,8.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_8.3,3.2,8.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_8.4,3.2,8.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_8.5,3.2,8.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_9.1,3.2,9.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_9.2,3.2,9.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_9.3,3.2,9.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.1,3.2,10.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.2,3.2,10.2,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.3,3.2,10.3,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.4,3.2,10.4,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.5,3.2,10.5,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.6,3.2,10.6,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.7,3.2,10.7,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.8,3.2,10.8,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.9,3.2,10.9,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.10,3.2,10.1,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.11,3.2,10.11,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.12,3.2,10.12,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.13,3.2,10.13,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.14,3.2,10.14,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.15,3.2,10.15,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.16,3.2,10.16,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.17,3.2,10.17,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
+CRP3.2_10.18,3.2,10.18,http://www.cgiarfund.org/sites/cgiarfund.org/files/Documents/PDF/crp_3.2_crp_report_june_1_2011.pdf,"Latin America and the Caribbean, Asia, Sub-Saharan Africa",,,,,,,,,no specification of sub-regional locations
