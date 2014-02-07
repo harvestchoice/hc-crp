@@ -1,4 +1,4 @@
 hc-crp
 ======
 
-Code files to produce CRP activity maps
+Working files, data standards, vocabularies, and code files to generate CGIAR CRP investment maps.
