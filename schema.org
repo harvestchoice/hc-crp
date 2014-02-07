@@ -1,6 +1,5 @@
 #+CAPTION: CGIAR/CRP Data Schema Table and Concordance with IATI
 | CGIAR/CRP Attribute    | Details                                  | IATI                                     | Codes                                    |
-|                        | <40>                                     | <40>                                     | <40>                                     |
 |------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
 | CRP Activity           | Code (internal CRP code)                 | <other-identifier>                       |                                          |
 |                        | Title                                    | <title>                                  |                                          |
