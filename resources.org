@@ -1,2 +1,6 @@
-- Webprotege vocab of technologies
+- Webprotege vocab of agricultural technologies
 http://webprotege.stanford.edu/#Edit:projectId=1fea0d22-05f2-4f38-b9a3-656f278dd242
+- CGIAR vocab of partners
+http://open.cgiar.org/geo.rdf
+- CRP Mapping XLS template
+https://drive.google.com/file/d/0B1o4EXFzqcCzRkhmdVVUNXgxTG8
