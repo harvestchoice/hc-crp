@@ -204,6 +204,8 @@ adm0_name text,
 adm1_code numeric,
 adm1_name text,
 adm2_code numeric,
-adm2_name text);
+adm2_name text,
+cg_program text,
+cg_identifier text);
 alter table crp_locations_tmp owner to crpuser;
 SELECT setval(pg_get_serial_sequence('crp_locations_tmp', 'id'), (SELECT MAX(id) FROM crp_locations));
