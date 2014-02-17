@@ -75,7 +75,9 @@ alter table g13122_crp5 owner to crpuser;
 with countries as (select distinct trim( both ' ' from unnest(regexp_split_to_array(countries,';'))) as cnt from wle_activities_tmp )
 select * from countries c where not exists (select 1 from g13122_crp5 g where g.adm0_name = c.cnt);
 
-
+# some activities have country location
+# the adm2 location is determined by intersecting the country with crp5 river basins
+# the activities which don't have any crp5 river basin intersection determined by Mel: https://app.asana.com/0/search/10321532818440/8334344386176
 delete from crp_locations_tmp;
 insert into crp_locations_tmp (act_id, adm0_code, adm0_name, adm1_code, adm1_name, adm2_code,adm2_name, cg_location_class, cg_location_reach, cg_program, cg_identifier)
 select (select id from crp_activities_tmp where crp_activities_tmp.cg_identifier = w.cg_internal) as act_id,
