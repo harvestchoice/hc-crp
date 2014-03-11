@@ -153,6 +153,21 @@ and position(lower(c.person_name_last) in lower(a.contact_tmp)) > 0);
 
 # other updates: Partners - trim pipes ("|"), Source;
 update crp_activities_tmp set participating_org_tmp = trim(both '|' from participating_org_tmp);
+# to come back to this if we get better participating organisation names
+update crp_activities a set participating_org = (select string_agg(t.code::varchar,'|') from iati_organisation_identifier t where array(select unnest(regexp_split_to_array(lower(t.name), E'\\s+')) intersect select unnest(regexp_split_to_array(regexp_split_to_table(lower(a.participating_org_tmp),E'\\|'),E'\\s+')) order by 1) = array(select unnest(regexp_split_to_array(lower(t.name), E'\\s+')) order by 1)) where id in (87,75);
+
+select id, participating_org,participating_org_type,participating_org_role,participating_org_tmp,participating_org_type_tmp,participating_org_role_tmp from crp_activities where id in (87,75);
+
+select array( select unnest(regexp_split_to_array('World Bank', E'\\s+')) intersect select unnest(regexp_split_to_array(regexp_split_to_table('World Bank|Yale University',E'\\|'),E'\\s+')));
+
+
+
+select array(select unnest(regexp_split_to_array(lower('World Bank'), E'\\s+')) intersect select unnest(regexp_split_to_array(regexp_split_to_table(lower('World Bank|Yale University'),E'\\|'),E'\\s+')) order by 1) = array(select unnest(regexp_split_to_array(lower('World Bank'), E'\\s+')) order by 1);
+
+
+SELECT @(array_length(array(select unnest(regexp_split_to_array(t.name, E'\\s+')) intersect
+              select unnest(regexp_split_to_array(regexp_split_to_table(a.participating_org_tmp,E'\\|'),E'\\s+'))),1) - array_length(regexp_split_to_array(t.name, E'\\s+'),1)) <= 2;
+
 
 # update location
 # add point geometry to dg_crp4_geocoding

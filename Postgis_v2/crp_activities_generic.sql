@@ -1,28 +1,3 @@
-* DB structure
-** Main tables:
-- crp_activities - list of activities
-- crp_locations - list of locations, linked to crp_activities with crp_locations.act_id
-
-** Activities Vocabularies (linked to crp_activities.fields as '|'-separated lists of IDs):
-- iati_activity_status - list of IATI /activity-status, crp_activities.activity_status, imported, default 2
-- cg_activity_hierarchy - list of CG-styled /iati-activity/@hierarchy, crp_activities.activity_hierarchy, imported, default 103
-- cg_contacts - list of cg_contacts, crp_activities.contact_id, imported, id-linked ('|'-separated id for multiple)
-- cg_organizations - not yet in place, list to come from CO, crp_activities.reporting_org (1-1) and crp_activities.participating_org (1-many)
-- cg_programs - list of programs, crp_activities.cg_program, imported, id-linked
-- cg_slos - list of SLOs, crp_activities.cg_slo, imported, id-linked
-- cg_idos - list of CG IDOs, crp_activities.cg_ido, imported, id-linked
-- cg_crp_idos - list of CRP IDOs, crp_activities.cg_crp_ido, imported, id-linked
-- cg_technologies - list of technologies(ontology Soonho), crp_activities.cg_technology, imported csv (rdf alternative), id-link
-- cg_commodities - list of commodities(Agrovoc), crp_activities.cg_commodity, to import(?) and id-link
-- cg_internal_status - list of internal status values, crp_activities.internal_status, default 0
-
-** Location Vocabularies (linked to crp_locations.fields as '|'-separated lists of IDs):
-- cg_location_reach - list of CG-styled /location-reach/, crp_locations.cg_location_reach, imported draft version, id-linked
-- cg_location_class - list of CG-styled /location-class/, crp_locations.cg_location_class, imported draft version, id-linked
-
-*** Dropped vocabularies:
-- cg_themes - list of initial CG themes
-
 # Dump tables
 COPY crp_activities to '/tmp/crp_activities.csv' with csv header;
 COPY crp_locations to '/tmp/crp_locations.csv' with csv header;
