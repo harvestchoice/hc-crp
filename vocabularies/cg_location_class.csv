@@ -4,11 +4,11 @@ Code,Literal,IATI Code,IATI Literal
 103,Province (level-1),1,Administrative Region
 104,District (level-2),1,Administrative Region
 105,Ward (level-3),1,Administrative Region
-106,Exact Location,1,Administrative Region
-2,Populated Place,2,Populated Place
-301,CGIAR Center, Permanent Agricultural Trial Site,3,Structure
-302,,3,Structure
-303,Structure (other),3,Structure
+200,Populated Place,2,Populated Place
+301,CGIAR Center,3,Structure
+302,Permanent Agricultural Trial Site,3,Structure
+300,Structure (other),3,Structure
 401,River Basin,4,Other Topographical Feature
 402,Other CGIAR Research Area,4,Other Topographical Feature
+400,Other Topographical Feature,4,Other Topographical Feature
 
