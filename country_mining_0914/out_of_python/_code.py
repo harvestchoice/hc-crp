@@ -2,6 +2,11 @@ import sys, os
 import pandas as pd
 import numpy as np
 
+def concat(*args):
+	strs = [str(arg) for arg in args if not pd.isnull(arg)]
+	return ','.join(strs) if strs else np.nan
+np_concat = np.vectorize(concat)
+
 os.chdir('/Users/maria/Projects/hc-crp/country_mining_0914/out_of_python')
 
 d1 = pd.read_csv('../out_of_Clavin/Agriculture for Nutrition and Health 2013 Annual Report.csv'); d1.rename(columns={'no': 'A4NH'}, inplace=True)
@@ -47,7 +52,7 @@ r17 = pd.merge(r16, d18, on='country', how='outer');
 # res = pd.merge(r17, d19, on='country', how='outer') # uncomment if last 3 docs need to be included, and comment the one bellow
 res = pd.merge(r14, d16, on='country', how='outer'); 
 
-res.rename(columns={'country': 'Country'}, inplace=True)
+res.rename(columns={'country': 'COUNTRY'}, inplace=True)
 
 # replace country names according to country_mapping.csv
 c_map = pd.read_csv('../country_mapping.csv')
@@ -55,20 +60,36 @@ for i in range(0,520):
 	res.replace(to_replace = c_map.country[i], value = c_map.new_country[i], inplace=True)
 
 # group by Country names and sum
-res = res.groupby(['Country']).apply(sum)
-del res['Country']
+res = res.groupby(['COUNTRY']).apply(sum)
+del res['COUNTRY']
 
 res.to_csv('../out_of_python/output_numbers.csv')
 
+# append columns needed for Tableau
 # replace NaN with 0 and >1 with crp name (column name)
 for i in np.array(res.values.ravel()):
 	if i > 0:
 		res.replace(to_replace = i, value = 1, inplace = True)
 
+# calculate the sum of the no of CRP
+cnt = res.sum(axis = 1)
+res['COUNT'] = cnt
+
 for col in res.columns:
-	if col <> 'Country':
+	if col <> 'COUNTRY' and col <> 'COUNT':
 		res.replace(to_replace = { col : 1 }, value = col, inplace=True)
+
+res['ALL'] = np.NaN
+for col in res.columns:
+	if col <> 'COUNTRY' and col <> 'COUNT' and col <> 'ALL':
+		res.ALL = np_concat(res.ALL, res[col])
+
+res['ALL'] = concat(res.A4NH, res.PIM)
+
+res['Genebanks'] = 0
 
 res.replace(to_replace = np.NaN, value = 0, inplace=True)
 
 res.to_csv('../out_of_python/output_tableau.csv')
+
+

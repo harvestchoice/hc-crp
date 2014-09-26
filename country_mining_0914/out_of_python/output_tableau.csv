@@ -1,127 +1,127 @@
-Country,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Afghanistan,0,0,0,Dryland Cereals,Dryland Systems,0,0,0,0,0,0,0,0,0,Wheat
-Algeria,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,0,Wheat
-Angola,A4NH,0,CCAFS,0,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,0
-Argentina,0,AAS,0,0,0,0,0,0,0,0,0,PIM,0,0,0
-Australia,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Austria,0,0,0,0,Dryland Systems,0,0,0,0,0,Maize,0,RTB,0,0
-Azerbaijan,0,0,0,Dryland Cereals,0,0,0,0,0,0,0,0,0,0,0
-Bangladesh,A4NH,AAS,CCAFS,0,Dryland Systems,0,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Belgium,0,AAS,0,0,Dryland Systems,0,0,0,0,Livestock and Fish,0,PIM,RTB,0,0
-Belize,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,0
-Benin,0,0,0,0,0,0,GRiSP,Grain Legumes,0,0,Maize,PIM,0,0,0
-Bolivia,0,0,CCAFS,0,0,0,GRiSP,0,0,0,Maize,PIM,RTB,WLE,0
-Brazil,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,0,0,0,Livestock and Fish,Maize,PIM,RTB,0,Wheat
-Burkina Faso,0,0,CCAFS,Dryland Cereals,0,FTA,0,Grain Legumes,0,Livestock and Fish,0,0,0,0,0
-Burundi,0,0,0,0,0,0,GRiSP,Grain Legumes,0,0,0,PIM,RTB,0,0
-Buthan,0,0,0,0,0,0,0,0,0,0,0,0,RTB,0,Wheat
-Cambodia,0,AAS,0,0,0,0,GRiSP,0,0,Livestock and Fish,0,PIM,RTB,WLE,0
-Cameroon,0,0,0,0,0,FTA,GRiSP,Grain Legumes,Humid Tropics,0,0,PIM,RTB,0,0
-Canada,0,0,0,0,0,0,GRiSP,0,0,0,Maize,PIM,0,0,0
-Central Africa Republic,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0
-Chad,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0
-Chile,0,0,0,Dryland Cereals,0,0,0,0,0,0,0,0,0,WLE,0
-China,0,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,0,0,Maize,PIM,RTB,WLE,Wheat
-Colombia,0,0,CCAFS,0,0,FTA,0,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,0
-Costa Rica,0,0,0,0,0,0,GRiSP,0,0,Livestock and Fish,0,0,RTB,0,0
-Cotonou,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0
-Democratic Republic of Congo,0,0,0,0,0,0,0,Grain Legumes,Humid Tropics,0,0,0,RTB,WLE,0
-Denmark,0,AAS,CCAFS,0,0,0,0,0,0,0,0,0,0,0,Wheat
-Ecuador,0,0,0,0,0,0,GRiSP,0,0,0,0,PIM,RTB,WLE,0
-Egypt,0,0,CCAFS,Dryland Cereals,Dryland Systems,0,0,Grain Legumes,0,Livestock and Fish,0,PIM,0,0,Wheat
-El Salvador,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,PIM,0,0,0
-Eritrea,0,0,0,Dryland Cereals,0,0,0,Grain Legumes,0,0,0,PIM,0,0,0
-Ethiopia,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,0,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Fiji,0,0,0,0,0,0,0,0,0,0,0,0,RTB,0,0
-Finland,0,0,CCAFS,0,0,0,0,0,0,0,0,0,RTB,WLE,0
-France,0,AAS,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,0,0,0,0,PIM,RTB,WLE,Wheat
-Gambia,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0
-Georgia,0,0,0,0,0,0,0,Grain Legumes,0,0,0,0,0,0,0
-Germany,0,AAS,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,Humid Tropics,0,Maize,PIM,0,0,Wheat
-Ghana,A4NH,AAS,CCAFS,0,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Greece,0,0,0,0,0,0,0,Grain Legumes,0,0,0,0,0,0,0
-Guatemala,0,0,0,0,0,FTA,0,0,0,Livestock and Fish,Maize,PIM,0,0,0
-Guinea,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,0,0,WLE,0
-Haiti,0,0,0,0,0,0,0,0,0,0,0,0,RTB,0,0
-Honduras,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,PIM,0,0,0
-India,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Indonesia,0,AAS,0,0,0,FTA,GRiSP,0,0,0,0,PIM,0,0,0
-Iran,A4NH,0,0,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,0,0,0,PIM,0,0,Wheat
-Iraq,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,0,Wheat
-Ireland,0,0,CCAFS,0,0,0,0,Grain Legumes,0,0,0,PIM,0,0,0
-Israel,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,0
-Italy,0,AAS,0,0,Dryland Systems,0,0,0,0,0,0,PIM,RTB,WLE,Wheat
-Ivory Coast,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,0
-Japan,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,WLE,Wheat
-Jordan,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,WLE,Wheat
-Kazakhstan,0,0,0,Dryland Cereals,0,0,0,0,0,0,0,0,0,0,Wheat
-Kenya,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,0,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Kuwait,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,0,Wheat
-Kyrgyzstan,0,0,0,0,Dryland Systems,FTA,0,0,0,0,0,PIM,0,0,0
-Laos,0,0,0,0,0,FTA,0,0,0,Livestock and Fish,0,0,0,WLE,0
-Lebanon,0,0,0,Dryland Cereals,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,0,Wheat
-Lesotho,0,0,0,0,0,0,0,Grain Legumes,0,0,0,0,0,0,0
-Liberia,0,0,CCAFS,0,0,0,0,0,0,0,0,PIM,0,0,0
-Libya,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,0
-Lithuania,0,AAS,0,0,0,0,0,0,0,0,0,0,0,0,0
-Lushoto,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,0,0,0,0
-Madagascar,0,0,0,0,0,0,GRiSP,Grain Legumes,0,0,0,0,RTB,0,0
-Malawi,0,AAS,CCAFS,0,Dryland Systems,FTA,0,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,0
-Malaysia,0,AAS,0,0,0,FTA,GRiSP,0,0,Livestock and Fish,0,0,0,WLE,0
-Mali,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,0,Grain Legumes,0,Livestock and Fish,Maize,PIM,0,WLE,0
-Mexico,0,0,0,Dryland Cereals,0,0,0,Grain Legumes,0,Livestock and Fish,Maize,0,0,WLE,Wheat
-Mongolia,0,0,0,0,0,0,0,0,0,0,Maize,0,RTB,0,0
-Morocco,0,0,0,Dryland Cereals,Dryland Systems,0,0,Grain Legumes,0,0,0,PIM,0,0,Wheat
-Mozambique,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,0
-Myanmar ,0,AAS,0,0,0,FTA,GRiSP,0,0,0,0,PIM,0,WLE,0
-Nepal,0,AAS,CCAFS,0,0,0,GRiSP,0,0,0,Maize,PIM,0,WLE,Wheat
-Netherlands,A4NH,0,CCAFS,0,Dryland Systems,0,0,0,0,0,0,PIM,0,WLE,0
-Nicaragua,A4NH,0,CCAFS,0,0,FTA,GRiSP,0,Humid Tropics,Livestock and Fish,0,PIM,RTB,0,0
-Niger,0,0,CCAFS,Dryland Cereals,0,0,0,Grain Legumes,0,0,0,PIM,0,0,0
-Nigeria,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Norway,0,0,0,0,0,0,0,0,0,0,Maize,PIM,0,0,0
-Pakistan,0,0,CCAFS,0,0,0,0,Grain Legumes,0,Livestock and Fish,0,PIM,0,WLE,Wheat
-Palestine,0,0,0,0,Dryland Systems,0,0,0,0,0,0,0,0,0,0
-Panama,0,0,0,0,0,0,GRiSP,0,0,Livestock and Fish,0,PIM,RTB,0,0
-Paraguay,0,0,0,0,0,0,0,0,0,0,0,0,0,WLE,0
-Peru,0,0,CCAFS,Dryland Cereals,0,FTA,GRiSP,0,0,0,0,PIM,RTB,WLE,0
-Philippines,A4NH,AAS,CCAFS,0,Dryland Systems,0,GRiSP,Grain Legumes,0,0,Maize,PIM,RTB,WLE,Wheat
-Poland,0,0,CCAFS,0,0,FTA,0,0,0,0,0,0,0,0,0
-Portugal,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0
-Romania,0,0,0,0,0,0,0,Grain Legumes,0,0,0,0,0,0,0
-Russia,0,0,CCAFS,Dryland Cereals,Dryland Systems,0,0,0,0,0,0,PIM,0,0,Wheat
-Rwanda,0,0,0,0,0,0,0,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,0,0
-Saint Lucia,A4NH,0,0,0,0,0,0,0,Humid Tropics,Livestock and Fish,0,0,0,0,0
-Saudi Arabia,0,0,CCAFS,0,Dryland Systems,0,0,0,0,0,0,0,0,0,Wheat
-Scotland,0,0,0,0,0,0,0,0,0,0,0,0,RTB,0,Wheat
-Senegal,A4NH,0,CCAFS,Dryland Cereals,0,0,GRiSP,Grain Legumes,0,0,0,PIM,0,0,0
-Sierra Leone,0,0,0,0,0,0,0,0,0,0,0,PIM,0,WLE,0
-Singapore,0,0,0,0,0,0,GRiSP,0,0,0,Maize,0,0,0,0
-Solomon Islands,0,AAS,0,0,0,0,0,0,0,0,0,0,0,0,0
-Somalia,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,0,0,0,0
-South Africa,0,0,CCAFS,0,0,0,0,Grain Legumes,0,0,Maize,PIM,RTB,WLE,0
-Spain,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,Wheat
-Sri Lanka,0,AAS,CCAFS,0,0,0,0,0,0,0,0,PIM,RTB,WLE,Wheat
-Sudan,0,0,CCAFS,Dryland Cereals,0,0,0,Grain Legumes,0,Livestock and Fish,0,PIM,0,WLE,Wheat
-Swaziland,0,0,CCAFS,0,0,0,0,Grain Legumes,0,0,0,0,0,WLE,0
-Sweden,0,AAS,CCAFS,0,0,0,0,0,0,Livestock and Fish,0,0,0,WLE,0
-Switzerland,0,0,0,0,0,0,0,0,0,0,0,0,0,WLE,0
-Syria,0,0,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,0,0,0,0,0,WLE,Wheat
-Tajikistan,0,0,0,0,Dryland Systems,FTA,0,0,0,0,0,PIM,RTB,0,Wheat
-Tanzania,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Thailand,0,AAS,CCAFS,0,0,0,0,0,0,0,0,PIM,RTB,WLE,0
-Togo,0,0,0,0,0,0,0,Grain Legumes,0,0,0,PIM,0,0,0
-Tunisia,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Turkey,0,0,0,Dryland Cereals,0,0,GRiSP,Grain Legumes,0,0,0,0,0,0,Wheat
-Turkmenistan,0,0,0,0,Dryland Systems,0,0,0,0,0,0,0,0,0,Wheat
-UK,0,AAS,CCAFS,Dryland Cereals,0,0,0,0,0,Livestock and Fish,Maize,0,0,0,Wheat
-USA,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat
-Uganda,A4NH,0,CCAFS,Dryland Cereals,0,FTA,0,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,0
-United Arab Emirates,0,0,CCAFS,Dryland Cereals,Dryland Systems,0,0,Grain Legumes,0,0,0,PIM,0,WLE,Wheat
-Uzbekistan,0,0,0,Dryland Cereals,Dryland Systems,FTA,0,0,0,0,0,0,RTB,WLE,Wheat
-Vanuatu,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,0,0,0,0
-Venezuela,0,0,0,0,0,0,GRiSP,0,0,Livestock and Fish,0,0,0,0,0
-Vietnam,A4NH,AAS,CCAFS,0,0,FTA,GRiSP,0,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,0
-Yemen,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,PIM,0,0,Wheat
-Zambia,A4NH,AAS,0,0,0,FTA,0,Grain Legumes,0,0,Maize,PIM,RTB,0,Wheat
-Zimbabwe,0,0,CCAFS,0,Dryland Systems,0,0,Grain Legumes,0,Livestock and Fish,Maize,PIM,0,WLE,Wheat
+COUNTRY,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,COUNT,ALL,Genebanks
+Afghanistan,0,0,0,Dryland Cereals,Dryland Systems,0,0,0,0,0,0,0,0,0,Wheat,3.0,"Dryland Cereals,Dryland Systems,Wheat",0
+Algeria,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,0,Wheat,3.0,"Dryland Systems,Grain Legumes,Wheat",0
+Angola,A4NH,0,CCAFS,0,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,0,12.0,"A4NH,CCAFS,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE",0
+Argentina,0,AAS,0,0,0,0,0,0,0,0,0,PIM,0,0,0,2.0,"AAS,PIM",0
+Australia,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,15.0,"A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Austria,0,0,0,0,Dryland Systems,0,0,0,0,0,Maize,0,RTB,0,0,3.0,"Dryland Systems,Maize,RTB",0
+Azerbaijan,0,0,0,Dryland Cereals,0,0,0,0,0,0,0,0,0,0,0,1.0,Dryland Cereals,0
+Bangladesh,A4NH,AAS,CCAFS,0,Dryland Systems,0,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,12.0,"A4NH,AAS,CCAFS,Dryland Systems,GRiSP,Grain Legumes,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Belgium,0,AAS,0,0,Dryland Systems,0,0,0,0,Livestock and Fish,0,PIM,RTB,0,0,5.0,"AAS,Dryland Systems,Livestock and Fish,PIM,RTB",0
+Belize,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,0,1.0,PIM,0
+Benin,0,0,0,0,0,0,GRiSP,Grain Legumes,0,0,Maize,PIM,0,0,0,4.0,"GRiSP,Grain Legumes,Maize,PIM",0
+Bolivia,0,0,CCAFS,0,0,0,GRiSP,0,0,0,Maize,PIM,RTB,WLE,0,6.0,"CCAFS,GRiSP,Maize,PIM,RTB,WLE",0
+Brazil,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,0,0,0,Livestock and Fish,Maize,PIM,RTB,0,Wheat,10.0,"A4NH,CCAFS,Dryland Cereals,Dryland Systems,FTA,Livestock and Fish,Maize,PIM,RTB,Wheat",0
+Burkina Faso,0,0,CCAFS,Dryland Cereals,0,FTA,0,Grain Legumes,0,Livestock and Fish,0,0,0,0,0,5.0,"CCAFS,Dryland Cereals,FTA,Grain Legumes,Livestock and Fish",0
+Burundi,0,0,0,0,0,0,GRiSP,Grain Legumes,0,0,0,PIM,RTB,0,0,4.0,"GRiSP,Grain Legumes,PIM,RTB",0
+Buthan,0,0,0,0,0,0,0,0,0,0,0,0,RTB,0,Wheat,2.0,"RTB,Wheat",0
+Cambodia,0,AAS,0,0,0,0,GRiSP,0,0,Livestock and Fish,0,PIM,RTB,WLE,0,6.0,"AAS,GRiSP,Livestock and Fish,PIM,RTB,WLE",0
+Cameroon,0,0,0,0,0,FTA,GRiSP,Grain Legumes,Humid Tropics,0,0,PIM,RTB,0,0,6.0,"FTA,GRiSP,Grain Legumes,Humid Tropics,PIM,RTB",0
+Canada,0,0,0,0,0,0,GRiSP,0,0,0,Maize,PIM,0,0,0,3.0,"GRiSP,Maize,PIM",0
+Central Africa Republic,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0,1.0,GRiSP,0
+Chad,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0,1.0,GRiSP,0
+Chile,0,0,0,Dryland Cereals,0,0,0,0,0,0,0,0,0,WLE,0,2.0,"Dryland Cereals,WLE",0
+China,0,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,0,0,Maize,PIM,RTB,WLE,Wheat,11.0,"CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Maize,PIM,RTB,WLE,Wheat",0
+Colombia,0,0,CCAFS,0,0,FTA,0,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,0,8.0,"CCAFS,FTA,Grain Legumes,Livestock and Fish,Maize,PIM,RTB,WLE",0
+Costa Rica,0,0,0,0,0,0,GRiSP,0,0,Livestock and Fish,0,0,RTB,0,0,3.0,"GRiSP,Livestock and Fish,RTB",0
+Cotonou,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0,1.0,GRiSP,0
+Democratic Republic of Congo,0,0,0,0,0,0,0,Grain Legumes,Humid Tropics,0,0,0,RTB,WLE,0,4.0,"Grain Legumes,Humid Tropics,RTB,WLE",0
+Denmark,0,AAS,CCAFS,0,0,0,0,0,0,0,0,0,0,0,Wheat,3.0,"AAS,CCAFS,Wheat",0
+Ecuador,0,0,0,0,0,0,GRiSP,0,0,0,0,PIM,RTB,WLE,0,4.0,"GRiSP,PIM,RTB,WLE",0
+Egypt,0,0,CCAFS,Dryland Cereals,Dryland Systems,0,0,Grain Legumes,0,Livestock and Fish,0,PIM,0,0,Wheat,7.0,"CCAFS,Dryland Cereals,Dryland Systems,Grain Legumes,Livestock and Fish,PIM,Wheat",0
+El Salvador,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,PIM,0,0,0,2.0,"Livestock and Fish,PIM",0
+Eritrea,0,0,0,Dryland Cereals,0,0,0,Grain Legumes,0,0,0,PIM,0,0,0,3.0,"Dryland Cereals,Grain Legumes,PIM",0
+Ethiopia,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,0,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,13.0,"A4NH,CCAFS,Dryland Cereals,Dryland Systems,FTA,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Fiji,0,0,0,0,0,0,0,0,0,0,0,0,RTB,0,0,1.0,RTB,0
+Finland,0,0,CCAFS,0,0,0,0,0,0,0,0,0,RTB,WLE,0,3.0,"CCAFS,RTB,WLE",0
+France,0,AAS,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,0,0,0,0,PIM,RTB,WLE,Wheat,9.0,"AAS,CCAFS,Dryland Cereals,Dryland Systems,GRiSP,PIM,RTB,WLE,Wheat",0
+Gambia,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0,1.0,GRiSP,0
+Georgia,0,0,0,0,0,0,0,Grain Legumes,0,0,0,0,0,0,0,1.0,Grain Legumes,0
+Germany,0,AAS,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,Humid Tropics,0,Maize,PIM,0,0,Wheat,10.0,"AAS,CCAFS,Dryland Cereals,Dryland Systems,GRiSP,Grain Legumes,Humid Tropics,Maize,PIM,Wheat",0
+Ghana,A4NH,AAS,CCAFS,0,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,14.0,"A4NH,AAS,CCAFS,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Greece,0,0,0,0,0,0,0,Grain Legumes,0,0,0,0,0,0,0,1.0,Grain Legumes,0
+Guatemala,0,0,0,0,0,FTA,0,0,0,Livestock and Fish,Maize,PIM,0,0,0,4.0,"FTA,Livestock and Fish,Maize,PIM",0
+Guinea,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,0,0,WLE,0,2.0,"Livestock and Fish,WLE",0
+Haiti,0,0,0,0,0,0,0,0,0,0,0,0,RTB,0,0,1.0,RTB,0
+Honduras,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,PIM,0,0,0,2.0,"Livestock and Fish,PIM",0
+India,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,12.0,"A4NH,CCAFS,Dryland Cereals,Dryland Systems,GRiSP,Grain Legumes,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Indonesia,0,AAS,0,0,0,FTA,GRiSP,0,0,0,0,PIM,0,0,0,4.0,"AAS,FTA,GRiSP,PIM",0
+Iran,A4NH,0,0,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,0,0,0,PIM,0,0,Wheat,7.0,"A4NH,Dryland Cereals,Dryland Systems,GRiSP,Grain Legumes,PIM,Wheat",0
+Iraq,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,0,Wheat,3.0,"Dryland Systems,Grain Legumes,Wheat",0
+Ireland,0,0,CCAFS,0,0,0,0,Grain Legumes,0,0,0,PIM,0,0,0,3.0,"CCAFS,Grain Legumes,PIM",0
+Israel,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,0,1.0,PIM,0
+Italy,0,AAS,0,0,Dryland Systems,0,0,0,0,0,0,PIM,RTB,WLE,Wheat,6.0,"AAS,Dryland Systems,PIM,RTB,WLE,Wheat",0
+Ivory Coast,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,0,1.0,PIM,0
+Japan,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,WLE,Wheat,4.0,"Dryland Systems,Grain Legumes,WLE,Wheat",0
+Jordan,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,WLE,Wheat,4.0,"Dryland Systems,Grain Legumes,WLE,Wheat",0
+Kazakhstan,0,0,0,Dryland Cereals,0,0,0,0,0,0,0,0,0,0,Wheat,2.0,"Dryland Cereals,Wheat",0
+Kenya,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,0,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,14.0,"A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Kuwait,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,0,Wheat,3.0,"Dryland Systems,Grain Legumes,Wheat",0
+Kyrgyzstan,0,0,0,0,Dryland Systems,FTA,0,0,0,0,0,PIM,0,0,0,3.0,"Dryland Systems,FTA,PIM",0
+Laos,0,0,0,0,0,FTA,0,0,0,Livestock and Fish,0,0,0,WLE,0,3.0,"FTA,Livestock and Fish,WLE",0
+Lebanon,0,0,0,Dryland Cereals,Dryland Systems,0,0,Grain Legumes,0,0,0,0,0,0,Wheat,4.0,"Dryland Cereals,Dryland Systems,Grain Legumes,Wheat",0
+Lesotho,0,0,0,0,0,0,0,Grain Legumes,0,0,0,0,0,0,0,1.0,Grain Legumes,0
+Liberia,0,0,CCAFS,0,0,0,0,0,0,0,0,PIM,0,0,0,2.0,"CCAFS,PIM",0
+Libya,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,0,1.0,PIM,0
+Lithuania,0,AAS,0,0,0,0,0,0,0,0,0,0,0,0,0,1.0,AAS,0
+Lushoto,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,0,0,0,0,1.0,Livestock and Fish,0
+Madagascar,0,0,0,0,0,0,GRiSP,Grain Legumes,0,0,0,0,RTB,0,0,3.0,"GRiSP,Grain Legumes,RTB",0
+Malawi,0,AAS,CCAFS,0,Dryland Systems,FTA,0,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,0,10.0,"AAS,CCAFS,Dryland Systems,FTA,Grain Legumes,Livestock and Fish,Maize,PIM,RTB,WLE",0
+Malaysia,0,AAS,0,0,0,FTA,GRiSP,0,0,Livestock and Fish,0,0,0,WLE,0,5.0,"AAS,FTA,GRiSP,Livestock and Fish,WLE",0
+Mali,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,0,Grain Legumes,0,Livestock and Fish,Maize,PIM,0,WLE,0,10.0,"A4NH,CCAFS,Dryland Cereals,Dryland Systems,FTA,Grain Legumes,Livestock and Fish,Maize,PIM,WLE",0
+Mexico,0,0,0,Dryland Cereals,0,0,0,Grain Legumes,0,Livestock and Fish,Maize,0,0,WLE,Wheat,6.0,"Dryland Cereals,Grain Legumes,Livestock and Fish,Maize,WLE,Wheat",0
+Mongolia,0,0,0,0,0,0,0,0,0,0,Maize,0,RTB,0,0,2.0,"Maize,RTB",0
+Morocco,0,0,0,Dryland Cereals,Dryland Systems,0,0,Grain Legumes,0,0,0,PIM,0,0,Wheat,5.0,"Dryland Cereals,Dryland Systems,Grain Legumes,PIM,Wheat",0
+Mozambique,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,0,13.0,"A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Livestock and Fish,Maize,PIM,RTB,WLE",0
+Myanmar ,0,AAS,0,0,0,FTA,GRiSP,0,0,0,0,PIM,0,WLE,0,5.0,"AAS,FTA,GRiSP,PIM,WLE",0
+Nepal,0,AAS,CCAFS,0,0,0,GRiSP,0,0,0,Maize,PIM,0,WLE,Wheat,7.0,"AAS,CCAFS,GRiSP,Maize,PIM,WLE,Wheat",0
+Netherlands,A4NH,0,CCAFS,0,Dryland Systems,0,0,0,0,0,0,PIM,0,WLE,0,5.0,"A4NH,CCAFS,Dryland Systems,PIM,WLE",0
+Nicaragua,A4NH,0,CCAFS,0,0,FTA,GRiSP,0,Humid Tropics,Livestock and Fish,0,PIM,RTB,0,0,8.0,"A4NH,CCAFS,FTA,GRiSP,Humid Tropics,Livestock and Fish,PIM,RTB",0
+Niger,0,0,CCAFS,Dryland Cereals,0,0,0,Grain Legumes,0,0,0,PIM,0,0,0,4.0,"CCAFS,Dryland Cereals,Grain Legumes,PIM",0
+Nigeria,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,13.0,"A4NH,CCAFS,Dryland Cereals,Dryland Systems,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Norway,0,0,0,0,0,0,0,0,0,0,Maize,PIM,0,0,0,2.0,"Maize,PIM",0
+Pakistan,0,0,CCAFS,0,0,0,0,Grain Legumes,0,Livestock and Fish,0,PIM,0,WLE,Wheat,6.0,"CCAFS,Grain Legumes,Livestock and Fish,PIM,WLE,Wheat",0
+Palestine,0,0,0,0,Dryland Systems,0,0,0,0,0,0,0,0,0,0,1.0,Dryland Systems,0
+Panama,0,0,0,0,0,0,GRiSP,0,0,Livestock and Fish,0,PIM,RTB,0,0,4.0,"GRiSP,Livestock and Fish,PIM,RTB",0
+Paraguay,0,0,0,0,0,0,0,0,0,0,0,0,0,WLE,0,1.0,WLE,0
+Peru,0,0,CCAFS,Dryland Cereals,0,FTA,GRiSP,0,0,0,0,PIM,RTB,WLE,0,7.0,"CCAFS,Dryland Cereals,FTA,GRiSP,PIM,RTB,WLE",0
+Philippines,A4NH,AAS,CCAFS,0,Dryland Systems,0,GRiSP,Grain Legumes,0,0,Maize,PIM,RTB,WLE,Wheat,11.0,"A4NH,AAS,CCAFS,Dryland Systems,GRiSP,Grain Legumes,Maize,PIM,RTB,WLE,Wheat",0
+Poland,0,0,CCAFS,0,0,FTA,0,0,0,0,0,0,0,0,0,2.0,"CCAFS,FTA",0
+Portugal,0,0,0,0,0,0,GRiSP,0,0,0,0,0,0,0,0,1.0,GRiSP,0
+Romania,0,0,0,0,0,0,0,Grain Legumes,0,0,0,0,0,0,0,1.0,Grain Legumes,0
+Russia,0,0,CCAFS,Dryland Cereals,Dryland Systems,0,0,0,0,0,0,PIM,0,0,Wheat,5.0,"CCAFS,Dryland Cereals,Dryland Systems,PIM,Wheat",0
+Rwanda,0,0,0,0,0,0,0,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,0,0,6.0,"Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB",0
+Saint Lucia,A4NH,0,0,0,0,0,0,0,Humid Tropics,Livestock and Fish,0,0,0,0,0,3.0,"A4NH,Humid Tropics,Livestock and Fish",0
+Saudi Arabia,0,0,CCAFS,0,Dryland Systems,0,0,0,0,0,0,0,0,0,Wheat,3.0,"CCAFS,Dryland Systems,Wheat",0
+Scotland,0,0,0,0,0,0,0,0,0,0,0,0,RTB,0,Wheat,2.0,"RTB,Wheat",0
+Senegal,A4NH,0,CCAFS,Dryland Cereals,0,0,GRiSP,Grain Legumes,0,0,0,PIM,0,0,0,6.0,"A4NH,CCAFS,Dryland Cereals,GRiSP,Grain Legumes,PIM",0
+Sierra Leone,0,0,0,0,0,0,0,0,0,0,0,PIM,0,WLE,0,2.0,"PIM,WLE",0
+Singapore,0,0,0,0,0,0,GRiSP,0,0,0,Maize,0,0,0,0,2.0,"GRiSP,Maize",0
+Solomon Islands,0,AAS,0,0,0,0,0,0,0,0,0,0,0,0,0,1.0,AAS,0
+Somalia,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,0,0,0,0,1.0,Livestock and Fish,0
+South Africa,0,0,CCAFS,0,0,0,0,Grain Legumes,0,0,Maize,PIM,RTB,WLE,0,6.0,"CCAFS,Grain Legumes,Maize,PIM,RTB,WLE",0
+Spain,0,0,0,0,0,0,0,0,0,0,0,PIM,0,0,Wheat,2.0,"PIM,Wheat",0
+Sri Lanka,0,AAS,CCAFS,0,0,0,0,0,0,0,0,PIM,RTB,WLE,Wheat,6.0,"AAS,CCAFS,PIM,RTB,WLE,Wheat",0
+Sudan,0,0,CCAFS,Dryland Cereals,0,0,0,Grain Legumes,0,Livestock and Fish,0,PIM,0,WLE,Wheat,7.0,"CCAFS,Dryland Cereals,Grain Legumes,Livestock and Fish,PIM,WLE,Wheat",0
+Swaziland,0,0,CCAFS,0,0,0,0,Grain Legumes,0,0,0,0,0,WLE,0,3.0,"CCAFS,Grain Legumes,WLE",0
+Sweden,0,AAS,CCAFS,0,0,0,0,0,0,Livestock and Fish,0,0,0,WLE,0,4.0,"AAS,CCAFS,Livestock and Fish,WLE",0
+Switzerland,0,0,0,0,0,0,0,0,0,0,0,0,0,WLE,0,1.0,WLE,0
+Syria,0,0,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,0,0,0,0,0,WLE,Wheat,7.0,"CCAFS,Dryland Cereals,Dryland Systems,GRiSP,Grain Legumes,WLE,Wheat",0
+Tajikistan,0,0,0,0,Dryland Systems,FTA,0,0,0,0,0,PIM,RTB,0,Wheat,5.0,"Dryland Systems,FTA,PIM,RTB,Wheat",0
+Tanzania,A4NH,0,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,13.0,"A4NH,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Thailand,0,AAS,CCAFS,0,0,0,0,0,0,0,0,PIM,RTB,WLE,0,5.0,"AAS,CCAFS,PIM,RTB,WLE",0
+Togo,0,0,0,0,0,0,0,Grain Legumes,0,0,0,PIM,0,0,0,2.0,"Grain Legumes,PIM",0
+Tunisia,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,15.0,"A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,FTA,GRiSP,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Turkey,0,0,0,Dryland Cereals,0,0,GRiSP,Grain Legumes,0,0,0,0,0,0,Wheat,4.0,"Dryland Cereals,GRiSP,Grain Legumes,Wheat",0
+Turkmenistan,0,0,0,0,Dryland Systems,0,0,0,0,0,0,0,0,0,Wheat,2.0,"Dryland Systems,Wheat",0
+UK,0,AAS,CCAFS,Dryland Cereals,0,0,0,0,0,Livestock and Fish,Maize,0,0,0,Wheat,6.0,"AAS,CCAFS,Dryland Cereals,Livestock and Fish,Maize,Wheat",0
+USA,A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,0,GRiSP,Grain Legumes,0,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat,13.0,"A4NH,AAS,CCAFS,Dryland Cereals,Dryland Systems,GRiSP,Grain Legumes,Livestock and Fish,Maize,PIM,RTB,WLE,Wheat",0
+Uganda,A4NH,0,CCAFS,Dryland Cereals,0,FTA,0,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,0,11.0,"A4NH,CCAFS,Dryland Cereals,FTA,Grain Legumes,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE",0
+United Arab Emirates,0,0,CCAFS,Dryland Cereals,Dryland Systems,0,0,Grain Legumes,0,0,0,PIM,0,WLE,Wheat,7.0,"CCAFS,Dryland Cereals,Dryland Systems,Grain Legumes,PIM,WLE,Wheat",0
+Uzbekistan,0,0,0,Dryland Cereals,Dryland Systems,FTA,0,0,0,0,0,0,RTB,WLE,Wheat,6.0,"Dryland Cereals,Dryland Systems,FTA,RTB,WLE,Wheat",0
+Vanuatu,0,0,0,0,0,0,0,0,0,Livestock and Fish,0,0,0,0,0,1.0,Livestock and Fish,0
+Venezuela,0,0,0,0,0,0,GRiSP,0,0,Livestock and Fish,0,0,0,0,0,2.0,"GRiSP,Livestock and Fish",0
+Vietnam,A4NH,AAS,CCAFS,0,0,FTA,GRiSP,0,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE,0,11.0,"A4NH,AAS,CCAFS,FTA,GRiSP,Humid Tropics,Livestock and Fish,Maize,PIM,RTB,WLE",0
+Yemen,0,0,0,0,Dryland Systems,0,0,Grain Legumes,0,0,0,PIM,0,0,Wheat,4.0,"Dryland Systems,Grain Legumes,PIM,Wheat",0
+Zambia,A4NH,AAS,0,0,0,FTA,0,Grain Legumes,0,0,Maize,PIM,RTB,0,Wheat,8.0,"A4NH,AAS,FTA,Grain Legumes,Maize,PIM,RTB,Wheat",0
+Zimbabwe,0,0,CCAFS,0,Dryland Systems,0,0,Grain Legumes,0,Livestock and Fish,Maize,PIM,0,WLE,Wheat,8.0,"CCAFS,Dryland Systems,Grain Legumes,Livestock and Fish,Maize,PIM,WLE,Wheat",0
