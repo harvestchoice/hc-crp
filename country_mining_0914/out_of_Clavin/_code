@@ -1,0 +1,10 @@
+Regex to replace <a>Country (x)</a> with Country,x:
+- 1st version:
+.*<a[^>]*>([^\(<]+)\s*(\((\d+)\))?<\/a>.*
+$1,$3
+
+- 2nd version (used):
+.*<a[^>]*>(.+?)\s*(\((\d+)\))?<\/a>.*
+$1,$3
+
+Clean-up enters and <div> </div>
