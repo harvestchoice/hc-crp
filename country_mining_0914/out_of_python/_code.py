@@ -4,8 +4,8 @@ import numpy as np
 
 def concat(*args):
 	strs = [str(arg) for arg in args if not pd.isnull(arg)]
-	return ','.join(strs) if strs else np.nan
-np_concat = np.vectorize(concat)
+	return '\n'.join(strs) if strs else np.nan
+np_concat = np.vectorize(concat, otypes = [np.str])
 
 os.chdir('/Users/maria/Projects/hc-crp/country_mining_0914/out_of_python')
 
@@ -79,17 +79,37 @@ for col in res.columns:
 	if col <> 'COUNTRY' and col <> 'COUNT':
 		res.replace(to_replace = { col : 1 }, value = col, inplace=True)
 
-res['ALL'] = np.NaN
+res['ALL'] = ''
 for col in res.columns:
 	if col <> 'COUNTRY' and col <> 'COUNT' and col <> 'ALL':
 		res.ALL = np_concat(res.ALL, res[col])
 
-res['ALL'] = concat(res.A4NH, res.PIM)
+res['ALL'] = res['ALL'].str.strip('\n')
 
 res['Genebanks'] = 0
 
 res.replace(to_replace = np.NaN, value = 0, inplace=True)
 
-res.to_csv('../out_of_python/output_tableau.csv')
+# rename columns
+
+res.rename(columns={'A4NH' : '4 A4NH'}, inplace=True)
+res.rename(columns={'AAS' : '1#3 AAS'}, inplace=True)
+res.rename(columns={'CCAFS' : '7 CCAFS'}, inplace=True)
+res.rename(columns={'Dryland Cereals' : '3#6 Dryland Cereals'}, inplace=True)
+res.rename(columns={'Dryland Systems' : '1#1 Dryland Systems'}, inplace=True)
+res.rename(columns={'FTA' : '6 Forest, Trees and Agroforestry'}, inplace=True)
+res.rename(columns={'GRiSP' : '3#3 GRiSP'}, inplace=True)
+res.rename(columns={'Grain Legumes' : '3#5 Grain Legumes'}, inplace=True)
+res.rename(columns={'Humid Tropics' : '1#2 Humid Tropics'}, inplace=True)
+res.rename(columns={'Livestock and Fish' : '3#7 Livestock and Fish'}, inplace=True)
+res.rename(columns={'Genebanks' : ''}, inplace=True)
+res.rename(columns={'Maize' : '3#2 Maize'}, inplace=True)
+res.rename(columns={'PIM' : '2 Policies, Institutions, and Markets'}, inplace=True)
+res.rename(columns={'RTB' : '3#4 Roots, Tubers and Bananas'}, inplace=True)
+res.rename(columns={'WLE' : '5 Water, Land and Ecosystems'}, inplace=True)
+res.rename(columns={'Wheat' : '3#1 Wheat'}, inplace=True)
+
+
+res.to_csv('../out_of_python/output_tableau_v2.csv')
 
 
