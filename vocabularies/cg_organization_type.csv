@@ -1,13 +1,15 @@
-Code,Literal,IATI Code,IATI Literal
-101,Development Organization,21,International organizations concerned with economic development
-102,Regional Organization,40,Organizations whose membership consists of several countries within a geographical region
-103,International Organization,40,Organizations whose membership consists of several countries within and outside a region and not engaged in research
-104,Foundation,60,"Non-governmental organizations established as nonprofit corporations or as charitable trusts, with the principal purpose of making grants to unrelated organizations, institutions, or individuals for scientific, educational, cultural, religious, or other charitable purposes."
-105,Government,10,Government offices and departments
-106,Non-governmental Organization,22,Including civil society organizations (CSO)
-107,Farmers Organization,22,Including civil society organizations (CSO)
-108,National Research Institution,80,Local research Institutions
-109,National Institution for Agricultural Extension,15,Local extension Institutions
-110,Advisory Services,15,Local extension Institutions
-111,Private Company,70,Privately owned corporations/companies
-112,Financing Institution,40,"Institutions which collect funds from the public and place them in financial assets, such as banks, trust funds"
+Code,Label,Literal,IATI Code,IATI Literal,Description
+101,GV,Government,10,Government,"Government office, ministry, and department"
+151,EX,National Agricultural Extension,15,Other Public Sector,Local extension Institution
+152,AS,Advisory Services,15,Other Public Sector,Local extension Institution
+211,IN,International NGO,21,International NGO,International organization concerned with economic development
+221,NN,National NGO,22,National NGO,Including civil society organization (CSO)
+222,FO,Farmers Organization,22,National NGO,Including civil society organization (CSO)
+401,RO,Regional Organization,40,Multilateral,Organization whose membership consists of several countries within a geographical region
+402,IO,International Organization,40,Multilateral,Organization whose membership consists of several countries within and outside a region and not engaged in research
+403,FI,Financing Institution,40,Multilateral,"Institution collecting funds from the public and placing them in financial assets, such as banks, trust funds"
+601,FD,Foundation,60,Foundation,"Non-governmental organizations established as nonprofit corporations or as charitable trusts, with the principal purpose of making grants to unrelated organizations, institutions, or individuals for scientific, educational, cultural, religious, or other charitable purposes."
+701,PR,Private Company,70,Private Sector,Privately owned corporation/company
+801,AI,Academic Institution,80,"Academic, Training and Research","University, college, department, etc."
+802,NR,National Research Institution,80,"Academic, Training and Research",Local research Institution
+803,IR,International Research Center,80,"Academic, Training and Research",Research Institution conducting international studies
